@@ -3,7 +3,7 @@ layout: page
 title: Математический анализ
 description: Математический анализ
 keywords: Математический анализ
-permalink: /match/matan/
+permalink: /math/matan/
 ---
 
 # Математический анализ

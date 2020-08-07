@@ -3,7 +3,7 @@ layout: page
 title: Теория вероятности
 description: Теория вероятности
 keywords: Теория вероятности
-permalink: /match/terver/
+permalink: /math/terver/
 ---
 
 # Теория вероятности

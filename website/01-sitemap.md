@@ -18,11 +18,11 @@ permalink: /sitemap/
 
 ### [BlockChain](/blockchain/)
 
-### [Линейная алгебра](/match/linal/)
+### [Линейная алгебра](/math/linal/)
 
-### [Математический анализ](/match/matan/)
+### [Математический анализ](/math/matan/)
 
-### [Теория вероятности](/match/terver/)
+### [Теория вероятности](/math/terver/)
 
 ### [Статистика](/statistics/)
 

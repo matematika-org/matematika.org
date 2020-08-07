@@ -3,7 +3,7 @@ layout: page
 title: Линейная алгебра
 description: Линейная алгебра
 keywords: Линейная алгебра
-permalink: /match/linal/
+permalink: /math/linal/
 ---
 
 # Линейная алгебра
