@@ -1,16 +1,12 @@
 ---
 layout: page
 title: Rajeev Sakhuja - Mastering Hyperledger Chaincode Development using GoLang
-description: [Rajeev Sakhuja] Mastering Hyperledger Chaincode Development using GoLang [ENG, 2019, Latest updates 16/06/2020]
+description: Rajeev Sakhuja - Mastering Hyperledger Chaincode Development using GoLang
 keywords: Blockchain, Hyperleger, Fabric, Mastering Hyperledger Chaincode Development using GoLang
 permalink: /videos/blockchain/hyperledger/en/fabric/mastering-hperledger-chaincode-development-using-golang/
 ---
 
-# Hyperleger Fabric (Blockchain)
-
-<br/>
-
-### [Rajeev Sakhuja] Mastering Hyperledger Chaincode Development using GoLang [ENG, 2019, Latest updates 16/06/2020]
+# [Rajeev Sakhuja] Mastering Hyperledger Chaincode Development using GoLang [ENG, 2019, Latest updates 16/06/2020]
 
 Язык вроде норм. Лучше большинства индусов.
 
@@ -289,3 +285,13 @@ $ {
     $ chain.sh instantiate
     $ chain.sh invoke
     $ chain.sh query
+
+<br/>
+
+## 06. Go Chaincode Interface
+
+<br/>
+
+### 02. Logging from Chaincode
+
+    $ go run acflogger/test

@@ -10,7 +10,7 @@ permalink: /blockchain/hyperledger/
 
 <h3><a href="/blockchain/hyperledger/composer/">Hyperleger Composer</a> - устарел и не развивается с августа 2019</h3>
 
-<h3><a href="/videos/blockchain/hyperledger/fabric/">Hyperleder Fabric</a> - наверное ниже версии 2.0 изучать для тех кто с 0, не стоит.</h3>
+<h3><a href="/videos/blockchain/hyperledger/en/fabric/">Hyperleder Fabric</a> - наверное ниже версии 2.0 изучать для тех кто с 0, не стоит.</h3>
 
 <h3><a href="/blockchain/hyperledger/test-taks/">Тестовое по Hyperledger</a></h3>
 
