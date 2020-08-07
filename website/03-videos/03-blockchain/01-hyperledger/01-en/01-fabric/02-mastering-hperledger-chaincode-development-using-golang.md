@@ -1,9 +1,9 @@
 ---
 layout: page
-title: [Rajeev Sakhuja] Mastering Hyperledger Chaincode Development using GoLang [ENG, 2019, Latest updates 16/06/2020]
+title: Rajeev Sakhuja - Mastering Hyperledger Chaincode Development using GoLang
 description: [Rajeev Sakhuja] Mastering Hyperledger Chaincode Development using GoLang [ENG, 2019, Latest updates 16/06/2020]
 keywords: Blockchain, Hyperleger, Fabric, Mastering Hyperledger Chaincode Development using GoLang
-permalink: /videos/blockchain/hyperledger/fabric/mastering-hperledger-chaincode-development-using-golang/
+permalink: /videos/blockchain/hyperledger/en/fabric/mastering-hperledger-chaincode-development-using-golang/
 ---
 
 # Hyperleger Fabric (Blockchain)
