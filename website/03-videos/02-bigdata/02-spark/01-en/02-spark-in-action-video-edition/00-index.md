@@ -84,11 +84,11 @@ Catalog File: https://raw.githubusercontent.com/spark-in-action/scala-archetype-
 
 Description: Spart in Action
 
-![Spark in Action Video Edition](/img/videos/ds/ds/bigdata/spark/en/spark-in-action-video-edition/spark-in-action-video-edition-01.png 'Spark in Action Video Edition'){: .center-image }
+![Spark in Action Video Edition](/img/videos/ds/bigdata/spark/en/spark-in-action-video-edition/spark-in-action-video-edition-01.png 'Spark in Action Video Edition'){: .center-image }
 
-![Spark in Action Video Edition](/img/videos/ds/ds/bigdata/spark/en/spark-in-action-video-edition/spark-in-action-video-edition-02.png 'Spark in Action Video Edition'){: .center-image }
+![Spark in Action Video Edition](/img/videos/ds/bigdata/spark/en/spark-in-action-video-edition/spark-in-action-video-edition-02.png 'Spark in Action Video Edition'){: .center-image }
 
-![Spark in Action Video Edition](/img/videos/ds/ds/bigdata/spark/en/spark-in-action-video-edition/spark-in-action-video-edition-03.png 'Spark in Action Video Edition'){: .center-image }
+![Spark in Action Video Edition](/img/videos/ds/bigdata/spark/en/spark-in-action-video-edition/spark-in-action-video-edition-03.png 'Spark in Action Video Edition'){: .center-image }
 
 <br/>
 
@@ -104,8 +104,8 @@ Description: Spart in Action
 
 <br/><br/>
 
-![Spark in Action Video Edition](/img/videos/ds/ds/bigdata/spark/en/spark-in-action-video-edition/spark-in-action-video-edition-04.png 'Spark in Action Video Edition'){: .center-image }
+![Spark in Action Video Edition](/img/videos/ds/bigdata/spark/en/spark-in-action-video-edition/spark-in-action-video-edition-04.png 'Spark in Action Video Edition'){: .center-image }
 
 <br/>
 
-![Spark in Action Video Edition](/img/videos/ds/ds/bigdata/spark/en/spark-in-action-video-edition/spark-in-action-video-edition-05.png 'Spark in Action Video Edition'){: .center-image }
+![Spark in Action Video Edition](/img/videos/ds/bigdata/spark/en/spark-in-action-video-edition/spark-in-action-video-edition-05.png 'Spark in Action Video Edition'){: .center-image }
