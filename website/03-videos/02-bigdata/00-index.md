@@ -3,15 +3,15 @@ layout: page
 title: Видеокурсы по BigData
 description: Видеокурсы по BigData
 keywords: Видеокурсы, BigData
-permalink: /videos/bigdata/
+permalink: /videos/ds/bigdata/
 ---
 
 # Видеокурсы по BigData
 
-### [Hadoop](/videos/bigdata/hadoop/)
+### [Hadoop](/videos/ds/bigdata/hadoop/)
 
-### [Spark](/videos/bigdata/spark/)
+### [Spark](/videos/ds/bigdata/spark/)
 
-### [Kafka](/videos/bigdata/kafka/)
+### [Kafka](/videos/ds/bigdata/kafka/)
 
-### [Hbase](/videos/bigdata/hbase/)
+### [Hbase](/videos/ds/bigdata/hbase/)

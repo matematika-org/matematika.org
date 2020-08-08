@@ -3,7 +3,7 @@ layout: page
 title: Видеокурсы по Spark на английском языке
 description: Видеокурсы по Spark на английском языке
 keywords: Видеокурсы, BigData, Spark, английский язык
-permalink: /videos/bigdata/spark/en/
+permalink: /videos/ds/bigdata/spark/en/
 ---
 
 # Видеокурсы по Spark на английском языке
@@ -72,7 +72,7 @@ https://udemy.com/scala-and-spark-for-big-data-and-machine-learning/
 
 Как-то здесь все уныло. В основном читает текст с экрана. Не досмотрел.
 
-<a href="/videos/bigdata/spark/en/spark-in-action-video-edition/">сюда</a>.
+<a href="/videos/ds/bigdata/spark/en/spark-in-action-video-edition/">сюда</a>.
 
 ![Spark in Action Video Edition](/img/videos/Spark-in-Action-Video-Edition.jpg 'Spark in Action Video Edition'){: .center-image }
 

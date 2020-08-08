@@ -3,7 +3,7 @@ layout: page
 title: The Ultimate Hands-On Hadoop – Tame Your Big Data!
 description: The Ultimate Hands-On Hadoop – Tame Your Big Data!
 keywords: hadoop, udemy, the ultimate hands on hadoop tame your big data
-permalink: /videos/bigdata/hadoop/en/the-ultimate-hands-on-hadoop/
+permalink: /videos/ds/bigdata/hadoop/en/the-ultimate-hands-on-hadoop/
 ---
 
 # The Ultimate Hands-On Hadoop – Tame Your Big Data!
@@ -35,17 +35,17 @@ http://files.grouplens.org/datasets/movielens/ml-100k.zip
 
 <br/>
 
-![The Ultimate Hands-On Hadoop](/img/videos/ds/bigdata/hadoop/en/the-ultimate-hands-on-hadoop/the-ultimate-hands-on-hadoop-01.png 'The Ultimate Hands-On Hadoop'){: .center-image }
+![The Ultimate Hands-On Hadoop](/img/videos/ds/ds/bigdata/hadoop/en/the-ultimate-hands-on-hadoop/the-ultimate-hands-on-hadoop-01.png 'The Ultimate Hands-On Hadoop'){: .center-image }
 
-![The Ultimate Hands-On Hadoop](/img/videos/ds/bigdata/hadoop/en/the-ultimate-hands-on-hadoop/the-ultimate-hands-on-hadoop-02.png 'The Ultimate Hands-On Hadoop'){: .center-image }
+![The Ultimate Hands-On Hadoop](/img/videos/ds/ds/bigdata/hadoop/en/the-ultimate-hands-on-hadoop/the-ultimate-hands-on-hadoop-02.png 'The Ultimate Hands-On Hadoop'){: .center-image }
 
-![The Ultimate Hands-On Hadoop](/img/videos/ds/bigdata/hadoop/en/the-ultimate-hands-on-hadoop/the-ultimate-hands-on-hadoop-03.png 'The Ultimate Hands-On Hadoop'){: .center-image }
+![The Ultimate Hands-On Hadoop](/img/videos/ds/ds/bigdata/hadoop/en/the-ultimate-hands-on-hadoop/the-ultimate-hands-on-hadoop-03.png 'The Ultimate Hands-On Hadoop'){: .center-image }
 
-![The Ultimate Hands-On Hadoop](/img/videos/ds/bigdata/hadoop/en/the-ultimate-hands-on-hadoop/the-ultimate-hands-on-hadoop-04.png 'The Ultimate Hands-On Hadoop'){: .center-image }
+![The Ultimate Hands-On Hadoop](/img/videos/ds/ds/bigdata/hadoop/en/the-ultimate-hands-on-hadoop/the-ultimate-hands-on-hadoop-04.png 'The Ultimate Hands-On Hadoop'){: .center-image }
 
 <br/>
 
-### [Подготовка окружения](/bigdata/hadoop/ambari/)
+### [Подготовка окружения](/ds/bigdata/hadoop/ambari/)
 
 <br/>
 

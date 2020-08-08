@@ -3,7 +3,7 @@ layout: page
 title: Отправка логов в kafka
 description: Отправка логов в kafka
 keywords: BigData, Kafka, Отправка логов в kafka
-permalink: /bigdata/kafka/send-logs/
+permalink: /ds/bigdata/kafka/send-logs/
 ---
 
 <br/>
@@ -19,7 +19,6 @@ https://github.com/dgadiraju/gen_logs
 
     $ sudo mv gen_logs /opt/gen_logs
 
-
 <br/>
 
     $ sudo ln -s /opt/gen_logs/start_logs.sh /usr/bin/.
@@ -32,7 +31,7 @@ https://github.com/dgadiraju/gen_logs
     $ stop_logs.sh
     $ tail_logs.sh
 
-<br/> 
+<br/>
 
     // Create topic
     $ kafka-topics.sh \
@@ -42,15 +41,12 @@ https://github.com/dgadiraju/gen_logs
     --partitions 3 \
     --replication-factor 1
 
-<br/> 
+<br/>
 
     // List topic
     $ kafka-topics.sh \
     --list \
     --zookeeper zookeeper1:2181,zookeeper2:2181,zookeeper3:2181/kafka
-
-
-
 
 <br/>
 

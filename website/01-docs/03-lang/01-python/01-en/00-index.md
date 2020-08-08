@@ -12,6 +12,11 @@ permalink: /lang/python/en/
 
 https://www.oreilly.com/library/view/python-fundamentals/9780135917411/
 
+Курс состоит из 5 частей.
+Поверхностно изучаются темы Machine Learning, Deep Learning, Big Data, Spark , NoSQL & IoT. Имеются примеры работы с голосовыми сообщениями, для перевода на разные языки и озвучивания. Основной акцент делается на язык программирования python.
+
+Материал скучноват. Впрочем, наверное хороший для получения общей картины.
+
 <br/>
 
 ### Comprehensive Python Cheatsheet

@@ -3,18 +3,18 @@ layout: page
 title: BigData
 description: BigData
 keywords: BigData
-permalink: /bigdata/
+permalink: /ds/bigdata/
 ---
 
 # BigData
 
 <br/>
 
-### [Hadoop](/bigdata/hadoop/)
+### [Hadoop](/ds/bigdata/hadoop/)
 
-### [Spark](/bigdata/spark/)
+### [Spark](/ds/bigdata/spark/)
 
-### [Kafka](/bigdata/kafka/)
+### [Kafka](/ds/bigdata/kafka/)
 
 <br/>
 
@@ -39,12 +39,12 @@ http://localhost:8080
 
 ### [JDK installation in linux (Ubuntu, Centos)](https://javadev.org/devtools/jdk/install/linux/)
 
-### [Installation SCALA in linux](https://javadev.org/devtools/bigdata/scala/install/linux/)
+### [Installation SCALA in linux](https://javadev.org/devtools/ds/bigdata/scala/install/linux/)
 
 <br/>
 
 ## Обучающие материалы:
 
-### [Книги по BigData](/books/bigdata/)
+### [Книги по BigData](/books/ds/bigdata/)
 
-### [Видеокурсы по BigData](/videos/bigdata/)
+### [Видеокурсы по BigData](/videos/ds/bigdata/)

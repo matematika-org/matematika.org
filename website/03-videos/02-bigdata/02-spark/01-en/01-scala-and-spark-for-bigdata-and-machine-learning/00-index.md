@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Scala and Spark for Big Data and Machine Learning
-permalink: /videos/bigdata/spark/en/01-scala-and-spark-for-bigdata-and-machine-learning/
+permalink: /videos/ds/bigdata/spark/en/01-scala-and-spark-for-bigdata-and-machine-learning/
 ---
 
 # Scala and Spark for Big Data and Machine Learning
@@ -68,7 +68,6 @@ https://bitbucket.org/matematika/scala-and-spark-for-big-data-and-machine-learni
 
     scala> :load LinRegExerciseSolution.scala
 
-
 <br/>
 
 # Classification with Spark
@@ -89,16 +88,13 @@ https://bitbucket.org/matematika/scala-and-spark-for-big-data-and-machine-learni
 
     scala> :load LogRegProject_Solutions.scala
 
-
-
 <br/>
 
 # Model Evaluation
 
-* Evaluators
-* ParamGridBuildres
-* TrainValidationSplit
-
+- Evaluators
+- ParamGridBuildres
+- TrainValidationSplit
 
 <br/>
 
@@ -107,7 +103,6 @@ https://bitbucket.org/matematika/scala-and-spark-for-big-data-and-machine-learni
 <br/>
 
     scala> :load DocModelEvalEx.scala
-
 
 <br/>
 
@@ -139,16 +134,13 @@ https://bitbucket.org/matematika/scala-and-spark-for-big-data-and-machine-learni
 
     scala> :load PCA_Doc_Example.scala
 
-
 <br/>
 
     scala> :load PCA_Project_Exercise_Solutions.scala
 
-
 <br/>
 
 # DataBricks and Spark (Recommender system)
-
 
 cd /Recommender_Systems/Recommender_Example.scala
 

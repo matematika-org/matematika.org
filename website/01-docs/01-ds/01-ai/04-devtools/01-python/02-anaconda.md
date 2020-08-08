@@ -132,3 +132,15 @@ jupyter notebook
 $ conda config --set auto_activate_base false
 $ conda deactivate
 ```
+
+<br/>
+
+### Install Anaconda Windows
+
+https://www.youtube.com/watch?v=a7Ylbn1ikF0&t=2s
+
+<br/>
+
+### Install Anaconda MacOS
+
+https://www.youtube.com/watch?v=2JeoNlCcLOM

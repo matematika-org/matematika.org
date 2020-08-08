@@ -3,7 +3,7 @@ layout: page
 title: Книги по BigData на русском языке
 description: Книги по BigData на русском языке
 keywords: Книги по BigData, русский язык
-permalink: /books/bigdata/ru/
+permalink: /books/ds/bigdata/ru/
 ---
 
 # Книги по BigData на русском языке

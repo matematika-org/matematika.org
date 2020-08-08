@@ -3,9 +3,8 @@ layout: page
 title: Пример запуска MapReduce (Java)
 description: Пример запуска MapReduce (Java)
 keywords: BigData, Hadoop, MapReduce
-permalink: /bigdata/hadoop/mapreduce/example1/
+permalink: /ds/bigdata/hadoop/mapreduce/example1/
 ---
-
 
 # Пример запуска MapReduce (Java)
 
@@ -27,7 +26,7 @@ permalink: /bigdata/hadoop/mapreduce/example1/
 
 ### Анализ данных в Hadoop
 
-Чтобы воспользоваться преимуществами параллельной обработки данных, которые перед нами открывает Hadoop, необходимо представить запрос в виде за­дания MapReduce. 
+Чтобы воспользоваться преимуществами параллельной обработки данных, которые перед нами открывает Hadoop, необходимо представить запрос в виде за­дания MapReduce.
 
 <br/>
 
@@ -40,22 +39,21 @@ permalink: /bigdata/hadoop/mapreduce/example1/
 
 Функция отображения устроена просто. Мы извлекаем год и температуру воздуха, потому что нас интересуют только эти поля. В данном случае функция отобра­ жения всего лишь готовит данные к использованию так, чтобы функция свертки могла выполнить свою работу: определение максимальной температуры за каждый год. Функция отображения также хорошо подходит для исключения нежелатель­ ных записей: здесь отфильтровываются отсутствующие, сомнительные или оши­бочные значения температуры.
 
-
 <br/>
 
 ### Программа MapReduce на языке Java
 
 Нам понадобятся:
 
-* функция отображения (<a href="https://github.com/tomwhite/hadoop-book/blob/master/ch02-mr-intro/src/main/java/MaxTemperatureMapper.java">Mapper<a>)
-* функция свертки (<a href="https://github.com/tomwhite/hadoop-book/blob/master/ch02-mr-intro/src/main/java/MaxTemperatureReducer.java">Reducer<a>)
-* код выполнения задания (<a href="https://github.com/tomwhite/hadoop-book/blob/master/ch02-mr-intro/src/main/java/MaxTemperature.java">MapReduce<a>). 
+- функция отображения (<a href="https://github.com/tomwhite/hadoop-book/blob/master/ch02-mr-intro/src/main/java/MaxTemperatureMapper.java">Mapper<a>)
+- функция свертки (<a href="https://github.com/tomwhite/hadoop-book/blob/master/ch02-mr-intro/src/main/java/MaxTemperatureReducer.java">Reducer<a>)
+- код выполнения задания (<a href="https://github.com/tomwhite/hadoop-book/blob/master/ch02-mr-intro/src/main/java/MaxTemperature.java">MapReduce<a>).
 
 <br/>
 
 ### Собственно запуск всего этого добра
 
-Взял виртуальную машину <a href="/bigdata/hadoop/ambari/hortonworks">hortonworks 2.5</a>
+Взял виртуальную машину <a href="/ds/bigdata/hadoop/ambari/hortonworks">hortonworks 2.5</a>
 
 <br/>
 
@@ -66,7 +64,6 @@ permalink: /bigdata/hadoop/mapreduce/example1/
     $ mvn package -DskipTests
     $ cd target
 
-
 // Не знаю пока как сделать, чтобы работало с локальными файлами. Копирую файл в HDFS
 
     $ hadoop fs -mkdir -p /user/maria_dev/input/ncdc/
@@ -75,12 +72,10 @@ permalink: /bigdata/hadoop/mapreduce/example1/
 
     $ hadoop fs -ls /user/maria_dev/input/ncdc/
 
-
 // Запускаю из каталога, где лежит jar.
 
     $ export HADOOP_CLASSPATH=ch02-mr-intro-4.0.jar
     $ hadoop MaxTemperature input/ncdc/sample.txt output
-
 
 // Результаты
 

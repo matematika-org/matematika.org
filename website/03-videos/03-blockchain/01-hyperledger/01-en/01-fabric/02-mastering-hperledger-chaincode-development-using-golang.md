@@ -274,14 +274,14 @@ $ {
 ### 09. Chaincode Net versus Dev Mode
 
     $ dev-init.sh -d
-    $ source  set-env.sh  acme
+    $ source  set-env.sh acme
     $ set-chain-env.sh
     $ chain.sh install
     $ cc-run.sh
 
 В отдельной сесссии
 
-    $ source  set-env.sh  acme
+    $ source  set-env.sh acme
     $ chain.sh instantiate
     $ chain.sh invoke
     $ chain.sh query
@@ -295,3 +295,249 @@ $ {
 ### 02. Logging from Chaincode
 
     $ go run acflogger/test
+
+<br/>
+
+### 03. Hands On Chaincode Install Commit Logging Walkthrough
+
+Получение логов из контейнера
+
+Terminal session 1
+
+    $ dev-init.sh
+    $ source  set-env.sh acme
+    $ set-chain-env.sh -n token  -v 1.0  -p token/v2 -c '{"Args":["init"]}'
+    $ chain.sh install -p
+    $ chain.sh instantiate
+    $ cc-logs.sh -f
+
+Terminal session 2
+
+    $ source  set-env.sh acme
+    $ chain.sh invoke
+
+При выполнении в первом терминале получаем сообщения.
+
+<br/>
+
+network/config/core.yaml
+
+Устанавливаем logging level в error
+
+```
+    logging:
+      # Default level for all loggers within the chaincode container
+      level:  error
+```
+
+Terminal session 1
+
+    $ dev-stop.sh
+    $ dev-start.sh
+    $ cc-logs.sh -f
+
+Terminal session 2
+
+    $ chain.sh invoke
+
+В терминале 1 только сообщения об ошбках Error и Fatal
+
+Вернули level: info
+
+<br/>
+
+### 04. Hands On Chaincode Interface
+
+    $ dev-init.sh -e
+    $ source set-env.sh acme
+    $ set-chain-env.sh   -n  token   -p token/v1    -c '{"Args": ["init"]}'
+
+    $ chain.sh package
+    $ chain.sh install
+
+    $ chain.sh approveformyorg
+    $ chain.sh commit
+
+http://localhost:8080/#/transactions
+
+    $ cc-logs.sh -t 10 -f
+
+Terminal session 2
+
+    $ source set-env.sh acme
+    $ chain.sh  init
+    $ chain.sh  query
+    $ chain.sh invoke
+    $ chain.sh query
+
+<br/>
+
+### 05. Sending the Success & Error Response
+
+    $ chain.sh install -p
+    $ set-chain-env.sh -s 2
+    $ chain.sh instantiate -n
+    $ chain.sh invoke
+
+<br/>
+
+## 07. Go Chaincode Stub
+
+    $ dev-init.sh
+    $ source set-env.sh acme
+
+    $ set-chain-env.sh -n token -p token/v3
+    $ chain.sh install -p
+    $ chain.sh instantiate
+    $ cc-logs.sh -f
+
+Terminal session 2
+
+    $ source set-env.sh acme
+    $ chain.sh invoke
+    $ chain.sh query
+
+<br/>
+
+# Part-2
+
+Разкомментили код в файле: v3/goken.go
+
+    $ go get github.com/golang/protobuf/proto
+
+<br/>
+
+    $ chain.sh install-auto
+    $ set-chain-env.sh -s 2
+    $ chain.sh instantiate
+    $ cc-logs.sh -f
+
+Terminal session 2
+
+    $ chain.sh invoke
+
+<br/>
+
+### 05. Hands On Using Arguments function
+
+    $ dev-init.sh
+    $ source set-env.sh acme
+    $ cc-logs.sh -f
+
+Terminal session 2
+
+    $ set-chain-env.sh   -n token   -v 1.0   -p token/v4
+
+    $ chain.sh install -p
+    $ source  set-env.sh  acme
+    $ chain.sh install -p
+    $ chain.sh instantiate
+
+    $ set-chain-env.sh   -i    '{"args":["func-name"]}'
+
+    $ chain.sh invoke
+
+    $ set-chain-env.sh   -i    '{"args":["func-name","param-1","param-2"]}'
+    $ chain.sh   invoke
+
+<br/>
+
+### 08. Hands On Chaincode State Functions GetState, PutState & DelState
+
+"token/v5/token.go"
+
+    $ dev-init.sh
+    $ source  set-env.sh acme
+    $ set-chain-env.sh -n token -v 1.0 -p token/v5
+    $ set-chain-env.sh   -i   '{"args":["set"]}' -q   '{"args":["get"]}'
+    $ chain.sh install -p
+    $ chain.sh instantiate
+    $ chain.sh query
+    $ chain.sh invoke
+
+<br/>
+
+### 09. Exercise Add the delete function to V5 Token implementation
+
+"token/v5/token.go"
+
+В token.go добавить
+
+```
+ else if(funcName == "delete"){
+		return DeleteToken(stub)
+	}
+```
+
+    $ dev-init.sh
+    $ source  set-env.sh acme
+    $ set-chain-env.sh -n token -v 1.0 -p token/v5
+    $ set-chain-env.sh   -i   '{"args":["set"]}' -q   '{"args":["get"]}'
+    $ chain.sh install -p
+    $ set-chain-env.sh  -c  '{"args":[]}'
+    $ chain.sh instantiate
+    $ chain.sh query
+    $ chain.sh invoke
+    $ chain.sh query
+
+<br/>
+
+    $ set-chain-env.sh -i '{"args":["delete"]}'
+    $ chain.sh invoke
+    $ chain.sh query
+
+<br/>
+
+### 12. Hands On InvokeChaincode function
+
+"token/v6/caller.go"
+
+Terminal session 1
+
+    $ chmod +x $GOPATH/src/token/v6/setup-cc.sh
+    $ $GOPATH/src/token/v6/setup-cc.sh
+
+<br/>
+    
+    $ source  set-env.sh acme
+    $ set-chain-env.sh -n token
+    $ cc-logs.sh -f
+
+Terminal session 2
+
+    $ source  set-env.sh acme
+    $ set-chain-env.sh -n caller
+    $ cc-logs.sh -f
+
+Terminal session 3
+
+    $ source  set-env.sh acme
+    $ set-chain-env.sh  -n caller
+    $ set-chain-env.sh  -n caller -i '{"args":["setOnCaller"]}'  -q '{"args":["getOnCaller"]}'
+    $ chain.sh query
+    $ chain.sh invoke
+    $ chain.sh query
+
+<br/>
+
+### 15. Hands On Event function usage
+
+"token/v8/token.go"
+
+    $ dev-init.sh
+    $ source  set-env.sh acme
+    $ set-chain-env.sh  -n token -v 1.0 -p token/v8 -c '{"Args": ["init"]}'
+    $ chain.sh install -p
+    $ chain.sh instantiate
+
+    $ events.sh -t chaincode -n token -e TokenValueChanged -c airlinechannel
+
+Terminal session 2
+
+    $ source  set-env.sh acme
+    $ set-chain-env.sh   -i   '{"args":["set"]}' -q   '{"args":["get"]}'
+    $ chain.sh invoke
+
+<br/>
+
+## 8. Writing Unit Test Cases for Network Applications

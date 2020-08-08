@@ -271,34 +271,6 @@ https://docs.google.com/document/d/1TfB48iJcCAPaQYiOgB70_QgBXyGaU33nYyUZ6lgtLl8/
 
 <br/>
 
-### Python и DS Challenge
-
-В телеграм группе **otus_python** проходит challenge по python и DS.
-
-За основу взят курс Python Fundamantals от Deitel.
-
-https://www.oreilly.com/library/view/python-fundamentals/9780135917411/
-
-Материалы в облаке группы.
-
-Курс состоит из 5 частей.
-
-В описании присутствует: Machine Learning, Deep Learning, Big Data, Spark , NoSQL & IoT
-
-Изучаем минимум по часу видео в день.
-
-Копируете все материалы к себе.
-
-Создаете каталог с названием TODAY.
-
-Закидываете в него видео на 1 час. И смотрите.
-
-И пока не посмотрели, никаких ютубчиков.
-
-Кому интересно, присоединяйтесь.
-
-<br/>
-
 ### Мотивация
 
 ![Simple linear regression model](/img/simple-linear-regression-model.png 'Simple linear regression model'){: .center-image }
@@ -359,11 +331,11 @@ https://cloud.mail.ru/public/499B/4XtQvr5tF
 По 50 страничек в будний день.
 
 
-![Hadoop Подробное руководство](/img/books/bigdata/ru/Hadoop-The-Definitive-Guide-rus.jpg "Hadoop Подробное руководство"){: .center-image }
+![Hadoop Подробное руководство](/img/books/ds/bigdata/ru/Hadoop-The-Definitive-Guide-rus.jpg "Hadoop Подробное руководство"){: .center-image }
 
 Книгу найдете сами.
 
-<a href="/bigdata/hadoop/">Отправная точка</a>
+<a href="/ds/bigdata/hadoop/">Отправная точка</a>
 
 -->
 

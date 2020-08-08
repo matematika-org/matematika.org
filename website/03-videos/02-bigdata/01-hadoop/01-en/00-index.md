@@ -3,7 +3,7 @@ layout: page
 title: Видеокурсы по Hadoop на английском языке
 description: Видеокурсы по Hadoop на английском языке
 keywords: Видеокурсы, BigData, Hadoop, английский язык
-permalink: /videos/bigdata/hadoop/en/
+permalink: /videos/ds/bigdata/hadoop/en/
 ---
 
 # Видеокурсы по Hadoop на английском языке
@@ -28,12 +28,11 @@ https://github.com/wardviaene/hadoop-ops-course
 
 https://github.com/matematika-org/learning-hadoop-and-spark
 
-
 <br/>
 
 ### [Udemy, Itversity] CCA 131 – Cloudera Certified Hadoop And Spark Administrator
 
-У него есть свой youtube канал 
+У него есть свой youtube канал
 
 https://www.youtube.com/channel/UCakdSIPsJqiOLqylgoYmwQg/playlists
 
@@ -41,17 +40,15 @@ https://www.youtube.com/channel/UCakdSIPsJqiOLqylgoYmwQg/playlists
 
 ### The Ultimate Hands-On Hadoop – Tame Your Big Data!
 
-<a href="/videos/bigdata/hadoop/en/the-ultimate-hands-on-hadoop/">сюда</a>.
+<a href="/videos/ds/bigdata/hadoop/en/the-ultimate-hands-on-hadoop/">сюда</a>.
 
-![hadoop](/img/videos/hadoop.jpg "hadoop"){: .center-image }
-
+![hadoop](/img/videos/hadoop.jpg 'hadoop'){: .center-image }
 
 <br/>
 
 ### Hadoop and Spark Fundamentals
 
-![Hadoop and Spark Fundamentals](/img/videos/hadoop-spark-fundamentals.jpg "Hadoop and Spark Fundamentals"){: .center-image }
-
+![Hadoop and Spark Fundamentals](/img/videos/hadoop-spark-fundamentals.jpg 'Hadoop and Spark Fundamentals'){: .center-image }
 
 <br/>
 
@@ -65,7 +62,6 @@ https://www.youtube.com/channel/UCakdSIPsJqiOLqylgoYmwQg/playlists
 
 ### [Pluralsight] Take Control of Your Big Data with HUE in Cloudera CDH
 
-
 <br/>
 
 ### [Pluralsight, Xavier Morera] Creating Your First Big Data Hadoop Cluster Using Cloudera CDH [ENG, 2016]
@@ -77,6 +73,3 @@ https://www.pluralsight.com/courses/big-data-hadoop-cluster-cloudera-cdh
 <br/>
 
 ### Preparing a Production Hadoop Cluster with Cloudera: Databases [ENG, 2017]
-
-
-

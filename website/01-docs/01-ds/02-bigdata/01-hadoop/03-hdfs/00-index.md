@@ -3,16 +3,14 @@ layout: page
 title: Hadoop HDFS
 description: Hadoop HDFS
 keywords: BigData, Hadoop, hdfs
-permalink: /bigdata/hadoop/hdfs/
+permalink: /ds/bigdata/hadoop/hdfs/
 ---
 
 # Hadoop HDFS
 
-
 <br/>
 
-![BigData - Hadoop - HDFS](/img/docs/bigdata/hadoop/hdfs/hadoop-shell-commands.png 'BigData - Hadoop - HDFS'){: .center-image }
-
+![BigData - Hadoop - HDFS](/img/docs/ds/bigdata/hadoop/hdfs/hadoop-shell-commands.png 'BigData - Hadoop - HDFS'){: .center-image }
 
 <br/>
 

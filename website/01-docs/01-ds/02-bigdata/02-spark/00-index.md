@@ -3,28 +3,26 @@ layout: page
 title: BigData - Spark
 description: BigData - Spark
 keywords: BigData, Spark
-permalink: /bigdata/spark/
+permalink: /ds/bigdata/spark/
 ---
 
 # BigData - Spark
 
 <br/>
 
-![BigData - Spark](/img/docs/bigdata/spark/pic1.png 'BigData - Spark'){: .center-image }
+![BigData - Spark](/img/docs/ds/bigdata/spark/pic1.png 'BigData - Spark'){: .center-image }
 
 <br/>
 
-![BigData - Spark](/img/docs/bigdata/spark/pic2.png 'BigData - Spark'){: .center-image }
+![BigData - Spark](/img/docs/ds/bigdata/spark/pic2.png 'BigData - Spark'){: .center-image }
 
 <br/>
 
-![BigData - Spark](/img/docs/bigdata/spark/pic3.png 'BigData - Spark'){: .center-image }
-
-
+![BigData - Spark](/img/docs/ds/bigdata/spark/pic3.png 'BigData - Spark'){: .center-image }
 
 <br/>
 
-### [Apache Spark installation in Linux](https://javadev.org/devtools/bigdata/spark/install/linux/)
+### [Apache Spark installation in Linux](https://javadev.org/devtools/ds/bigdata/spark/install/linux/)
 
 <br/>
 

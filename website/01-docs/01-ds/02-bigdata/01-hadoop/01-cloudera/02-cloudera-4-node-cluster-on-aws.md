@@ -3,7 +3,7 @@ layout: page
 title: BigData - Hadoop - Cloudera
 description: BigData - Hadoop - Cloudera
 keywords: BigData, Hadoop, Cloudera
-permalink: /bigdata/hadoop/hortonworks/cloudera-4-node-cluster-on-aws/
+permalink: /ds/bigdata/hadoop/hortonworks/cloudera-4-node-cluster-on-aws/
 ---
 
 # BigData - Hadoop - Cloudera - Instructions are to set up a 4 node cluster on AWS

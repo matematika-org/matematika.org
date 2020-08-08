@@ -10,11 +10,9 @@ permalink: /sitemap/
 
 <br/>
 
-### [Машинное обучение (Machine Learning)](/ds/ai/ml/)
+### [Machine Learning / Deep Learning](/ds/ai/)
 
-### [Глубокое обучение(Deep Learning)](/ds/ai/dl/)
-
-### [Big Data](/bigdata/)
+### [Big Data](/ds/bigdata/)
 
 ### [BlockChain](/blockchain/)
 

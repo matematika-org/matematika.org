@@ -3,14 +3,14 @@ layout: page
 title: Книги по BigData на английском языке
 description: Книги по BigData на английском языке
 keywords: Книги по BigData, английский язык
-permalink: /books/bigdata/en/
+permalink: /books/ds/bigdata/en/
 ---
 
 # Книги по BigData на английском языке
 
 <br/>
 
-![Книги по BigData на английском языке](/img/books/bigdata/en/big-data-books.png 'Книги по BigData на английском языке'){: .center-image }
+![Книги по BigData на английском языке](/img/books/ds/bigdata/en/big-data-books.png 'Книги по BigData на английском языке'){: .center-image }
 
 <br/>
 

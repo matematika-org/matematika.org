@@ -3,7 +3,7 @@ layout: page
 title: Примеры работы с kafka
 description: Примеры работы с kafka
 keywords: BigData, Kafka, примеры работы
-permalink: /bigdata/kafka/samples/
+permalink: /ds/bigdata/kafka/samples/
 ---
 
 <br/>
@@ -12,7 +12,6 @@ permalink: /bigdata/kafka/samples/
 
 ### Publishing Messages to a Topic in Kafka
 
-
  <br/>
 
     $ kafka-topics.sh \
@@ -20,7 +19,7 @@ permalink: /bigdata/kafka/samples/
     --zookeeper zookeeper1:2181,zookeeper2:2181,zookeeper3:2181/kafka \
     --replication-factor 1 \
     --partitions 3 \
-    --topic test 
+    --topic test
 
  <br/>
     
@@ -42,7 +41,6 @@ permalink: /bigdata/kafka/samples/
 
 <br/>
 
-
 <!--
 
     $ kafka-console-producer.sh --broker-list kafka1:9092 opic test --producer-property acks=all
@@ -62,7 +60,6 @@ permalink: /bigdata/kafka/samples/
 
     // only new messages
     $ kafka-console-consumer.sh --bootstrap-server kafka1:9092 --topic test
-    
 
 <br/>
 
@@ -87,4 +84,3 @@ permalink: /bigdata/kafka/samples/
     ephemeralOwner = 0x1709cfef7c10001
     dataLength = 54
     numChildren = 0
-

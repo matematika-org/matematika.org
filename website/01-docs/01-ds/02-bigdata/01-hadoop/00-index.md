@@ -3,7 +3,7 @@ layout: page
 title: BigData - Hadoop
 description: BigData - Hadoop
 keywords: BigData, Hadoop
-permalink: /bigdata/hadoop/
+permalink: /ds/bigdata/hadoop/
 ---
 
 # BigData - Hadoop
@@ -12,13 +12,13 @@ Offtopic: Если нет необходимости научиться инст
 
 <br/>
 
-![BigData - Hadoop](/img/docs/bigdata/hadoop/pic1.png 'BigData - Hadoop'){: .center-image }
+![BigData - Hadoop](/img/docs/ds/bigdata/hadoop/pic1.png 'BigData - Hadoop'){: .center-image }
 
 <br/>
 
 Некоторые коммерческие фирмы предлагают готовые дистрибутивы Hadoop с наборами совместимых компонентов.
 
-![BigData - Hadoop](/img/docs/bigdata/hadoop/pic2.png 'BigData - Hadoop'){: .center-image }
+![BigData - Hadoop](/img/docs/ds/bigdata/hadoop/pic2.png 'BigData - Hadoop'){: .center-image }
 
 - Cloudera
 - Hortonworks (Поглощена Cloudera)
@@ -28,17 +28,17 @@ Offtopic: Если нет необходимости научиться инст
 
 Инструменты для управления окружением. Упрощают работу, добавление узлов, управления конфигами.
 
-- [Cloudera](/bigdata/hadoop/cloudera/)
-- [Ambari](/bigdata/hadoop/ambari/)
-- [Без использования данных инструментов, ручная настройка](https://javadev.org/devtools/bigdata/hadoop/install/linux/)
+- [Cloudera](/ds/bigdata/hadoop/cloudera/)
+- [Ambari](/ds/bigdata/hadoop/ambari/)
+- [Без использования данных инструментов, ручная настройка](https://javadev.org/devtools/ds/bigdata/hadoop/install/linux/)
 
 <br/>
 
 ### Экосистема Hadoop
 
-![BigData - Hadoop](/img/docs/bigdata/hadoop/pic3.png 'BigData - Hadoop'){: .center-image }
+![BigData - Hadoop](/img/docs/ds/bigdata/hadoop/pic3.png 'BigData - Hadoop'){: .center-image }
 
-![BigData - Hadoop](/img/docs/bigdata/hadoop/pic4.png 'BigData - Hadoop'){: .center-image }
+![BigData - Hadoop](/img/docs/ds/bigdata/hadoop/pic4.png 'BigData - Hadoop'){: .center-image }
 
 - HDFS — распределенная файловая система, работающая на больших кластерах стандартных машин.
 - Yarn
@@ -56,13 +56,13 @@ Offtopic: Если нет необходимости научиться инст
 
 ### Решения в облаках
 
-![BigData - Hadoop](/img/docs/bigdata/hadoop/pic5.png 'BigData - Hadoop'){: .center-image }
+![BigData - Hadoop](/img/docs/ds/bigdata/hadoop/pic5.png 'BigData - Hadoop'){: .center-image }
 
 <br/>
 
-### [HDFS](/bigdata/hadoop/hdfs/)
+### [HDFS](/ds/bigdata/hadoop/hdfs/)
 
-### [MapReduce](/bigdata/hadoop/mapreduce/)
+### [MapReduce](/ds/bigdata/hadoop/mapreduce/)
 
 <!--
 

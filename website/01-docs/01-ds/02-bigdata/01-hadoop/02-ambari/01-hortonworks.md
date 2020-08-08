@@ -3,7 +3,7 @@ layout: page
 title: Виртуальная машина с дистрибутивами по направлению BigData от компании HortonWorks
 description: Виртуальная машина с дистрибутивами по направлению BigData от компании HortonWorks
 keywords: BigData, Hadoop, Ambari, HortonWorks
-permalink: /bigdata/hadoop/ambari/hortonworks/
+permalink: /ds/bigdata/hadoop/ambari/hortonworks/
 ---
 
 # Виртуальная машина с дистрибутивами по направлению BigData от компании HortonWorks
@@ -39,7 +39,6 @@ https://hortonworks.com/downloads/#sandbox
 Или по ssh:
 
     $ ssh maria_dev@127.0.0.1 -p 2222
-
 
 Логин/Пароль: maria_dev/maria_dev
 

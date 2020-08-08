@@ -3,11 +3,11 @@ layout: page
 title: Книги по BigData
 description: Книги по BigData
 keywords: Книги по BigData
-permalink: /books/bigdata/
+permalink: /books/ds/bigdata/
 ---
 
 # Книги по BigData
 
-### [Книги по BigData на русском языке](/books/bigdata/ru/)
+### [Книги по BigData на русском языке](/books/ds/bigdata/ru/)
 
-### [Книги по BigData на английском языке](/books/bigdata/en/)
+### [Книги по BigData на английском языке](/books/ds/bigdata/en/)

@@ -16,6 +16,6 @@ permalink: /videos/
 
 ### [Видеокурсы по Data Science](/videos/ds/)
 
-### [Видеокурсы по BigData (Hadoop, Spark, Kafka)](/videos/bigdata/)
+### [Видеокурсы по BigData (Hadoop, Spark, Kafka)](/videos/ds/bigdata/)
 
 ### [Видеокурсы по математике](/videos/matematika/)
