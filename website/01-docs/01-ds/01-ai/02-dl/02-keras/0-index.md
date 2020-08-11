@@ -3,7 +3,7 @@ layout: page
 title: Deep Learning. Библиотека Keras
 description: Deep Learning. Библиотека Keras
 keywords: Deep Learning, Keras
-permalink: /dl/keras/
+permalink: /ds/ai/dl/keras/
 ---
 
 # Deep Learning. Библиотека Keras
@@ -12,7 +12,7 @@ Keras (может использовать либо tensorflow, либо theano)
 
 <br/>
 
-### [Подготовка окружения для работы с библиотекой keras](/dl/keras/setup/)
+### [Подготовка окружения для работы с библиотекой keras](/ds/ai/dl/keras/setup/)
 
 <br/>
 
@@ -21,8 +21,6 @@ Keras (может использовать либо tensorflow, либо theano)
 - Обучающий набор
 - Контрольный набор
 - Тестовый набор
-
-
 
 <br/>
 

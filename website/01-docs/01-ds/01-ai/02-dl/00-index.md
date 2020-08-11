@@ -60,7 +60,7 @@ TensorFlow, вроде как, был сложен для программист
 
 <br/>
 
-### [Keras](/dl/keras/)
+### [Keras](/ds/ai/dl/keras/)
 
 Работает над TensorFlow или дургой библиотекой Theano.
 

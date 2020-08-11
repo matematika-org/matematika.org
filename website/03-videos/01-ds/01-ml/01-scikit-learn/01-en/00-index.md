@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Scikit-learn
-permalink: /videos/ds/ai/ml/scikit-learn/en/
+permalink: /videos/ds/ai/ds/ai/ml/scikit-learn/en/
 ---
 
 # Scikit-learn
@@ -22,7 +22,7 @@ https://www.packtpub.com/eu/application-development/machine-learning-and-data-sc
 
 <br/>
 
-### [Machine Learning Fundamentals](/videos/ds/ai/ml/scikit-learn/en/machine-learning-fundamentals/)
+### [Machine Learning Fundamentals](/videos/ds/ai/ds/ai/ml/scikit-learn/en/machine-learning-fundamentals/)
 
 <br/>
 

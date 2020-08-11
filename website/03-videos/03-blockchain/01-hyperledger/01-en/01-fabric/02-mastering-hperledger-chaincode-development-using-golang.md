@@ -541,3 +541,12 @@ Terminal session 2
 <br/>
 
 ## 8. Writing Unit Test Cases for Network Applications
+
+<br/>
+
+    $ dev-init.sh -e
+    $ cd gocc/src/testing/cctest/
+    $ chmod +x ./test.sh
+    $ ./test.sh
+
+Не отработало у меня

@@ -16,6 +16,8 @@ permalink: /ds/ai/ml/reinforcemetn-learning/
 - SARSA Algorithm (State, Action, Reward, State, Action)
 - Deeq Q-Network (DQN) Algorithm
 
-Примры:
+<br/>
+
+**Примеры:**
 
 https://github.com/matematika-org/Deep-Reinforcement-Learning-A-Hands-on-Tutorial-in-Python/blob/master/README.md

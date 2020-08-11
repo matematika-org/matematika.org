@@ -12,10 +12,10 @@ permalink: /ds/ai/ml/supervised-learning/regression/
 
 # Наиболее общие оценочные метрики для регрессии
 
-- Mean Absolute Error (MAE)
-- Mean Squared Error (MSE)
-- Root Mean Squared Error (RMSE)
-- R Squared Values (coefficient of determination) (R2)
+- средняя абсолютная ошибка - Mean Absolute Error (MAE)
+- среднеквадратическая ошибка - Mean Squared Error (MSE)
+- квадратный корень из среднеквадратической ошибки - Root Mean Squared Error (RMSE)
+- коэффициент детерминации - R Squared Values (coefficient of determination) (R2)
 
 <br/>
 

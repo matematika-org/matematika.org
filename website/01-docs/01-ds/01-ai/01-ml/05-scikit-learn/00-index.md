@@ -3,7 +3,7 @@ layout: page
 title: Scikit-learn (Machine Learning)
 description: Scikit-learn (Machine Learning)
 keywords: Scikit-learn, Machine Learning
-permalink: /ml/scikit-learn/
+permalink: /ds/ai/ml/scikit-learn/
 ---
 
 # Scikit-learn (требует наличия NumPy и SciPy)
@@ -18,8 +18,10 @@ permalink: /ml/scikit-learn/
 
 Чтобы применить алгоритм, вы сперва должны создать экземпляр конкретного класса:
 
-    from sklearn.linear_model import LogisticRegression
-    logreg = LogisticRegression()
+```
+from sklearn.linear_model import LogisticRegression
+logreg = LogisticRegression()
+```
 
 Этот класс-модель содержит алгоритм, а также записывает модель, обученную на данных с помощью этого алгоритма.
 

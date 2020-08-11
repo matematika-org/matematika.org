@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Видеокурсы по Keras на английском языке
-permalink: /videos/ds/ai/dl/keras/en/
+permalink: /videos/ds/ai/ds/ai/dl/keras/en/
 ---
 
 # Видеокурсы по Keras на английском языке

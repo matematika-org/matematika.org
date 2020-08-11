@@ -3,7 +3,7 @@ layout: page
 title: Подготовка окружения для работы с библиотекой keras
 description: Подготовка окружения для работы с библиотекой keras
 keywords: Подготовка окружения для работы с библиотекой keras
-permalink: /dl/keras/setup/
+permalink: /ds/ai/dl/keras/setup/
 ---
 
 # Подготовка окружения для работы с библиотекой keras

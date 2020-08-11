@@ -14,7 +14,7 @@ permalink: /ds/ai/ml/unsupervised-learning/
 
 - k-средние (k-means)
 - иерархический кластерный анализ (Hierarchical Cluster Analysis, НСА)
-- максимизация ожиданий ( expectation maximization)
+- максимизация ожиданий (expectation maximization)
 
 **Визуализация и понижение размерности**
 
@@ -23,7 +23,7 @@ permalink: /ds/ai/ml/unsupervised-learning/
 - локальное линейное вложение (Locally-Linear Embedding - LLE)
 - стохастическое вложение соседей с t-распределением (t-distributed Stochastic Neighbor Embedding - t-SNE)
 
-**Обучение ассоциативным правилам ( association rule learning)**
+**Обучение ассоциативным правилам (association rule learning)**
 
 - Apriori
 - Eclat
@@ -32,7 +32,7 @@ permalink: /ds/ai/ml/unsupervised-learning/
 
 **Обнаружение аномалий (Anomaly detection)** - выявление необычных транзак­ций на кредитных картах, отлавли­вание производственных дефектов.
 
-**Обучение ассоциативным правилам (association rule learning)**, цель которого заключается в проник­новении внутрь крупных объемов данных и обнаружении интересных за­висимостей между атрибутами. 
+**Обучение ассоциативным правилам (association rule learning)**, цель которого заключается в проник­новении внутрь крупных объемов данных и обнаружении интересных за­висимостей между атрибутами.
 
 <br/>
 
