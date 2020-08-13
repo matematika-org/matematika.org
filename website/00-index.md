@@ -44,6 +44,12 @@ https://www.youtube.com/channel/UCeDm7xMiUD2cDLwek8sIevA/playlists
 
 <br/>
 
+### [Derek Banas] Learn Algebra
+
+https://www.youtube.com/watch?v=B_WCI_A944E
+
+<br/>
+
 ### Hyperledger - корпоративная платформа на BlockChain
 
 Есть желание разобраться с тем как работает и возможно позапускать (если это возможно) в домашних условиях. Кому интересно и кто может поделиться советом по материалам, просба проследовать в телеграм.

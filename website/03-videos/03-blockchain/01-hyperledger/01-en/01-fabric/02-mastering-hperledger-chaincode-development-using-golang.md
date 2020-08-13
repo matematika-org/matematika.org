@@ -10,6 +10,8 @@ permalink: /videos/blockchain/hyperledger/en/fabric/mastering-hperledger-chainco
 
 Язык вроде норм. Лучше большинства индусов.
 
+Похоже, что альтернатив для изучения hyperledger вообще нет. Надеюсь, что пока. Все что есть, устаревшее.
+
 Автор обновил курс до Fabric 2.1. Уметь работать с Fabric 1.X не требуется.
 
 **Сайт автора:**  
@@ -17,7 +19,9 @@ http://www.bcmentors.com/courses/
 
 <br/>
 
-Странный этот индус какой-то.
+Странный этот индус какой-то. Типа код попрятал.
+
+<br/>
 
 **Код для проекта:**  
 http://www.bcmentors.com/download/hlf-dev-chaincode-v1-4-1-zip/
@@ -65,27 +69,39 @@ config.vm.box = "acloudfan/hlfdev2.0-0"
 
     $ vagrant up
 
+<!--
+
     // password vagrant
     $ vagrant ssh
 
+-->
+
 <br/>
 
-    $ cd network/setup/vexpress/
-    $ chmod +x ./init-vexpress.sh
+### Чтобы скрипты индуса выполнялись
+
+    $ cd /vagrant/
+    $ chmod +x * ./network/bin/*.sh
+    $ chmod +x * ./network/setup/vexpress/*.sh
+    $ chmod +x * ./network/setup/*.sh
+
+<br/>
+
+### Подготовка окружения для работы
+
+    $ cd /vagrant/network/setup/vexpress/
     $ ./init-vexpress.sh
 
 
-    $ cd network/setup/
-    $ chmod +x ./validate-setup.sh
+    $ cd /vagrant/network/setup/
     $ ./validate-setup.sh
-
-    $ chmod +x ./update-git-repo.sh
     $ ./update-git-repo.sh
 
 <br/>
 
-    $ cd network/bin/
-    $ chmod +x *
+### Запуск всего этого добра
+
+    $ cd /vagrant/
 
     $ dev-init.sh
 
@@ -399,7 +415,7 @@ Terminal session 2
 
 <br/>
 
-# Part-2
+#### Part-2
 
 Разкомментили код в файле: v3/goken.go
 
@@ -540,7 +556,7 @@ Terminal session 2
 
 <br/>
 
-## 8. Writing Unit Test Cases for Network Applications
+## 08. Writing Unit Test Cases for Network Applications
 
 <br/>
 
@@ -550,3 +566,206 @@ Terminal session 2
     $ ./test.sh
 
 Не отработало у меня
+
+<br/>
+
+## 09. Mini Project Develop the ERC20 Token on Fabric
+
+<br/>
+
+### 03. Hands-on Solution walkthrough
+
+В общем индус зачем-то копировал файлы из каталога "token/ERC20/" в отдельный и запускал. test.sh
+
+<br/>
+
+    $ dev-init.sh
+    $ cd gocc/src/token/ERC20/
+    $ chmod +x ./test.sh
+    $ export  FABRIC_LOGGING_SPEC=error
+    $ ./test.sh
+
+Хз, ошибкой завершается.
+
+<br/>
+
+### 04. Exercise Test out the transfer events
+
+<br/>
+
+**"token/ERC20/README.md"**
+
+<br/>
+
+Terminal session 1
+
+    $ dev-init.sh
+    $ source set-env.sh    acme
+    $ set-chain-env.sh       -n erc20  -v 1.0   -p  token/ERC20
+    $ chain.sh install -p
+
+    $ set-chain-env.sh        -c   '{"Args":["init","ACFT","1000", "A Cloud Fan Token!!!","john"]}'
+    $ chain.sh  instantiate
+    $ events.sh -t chaincode -n erc20 -e transfer -c airlinechannel
+
+Terminal session 2
+
+    $ source set-env.sh    acme
+    $ set-chain-env.sh         -i   '{"Args":["transfer", "john", "sam", "10"]}'
+    $ export  FABRIC_LOGGING_SPEC=error
+    $ chain.sh invoke
+
+Terminal session 1
+
+**Получаем:**
+
+```
+✅  event= transfer
+ block# 6
+ status= VALID
+ payload= {"from":"john", "to":"sam","amount":10}
+```
+
+**Можем повторить**
+
+```
+✅  event= transfer
+ block# 7
+ status= VALID
+ payload= {"from":"john", "to":"sam","amount":10}
+```
+
+<br/>
+
+## 10. Transaction Flow & Chaincode Endorsement Policies
+
+<br/>
+
+### 06. Chaincode Lifecycle EP in Dev Setup
+
+    $ set-chain-env.sh -g "OR('BudgetMSP.member')"
+    $ set-chain-env.sh -e budget
+    $ show-chain-env.sh
+
+<br/>
+
+### 07. Hands On Chaincode Endorsement Policies
+
+"token/v9/token.go"
+
+<br/>
+
+Terminal session 1
+
+    $ dev-init.sh
+    $ export  FABRIC_LOGGING_SPEC=error
+    $ source set-env.sh    acme
+    $ set-chain-env.sh  -n token -v 1.0 -p token/v9 -c '{"Args": ["init"]}'
+    $ set-chain-env.sh -q   '{"args":["get"]}'
+    $ chain.sh install -p
+    $ set-chain-env.sh -g "OR('BudgetMSP.member')"
+    $ chain.sh approve
+    $ chain.sh check
+    $ chain.sh commit
+    $ events.sh -t chaincode -n token -e SetToken -c airlinechannel
+
+<br/>
+
+Terminal session 2
+
+    $ source set-env.sh acme
+    $ set-chain-env.sh -i   '{"args":["set", "UnProtectedToken","Acme"]}'
+    $ chain.sh invoke
+
+// Ошибка. Так и должно быть  
+invalid invocation: chaincode 'token' has not been initialized for this version, must call as init first"
+
+    $ source set-env.sh budget
+    $ chain.sh install
+
+    $ chain.sh approveformyorg
+    $ chain.sh list
+
+    $ source set-env.sh acme
+    $ set-chain-env.sh -e budget
+
+    $ chain.sh init
+    $ chain.sh init -o
+
+    $ set-chain-env.sh -i '{"args":["set", "UnProtectedToken","Budget"]}'
+    $ chain.sh invoke
+
+<br/>
+
+Terminal session 1
+
+```
+✅  event= SetToken
+ block# 7
+ status= VALID
+ payload= { "Token":"UnProtectedToken",   "Value":":Budget"}
+```
+
+<br/>
+
+Terminal session 2
+
+    $ set-chain-env.sh -e acme
+    $ chain.sh invoke
+
+<br/>
+
+Terminal session 1
+
+```
+✅  event= SetToken
+ block# 8
+ status= ENDORSEMENT_POLICY_FAILURE
+ payload= { "Token":"UnProtectedToken",   "Value":":Budget"}
+```
+
+<br/>
+
+### 08. Exercise Chaincode Endorsement Policy Expressions
+
+Не заработало у меня.
+
+<br/>
+
+    $ dev-init.sh
+    $ export  FABRIC_LOGGING_SPEC=error
+
+    $ set-chain-env.sh -g "AND('AcmeMSP.member','BudgetMSP.member')"
+
+    $ set-chain-env.sh -s 2
+    $ source set-env.sh acme
+
+    // Наверное нужно
+    // chain.sh install -p
+    $ chain.sh approve
+    $ chain.sh check
+
+```
+AcmeMSP: true
+BudgetMSP: false
+```
+
+// Budget approves
+
+    $ set-chain-env.sh budget
+    $ chain.sh approve
+    $ chain.sh check
+
+    $ chain.sh commit
+
+    $ set-chain-env.sh -e both
+    $ chain.sh invoke
+
+Должно быть ОК
+
+<br/>
+
+    $ set-chain-env.sh -e auto
+    $ chain.sh invoke
+
+Должна быть ошибка
