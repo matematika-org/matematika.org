@@ -14,6 +14,8 @@ permalink: /videos/blockchain/hyperledger/en/fabric/mastering-hperledger-chainco
 
 Автор обновил курс до Fabric 2.1. Уметь работать с Fabric 1.X не требуется.
 
+С первого раза не зашло, от слова совсем.
+
 **Сайт автора:**  
 http://www.bcmentors.com/courses/
 
@@ -769,3 +771,105 @@ BudgetMSP: false
     $ chain.sh invoke
 
 Должна быть ошибка
+
+<br/>
+
+## 11. Transaction and Data confidentiality
+
+<br/>
+
+### 09. Hands-On Setting up the PDC Definition in JSON file
+
+"token/priv/pcollection.json"
+
+    $ dev-init.sh
+    $ export  FABRIC_LOGGING_SPEC=error
+
+    $ set-chain-env.sh -p token/priv
+    $ set-chain-env.sh -R pcollection.json
+
+    $ source set-env.sh acme
+
+    $ chain.sh approveformyorg -o
+    $ chain.sh commit -o
+
+<br/>
+
+### 10. Hands-On Private Data Collection in action
+
+"token/priv/priv.go"
+
+Подготовка окружения
+
+    $ dev-init.sh
+
+    $ set-chain-env.sh  -n priv -v 1.0 -p token/priv  -c '{"Args": ["init"]}' -C airlinechannel
+    $ set-chain-env.sh -R pcollection.0.json
+
+    $ source set-env.sh acme
+    $ chain.sh install -p
+    $ chain.sh instantiate
+
+    $ source set-env.sh budget
+    $ chain.sh install
+    $ chain.sh approveformyorg
+
+Тест 1
+
+    $ source set-env.sh acme
+    $ set-chain-env.sh -i '{"Args": ["Set","AcmeBudgetOpen", "Acme has set the OPEN data"]}'
+    $ chain.sh invoke
+
+    $ set-chain-env.sh -i '{"Args": ["Set","AcmePrivate", "Acme has set the SECRET data"]}'
+
+    $ chain.sh invoke
+
+    $ set-chain-env.sh -q '{"Args": ["Get"]}'
+
+    $ chain.sh query
+
+```
+{open:"Acme has set the OPEN data", secret:"Acme has set the SECRET data" , error:"N.A."}
+```
+
+Тест 2
+
+    $ source set-env.sh budget
+    $ set-chain-env.sh -i '{"Args": ["Set","AcmeBudgetOpen", "Acme has set the OPEN data"]}'
+    $ chain.sh invoke
+
+    $ set-chain-env.sh -i '{"Args": ["Set","AcmePrivate", "Acme has set the SECRET data"]}'
+    $ chain.sh invoke
+
+    $ chain.sh query
+
+```
+{open:"Acme has set the OPEN data", secret:"**** Not Allowed ***" , error:"GET_STATE failed: transaction ID: e6ffdbf84d89b8856a2291515fc5028da5eab07e2823457d726d55e4d5617125: private data matching public hash version is not available. Public hash version = {BlockNum: 10, TxNum: 0}, Private data version = <nil>"}
+
+```
+
+Тест 3
+
+    $ source set-env.sh acme
+    $ chain.sh query
+
+```
+{open:"Acme has set the OPEN data", secret:"Acme has set the SECRET data" , error:"N.A."}
+
+```
+
+<br/>
+
+### 11. Exercise Update the PDC Definition
+
+Не нужно пересоздавать dev окружени. Предыдущее подходит.
+
+    $ get-cc-info.sh -e
+
+Не захотелось разбираться.
+
+<br/>
+
+### 14. Exercise Extend the PDC Sample Code
+
+Не захотелось разбираться.

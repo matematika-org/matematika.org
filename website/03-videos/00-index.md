@@ -1,21 +1,19 @@
 ---
 layout: page
-title: Видеокурсы по ML, BIG Data, DS
-description: Видеокурсы по ML, BIG Data, DS
-keywords: Видеокурсы по ML, BIG Data, DS
+title: Видеокурсы по ML, BIGData, DS
+description: Видеокурсы по ML, BIGData, DS
+keywords: Видеокурсы по ML, BIGData, DS
 permalink: /videos/
 ---
 
-# Видеокурсы по ML, BIG Data, DS
-
-<br/>
-
-Записываю, т.к. уже не могу запомнить что уже было найдено
+# Видеокурсы по ML, BIGData, DS
 
 <br/>
 
 ### [Видеокурсы по Data Science](/videos/ds/)
 
 ### [Видеокурсы по BigData (Hadoop, Spark, Kafka)](/videos/ds/bigdata/)
+
+### [Видеокурсы по BlockChain](/videos/blockchain/)
 
 ### [Видеокурсы по математике](/videos/matematika/)

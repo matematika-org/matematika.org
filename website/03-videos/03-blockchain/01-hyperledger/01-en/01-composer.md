@@ -2,8 +2,8 @@
 layout: page
 title: Hyperleger Composer (Blockchain)
 description: Hyperleger Composer (Blockchain)
-keywords: Blockchain, Hyperleger, Composer
-permalink: /blockchain/hyperledger/composer/
+keywords: Видеокурсы, HyperLedger, Composer, BlockChain, английский язык
+permalink: /videos/blockchain/hyperledger/en/composer/
 ---
 
 # Hyperleger Composer (Blockchain)
