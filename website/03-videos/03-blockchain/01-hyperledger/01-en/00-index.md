@@ -8,6 +8,10 @@ permalink: /videos/blockchain/hyperledger/en/
 
 # Видеокурсы по HyperLedger (BlockChain) на английском языке
 
+Hyperledger supports Node.js, Golang, and Java for writing chaincodes.
+
+**Изучать стоит в первую очередь Fabric**. (Пока такие представления)
+
 ### [Hyperleger Fabric](/videos/blockchain/hyperledger/en/fabric/) - наверное ниже версии 2.0 изучать для тех кто с 0, не стоит
 
 ### [Hyperleger Composer](/videos/blockchain/hyperledger/en/composer/) - устарел и не развивается с августа 2019

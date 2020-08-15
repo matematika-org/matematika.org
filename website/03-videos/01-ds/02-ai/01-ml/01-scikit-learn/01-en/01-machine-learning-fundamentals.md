@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Machine Learning Fundamentals
-permalink: /videos/ds/ai/ds/ai/ml/scikit-learn/en/machine-learning-fundamentals/
+permalink: /videos/ds/ai/ml/scikit-learn/en/machine-learning-fundamentals/
 ---
 
 # Machine Learning Fundamentals

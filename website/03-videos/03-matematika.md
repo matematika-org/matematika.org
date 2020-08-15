@@ -10,6 +10,10 @@ permalink: /videos/matematika/
 
 <br/>
 
+### [stepik.org] Математическая логика и теория алгоритмов [2020, RUS]
+
+<br/>
+
 ### Mastering the Fundamentals of Mathematics
 
 ![Mastering the Fundamentals of Mathematics](/img/videos/mastering-fundamentals-mathematics-video.jpg 'Mastering the Fundamentals of Mathematics'){: .center-image }

@@ -18,10 +18,16 @@ https://andersbrownworth.com/blockchain/
 
 <br/>
 
-### [Hyperleger](/blockchain/hyperledger/)
+### [Hyperleger (LinuxFoundation, IBM, Intel)](/blockchain/hyperledger/)
 
-### R3 Corda
+Node.js, Golang, Java
 
-### Quatum
+### Corda (R3)
+
+Supports Kotlin, which runs on JVM.
+
+### Quatum (JP Morgan)
+
+It is an enterprise version of Ethereum. If you know about Ethereum and Solidity, you are almost ready to use Quorum.
 
 ### Ripple
