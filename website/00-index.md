@@ -52,9 +52,9 @@ https://www.youtube.com/watch?v=B_WCI_A944E
 
 ### Hyperledger - корпоративная платформа на BlockChain
 
-Есть желание разобраться с тем как работает и возможно позапускать (если это возможно) в домашних условиях. Кому интересно и кто может поделиться советом по материалам, просба проследовать в телеграм.
+Возникли сложности и с изучением и с запуском примеров. Читаю книгу [Nakul Shah] Blockchain for Business with Hyperledger Fabric: A complete guide to enterprise Blockchain implementation using Hyperledger Fabric [ENG, 2019]
 
-<a href="/blockchain/hyperledger/">Что есть по Hyperledger</a>
+Если кому интересно и тоже хочет поразбираться или подсказать что не так, какие-то наработки <a href="/books/blockchain/hyperledger/en/fabric/blockchain-for-business-with-hyperledger-fabric/">здесь</a>
 
 <br/>
 

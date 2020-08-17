@@ -3,16 +3,10 @@ layout: page
 title: Hyperleger Fabric (Blockchain)
 description: Hyperleger Fabric (Blockchain)
 keywords: Blockchain, Hyperleger, Fabric
-permalink: /blockchain/hyperledger/fabric/
+permalink: /books/blockchain/hyperledger/en/fabric/
 ---
 
-# Hyperleger Fabric
-
-Fabric 1.4 is the first production-ready LTS release.
-
-<br/>
-
-Предлагаю кто хочет изучать, присоединиться к чтению.
+# Hyperleger Fabric (Blockchain)
 
 <br/>
 

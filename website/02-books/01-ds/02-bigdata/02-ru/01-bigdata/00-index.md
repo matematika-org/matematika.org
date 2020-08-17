@@ -12,4 +12,4 @@ permalink: /books/ds/bigdata/ru/
 
 ### Книги по Kafka на русском
 
-- [O'Reilly] / [Piter.com][нархид н., шапира г., палино т.] Apache Kafka. Потоковая обработка и анализ данных [RUS, 2019]
+[O'Reilly] / [Piter.com][нархид н., шапира г., палино т.] Apache Kafka. Потоковая обработка и анализ данных [RUS, 2019]

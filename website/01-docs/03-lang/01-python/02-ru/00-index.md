@@ -32,6 +32,8 @@ https://habr.com/ru/company/mailru/blog/506824/
 
 UPD. Спустя пол года, решили выложить материалы из второй части курса. Не все и все еще без notebook'ов.
 
+По вот этой ссылке можно посмотреть записи, которые "скрыты". https://www.youtube.com/playlist?list=PLrCZzMib1e9p6lpNv-yt6uvHGyBxQncEh
+
 <br/>
 
 <div align="center">
