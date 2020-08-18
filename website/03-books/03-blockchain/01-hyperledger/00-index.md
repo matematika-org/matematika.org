@@ -3,7 +3,7 @@ layout: page
 title: Книги по HyperLedger (BlockChain)
 description: Книги по HyperLedger (BlockChain)
 keywords: Книги, HyperLedger, BlockChain
-permalink: /videos/blockchain/hyperledger/
+permalink: /books/blockchain/hyperledger/
 ---
 
 # Книги по HyperLedger (BlockChain)
