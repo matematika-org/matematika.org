@@ -29,7 +29,7 @@ https://bitbucket.org/matematika/tensorflow-for-beginners/
 
 <br/>
 
-### [Запуск контейнера с TensorFlow в docker](/ds/ai/devtools/python/docker/)
+### [Запуск контейнера с TensorFlow в docker](/ds/devtools/python/docker/)
 
 <br/>
 

@@ -20,7 +20,7 @@ https://github.com/ageron/handson-ml
 
 **В ubuntu:**
 
-Подготовил окружение как <a href="/ds/ai/devtools/python/virtualenv/">здесь</a>
+Подготовил окружение как <a href="/ds/devtools/python/virtualenv/">здесь</a>
 
 <br/>
 
