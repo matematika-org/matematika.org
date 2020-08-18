@@ -10,20 +10,19 @@ permalink: /books/blockchain/hyperledger/en/fabric/blockchain-for-business-with-
 
 Если кто будет изучать, присоединяйтесь. Может у вас лучше получится и вы подскажете как сделать, чтобы работало.
 
+За индусом нужен глаз да глаз. То там где-то напутает, то сям.
+
 <br/>
 
 ### VS Code extension: IBM Blockchain Platform
 
-Install the VSCode and IBM Blockchain Platform called VSCode
-extension.
+Install the VSCode and IBM Blockchain Platform called VSCode extension.
 
-• Use the keyboard shortcut Shift + CMD + P to bring up the command
-palette and select IBM Blockchain Platform: Create Smart Contract
-Project from the dropdown.
+• Use the keyboard shortcut Shift + CMD + P to bring up the command palette and select IBM Blockchain Platform: Create Smart Contract Project from the dropdown.
+
 • Click JavaScript from the dropdown.
 • Create a new folder and name it whatever you want, e.g., TestContract.
-• Start by creating a new folder and open it. Next, from the dropdown on
-left top, click Add to Workspace.
+• Start by creating a new folder and open it. Next, from the dropdown on left top, click Add to Workspace.
 • Check the smart contract lib/my-contract.js in this location.
 
 <br/>
@@ -70,9 +69,9 @@ Some of these technologies include the following:
 
 Configuration files:
 
-a. configtx.yml
-b. crypto-config.yml
-c. docker-compose files
+    a. configtx.yml
+    b. crypto-config.yml
+    c. docker-compose files
 
 <br/>
 
@@ -366,3 +365,150 @@ This will now show 90.
 <br/>
 
 ## Frameworks, Network Topologies, and Modeling
+
+The requirements are simple—we need to write a smart contract that will register
+the property details, change the ownership, query the property details, and execute
+a few other operations on the properties.
+
+<br/>
+
+We are going to build an asset registry chaincode application that has the following common attributes linked to a property:
+
+    • Value of the property
+    • Owner of the property
+    • Property area
+    • Location of the property
+    • Type of property
+
+<br/>
+
+Now, let’s understand what we want this chaincode to do:
+
+1. Create an initial ledger with some initial property details.
+2. Provide functionality to create more properties using the “Create a Property” function.
+3. Query the ledger for a property on the basis of property ID.
+4. Allow querying all the properties on the basis of indexes.
+5. Allow changing the owner of a property.
+
+<br/>
+
+https://fabric-shim.github.io/release-1.4/fabric-shim.ChaincodeStub.html
+
+<br/>
+
+### Deploying and testing the chaincode
+
+<br/>
+
+    $ npm i -g typescript
+
+<br/>
+
+    $ cd /home/marley/projects/dev/hyperledger
+
+Терминал 1:
+
+    $ {
+        docker stop $(docker ps -aq)
+        docker rm $(docker ps -aq)
+        docker system prune -a
+    }
+
+    $ curl -sSL https://raw.githubusercontent.com/hyperledger/fabric/master/scripts/bootstrap.sh | bash -s 1.2.1
+
+    $ cd fabric-samples/chaincode
+
+    $ mkdir asset-registry
+    $ cd asset-registry
+
+    $ git clone https://github.com/webmakaka/hyperledger .
+
+<br/>
+
+    $ cd /home/marley/projects/dev/hyperledger/fabric-samples/chaincode-docker-devmode
+    $ docker-compose -f docker-compose-simple.yaml up
+
+<br/>
+
+Терминал 2:
+
+    $ docker exec -it chaincode bash
+
+    # cd asset-registry
+    # npm install
+    # npm run build
+    # npm run start -- --peer.address "peer:7052" "--chaincode-id-name" "asset-cc:0.1"
+
+```
+Command succeeded
+
+2020-08-18T03:37:25.887Z info [shim:lib/handler.js]                               Successfully registered with peer node. State transferred to "established"
+2020-08-18T03:37:25.888Z info [shim:lib/handler.js]                               Successfully established communication with peer node. State transferred to "ready"
+
+```
+
+Our chaincode is now listening for any requests for peers and bash containers in
+order to run operations.
+
+<br/>
+
+### Installing, instantiating, and invoking the chaincode:
+
+Терминал 3:
+
+    $ docker exec -it cli bash
+
+    # peer chaincode install -p chaincode/asset-registry/ -n asset-cc -l node -v 0.1
+
+```
+2020-08-18 03:43:28.457 UTC [chaincodeCmd] install -> INFO 05c Installed remotely response:<status:200 payload:"OK" >
+```
+
+<br/>
+
+    // Init
+    # peer chaincode instantiate \
+        -n asset-cc \
+        -v 0.1 \
+        -l node \
+        -c '{"Args":["initLedger"]}' \
+        -C myc
+
+Ok
+
+<br/>
+
+    // Найти по ID
+    # peer chaincode query \
+        -n asset-cc \
+        -c '{"Args":["queryAsset", "P100001"]}' \
+        -C myc
+
+Ошибка
+
+    ctx.stub.getState(assetNumber); не возвращает данных
+
+<br/>
+
+    // createProperty:
+    # peer chaincode invoke \
+        -n asset-cc \
+        -c '{"Args":["createProperty", "P100003", "howbe", "2838", "somehg", "asdf", "2323", "someowner"]}' \
+        -C myc
+
+Ошибка
+
+    // change the owner
+    # peer chaincode invoke \
+        -n asset-cc \
+        -c '{"Args":["changePropertyOwner", "P100003", "marley"]}' \
+        -C myc
+
+Ошибка
+
+    # peer chaincode query \
+        -n asset-cc \
+        -c '{"Args":["queryAsset", "P100003"]}' \
+        -C myc
+
+Ошибка
