@@ -10,7 +10,7 @@ permalink: /ds/ai/ml/
 
 Я только приступаю и пытаюсь разобраться что к чему.
 
-Наверное, лучше всего приступать к изучению Machine Learning с книги [Мюллер.А, Гвидо. С. - Введение в машинное обучение с помощью Python. Руководство для специалистов по работе с данными [RUS, 2017]](/books/ds/ai/ml/ru/scikit-learn/introduction-to-ml-with-python/) и видеокурса [[PacktPub] Machine Learning 101 with Scikit-learn and StatsModels](https://github.com/matematika-org/Machine-Learning-101-with-Scikit-learn-and-StatsModels). Возможно перед этим видеокурсом стоит посмотреть видео [[Abhilash Nelson] Machine Learning and Data Science with Python: A Complete Beginners Guide [ENG, May 2019]](https://bitbucket.org/matematika/machine-learning-and-data-science-with-python-a-complete/src/master/). В этом видео намного больше практики, если кому-то проще начинать с работой с кодом. Какие-то другие материалы, воспринимались намного хуже.
+Наверное, лучше всего приступать к изучению Machine Learning с книги [Мюллер.А, Гвидо. С. - Введение в машинное обучение с помощью Python. Руководство для специалистов по работе с данными [RUS, 2017]](/books/ds/ml/ru/scikit-learn/introduction-to-ml-with-python/) и видеокурса [[PacktPub] Machine Learning 101 with Scikit-learn and StatsModels](https://github.com/matematika-org/Machine-Learning-101-with-Scikit-learn-and-StatsModels). Возможно перед этим видеокурсом стоит посмотреть видео [[Abhilash Nelson] Machine Learning and Data Science with Python: A Complete Beginners Guide [ENG, May 2019]](https://bitbucket.org/matematika/machine-learning-and-data-science-with-python-a-complete/src/master/). В этом видео намного больше практики, если кому-то проще начинать с работой с кодом. Какие-то другие материалы, воспринимались намного хуже.
 
 Все это добро можно купить, а если вы такой же жадина на траты всяких обучающих материалов как и я, то я думаю и у вас получится найти все это в интернете на файлопомойках и торрентах.
 
@@ -109,9 +109,9 @@ permalink: /ds/ai/ml/
 
 ## Обучающие материалы:
 
-### [Книги по машинному обучению](/ml/books/)
+### [Книги по машинному обучению](/books/ds/ml/)
 
-### [Видеокурсы по машинному обучению](/videos/ds/ai/ml/)
+### [Видеокурсы по машинному обучению](/videos/ds/ml/)
 
 <br/>
 

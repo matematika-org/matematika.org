@@ -22,7 +22,7 @@ https://www.packtpub.com/uncategorized/machine-learning-101-with-scikit-learn-an
 
 https://github.com/matematika-org/Machine-Learning-101-with-Scikit-learn-and-StatsModels
 
-![Machine Learning 101 with Scikit-learn and StatsModels](/img/videos/ds/ai/ml/machine-learning-101-scikit-learn-statsmodels.jpg "Machine Learning 101 with Scikit-learn and StatsModels"){: .center-image }
+![Machine Learning 101 with Scikit-learn and StatsModels](/img/videos/ds/ml/machine-learning-101-scikit-learn-statsmodels.jpg "Machine Learning 101 with Scikit-learn and StatsModels"){: .center-image }
 
 
 <br/>
@@ -97,7 +97,7 @@ https://www.packtpub.com/authors/tomasz-lelek
 
 ## Книги
 
-### <a href="/books/ds/ai/ml/ru/scikit-learn/introduction-to-ml-with-python/">Мюллер.А, Гвидо. С. - Введение в машинное обучение с помощью Python. Руководство для специалистов по работе с данными [RUS, 2017]</a>
+### <a href="/books/ds/ml/ru/scikit-learn/introduction-to-ml-with-python/">Мюллер.А, Гвидо. С. - Введение в машинное обучение с помощью Python. Руководство для специалистов по работе с данными [RUS, 2017]</a>
 
 ### Шакла Нишант - Машинное обучение и TensorFlow (Библиотека программиста) - 2019
 

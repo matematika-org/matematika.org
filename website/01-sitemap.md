@@ -12,7 +12,7 @@ permalink: /sitemap/
 
 ### [Machine Learning / Deep Learning](/ds/ai/)
 
-### [Big Data](/ds/bigdata/)
+### [BigData](/ds/bigdata/)
 
 ### [BlockChain](/blockchain/)
 
@@ -22,11 +22,35 @@ permalink: /sitemap/
 
 ### [Теория вероятности](/math/terver/)
 
-### [Статистика](/statistics/)
+<br/>
 
-### [Robotics](/robotics/)
+## [Видеокурсы](/videos/)
 
-### [Языки программирования](/lang/)
+<br/>
+
+### [Видеокурсы по Data Science (Machine Learning / Deep Learning)](/videos/ds/)
+
+### [Видеокурсы по BigData (Hadoop, Spark, Kafka)](/videos/ds/bigdata/)
+
+### [Видеокурсы по BlockChain](/videos/blockchain/)
+
+### [Видеокурсы по математике](/videos/math/)
+
+### [Видеокурсы по статистике](/videos/statistics/)
+
+### [Видеокурсы по языкам программирования](/videos/videos/lang/)
+
+### [Видеокурсы по робототехнике](/videos/robotics/)
+
+<br/>
+
+## [Книги](/books/)
+
+### [Книги по DataScience (MachineLearning, DeepLearning)](/books/bigdata/)
+
+### [Книги по BigData](/books/bigdata/)
+
+### [BlockChain](/books/blockchain/)
 
 <br/><br/>
 

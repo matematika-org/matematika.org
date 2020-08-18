@@ -45,6 +45,6 @@ http://localhost:8080
 
 ## Обучающие материалы:
 
-### [Книги по BigData](/books/ds/bigdata/)
+### [Книги по BigData](/books/bigdata/)
 
 ### [Видеокурсы по BigData](/videos/ds/bigdata/)

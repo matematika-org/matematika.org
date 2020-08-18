@@ -97,9 +97,9 @@ TensorFlow, вроде как, был сложен для программист
 
 ## Обучающие материалы:
 
-### [Книги по Deep Learning](/dl/books/)
+### [Книги по Deep Learning](/books/ds/dl/)
 
-### [Видеокурсы по Deep Learning](/videos/ds/ai/dl/)
+### [Видеокурсы по Deep Learning](/videos/ds/dl/)
 
 <br/>
 

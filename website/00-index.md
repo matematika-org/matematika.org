@@ -78,7 +78,7 @@ https://www.youtube.com/watch?v=B_WCI_A944E
 
 Приглашаю к коллективному чтению и при необходимости, к обсуждению.
 
-<a href="/books/ds/ai/ml/ru/hands-on-machine-learning-with-scikit-learn-and-tensorflow/">Наработки</a>
+<a href="/books/ds/ml/ru/hands-on-machine-learning-with-scikit-learn-and-tensorflow/">Наработки</a>
 
 <br/>
 
@@ -337,7 +337,7 @@ https://cloud.mail.ru/public/499B/4XtQvr5tF
 По 50 страничек в будний день.
 
 
-![Hadoop Подробное руководство](/img/books/ds/bigdata/ru/Hadoop-The-Definitive-Guide-rus.jpg "Hadoop Подробное руководство"){: .center-image }
+![Hadoop Подробное руководство](/img/books/bigdata/ru/Hadoop-The-Definitive-Guide-rus.jpg "Hadoop Подробное руководство"){: .center-image }
 
 Книгу найдете сами.
 
