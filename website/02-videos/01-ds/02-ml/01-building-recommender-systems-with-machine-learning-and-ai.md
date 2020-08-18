@@ -1,9 +1,10 @@
 ---
 layout: page
 title: Building Recommender Systems with Machine Learning and AI
-permalink: /ml/recommender/videos/building-recommender-systems-with-machine-learning-and-ai/
+description: Building Recommender Systems with Machine Learning and AI
+keywords: Video Courses, Data Science
+permalink: /videos/ds/ml/en/building-recommender-systems-with-machine-learning-and-ai/
 ---
-
 
 # Building Recommender Systems with Machine Learning and AI
 
@@ -21,7 +22,7 @@ https://www.anaconda.com/
 
 ### Запускаем Spyder
 
-$ anaconda-navigator > Spyder
+    $ anaconda-navigator > Spyder
 
 http://media.sundog-soft.com/RecSys/RecSys-Materials.zip
 
@@ -94,7 +95,7 @@ Novelty:   Average popularity rank of recommended items. Higher means more novel
 
 ### 05 Content-Based Filtering
 
-        RUN --> ContentBased/ContentRecs.py
+    RUN --> ContentBased/ContentRecs.py
 
 ```
 Loading movie ratings...
@@ -332,7 +333,3 @@ Birdcage, The (1996) 5
 Carlito's Way (1993) 5
 Wizard of Oz, The (1939) 5
 ```
-
-<br/>
-
-### 06 Neighborhood-Based Collaborative Filtering

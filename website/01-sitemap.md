@@ -10,17 +10,13 @@ permalink: /sitemap/
 
 <br/>
 
-### [Machine Learning / Deep Learning](/ds/ai/)
+### [Machine Learning / Deep Learning](/ds/)
 
 ### [BigData](/ds/bigdata/)
 
 ### [BlockChain](/blockchain/)
 
 ### [Линейная алгебра](/math/linal/)
-
-### [Математический анализ](/math/matan/)
-
-### [Теория вероятности](/math/terver/)
 
 <br/>
 

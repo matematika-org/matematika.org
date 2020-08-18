@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Видеокурсы по Keras на английском языке
+description: Видеокурсы по Keras на английском языке
+keywords: Video Courses, Data Science, Keras
 permalink: /videos/ds/ai/ds/ai/dl/keras/en/
 ---
 
@@ -26,7 +28,7 @@ https://github.com/PacktPublishing/-Practical-Deep-Learning-with-Keras-and-Pytho
 
 ### Practical Projects with Keras 2.X
 
-Плохое произношение на английском, лучше чем индусы или арабы, но всеравно чувствуется, что что-то не то.
+Плохое произношение на английском, лучше чем индусы или арабы, но все равно чувствуется, что что-то не то.
 
 Коды я не смог скачать с сайта packtput.
 Мои коды <a href="https://bitbucket.org/matematika/practical-projects-with-keras-2.x/src/master/" rel="nofollow">здесь</a>
