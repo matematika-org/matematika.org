@@ -11,6 +11,9 @@ permalink: /books/blockchain/hyperledger/en/fabric/blockchain-for-business-with-
 Если кто будет изучать, присоединяйтесь. Может у вас лучше получится и вы подскажете как сделать, чтобы работало.
 
 За индусом нужен глаз да глаз. То там где-то напутает, то сям.
+А вообще этот мудазвон заставил меня копипастить код из pdf. И только в следующей главе, он дал ссылку на репо, где хранится код.
+
+К сожалению исходных кодов к книге нет. Да еще и при копи пасте команды в консоли не выполняются и необходимо предварительно их в техкстовом редакторе подправлять.
 
 <br/>
 
@@ -366,6 +369,11 @@ This will now show 90.
 
 ## Frameworks, Network Topologies, and Modeling
 
+**Код лежит здесь (чтобы не копипастить из pdf):**  
+https://github.com/SateDev/hyperledger_chaincode_asset_registry
+
+<br/>
+
 The requirements are simple—we need to write a smart contract that will register
 the property details, change the ownership, query the property details, and execute
 a few other operations on the properties.
@@ -421,12 +429,14 @@ https://fabric-shim.github.io/release-1.4/fabric-shim.ChaincodeStub.html
     $ mkdir asset-registry
     $ cd asset-registry
 
-    $ git clone https://github.com/webmakaka/hyperledger .
+    $ git clone https://github.com/SateDev/hyperledger_chaincode_asset_registry .
 
 <br/>
 
     $ cd /home/marley/projects/dev/hyperledger/fabric-samples/chaincode-docker-devmode
     $ docker-compose -f docker-compose-simple.yaml up
+
+Не нужно ждать, можно сразу переключаться на другой терминал.
 
 <br/>
 
@@ -484,9 +494,7 @@ Ok
         -c '{"Args":["queryAsset", "P100001"]}' \
         -C myc
 
-Ошибка
-
-    ctx.stub.getState(assetNumber); не возвращает данных
+Ok
 
 <br/>
 
@@ -496,7 +504,7 @@ Ok
         -c '{"Args":["createProperty", "P100003", "howbe", "2838", "somehg", "asdf", "2323", "someowner"]}' \
         -C myc
 
-Ошибка
+Ok
 
     // change the owner
     # peer chaincode invoke \
@@ -504,11 +512,170 @@ Ok
         -c '{"Args":["changePropertyOwner", "P100003", "marley"]}' \
         -C myc
 
-Ошибка
+Ok
 
     # peer chaincode query \
         -n asset-cc \
         -c '{"Args":["queryAsset", "P100003"]}' \
         -C myc
 
-Ошибка
+Ok
+
+<br/>
+
+Дальше у меня было не все хорошо с расширением для vscode.
+
+<br/>
+
+## Fabric SDK: Interaction with Fabric Network
+
+    // Репо ушло вперед. Использую другой вариант. В книге предлагают
+    // $ git clone https://github.com/hyperledger/fabric-samples.git
+
+    $ curl -sSL https://raw.githubusercontent.com/hyperledger/fabric/master/scripts/bootstrap.sh | bash -s 1.4.0
+
+    $ cd fabric-samples
+
+It is a one-organization network comprising one peer, one orderer, Fabric CA, CouchDB, and CLI container.
+
+    $ cd chaincode
+
+    $ mkdir asset-registery
+    $ cd asset-registery
+
+    $ git clone https://github.com/SateDev/hyperledger_chaincode_asset_registry .
+
+    // Ошибка дальше, если не выполнить. (На моем ПК)
+    // "Duplicate identifier 'IteratorResult'"
+    $ npm update --save-dev @types/node
+
+<br/>
+
+    $ cd ../
+
+    $ mkdir startup
+    $ cd startup
+
+    $ curl -OL https://raw.githubusercontent.com/SateDev/asset-registry-sdk/master/scripts/startup.sh
+
+<br/>
+
+    $ chmod 777 ./startup.sh
+    $ ./startup.sh typescript
+
+<br/>
+
+<br/>
+
+### Enrolment and registration of admin and user
+
+using CA server
+
+    $ cd ~/projects/dev/hyperledger/
+
+    $ git clone https://github.com/SateDev/asset-registry-api
+
+    $ cd asset-registry-api
+
+    $ code .
+
+Заменить во всем проекте 52.187.123.234 на localhost
+
+    $ npm install
+    $ node enrollAdmin.js
+
+This will fetch the certificates from the CA server and put them in the path
+
+Создается каталог hfc-key-store с приватным и публичным ключом.
+
+    $ ls ./hfc-key-store/
+    37f942a7a1440f93a980c2273e15898e390738ebcb99e9d139eac8766343cf74-priv
+    37f942a7a1440f93a980c2273e15898e390738ebcb99e9d139eac8766343cf74-pub
+    6adf7f30861af5ec871e3935e124902df33235106474f9e53a6e53749f16c1bc-priv
+
+<br/>
+
+### Registration and enrolment of the user
+
+    $ node registerUser.js
+
+В hfc-key-store добавились ключи для созданного пользователя.
+
+<br/>
+
+### Chaincode invoke and query
+
+Как сделал индус, из коробки у меня не заработало.
+
+Я вынес функцию invoke и вызвал ее.
+
+```
+invoke();
+
+
+async function invoke(p,r,o,m,a,i,n) {
+```
+
+    $ node invoke.js
+
+Походу всеравно ошибка.
+
+```
+Start invoke processing
+
+Created a transaction ID: 8e3ee6926d1e0f4b694754ffd343aff36a7ab608f149c6e77d3df7c04e6489ae
+undefined undefined undefined undefined undefined undefined undefined
+Unable to invoke ::TypeError: First argument must be a string, Buffer, ArrayBuffer, Array, or array-like object.
+```
+
+<br/>
+
+    $ node query.js
+
+Ну да
+
+```
+Store path:/home/marley/projects/dev/hyperledger/asset-registry-api/hfc-key-store
+Successfully loaded user1 from persistence
+Failed to query successfully :: ReferenceError: start is not defined
+```
+
+<br/>
+
+### Invoking ChangePropertyOwner from Fabric SDK
+
+    $ node changeOwner.js
+    $ node query.js
+
+Вернусь и попробую победить, после завершения чтения книги.
+
+<br/>
+
+## Fabric SDK: Building End-to-End Application with Fabric Network
+
+Настраиваем окружение как и в предыдущей главе.
+
+    $ node enrollAdmin.js
+    $ node registerUser.js
+    $ node server.js
+
+<br/>
+
+Далее будем прикручивать angular приложение.
+
+    $ cd ~/projects/dev/hyperledger/
+    $ git clone https://github.com/SateDev/asset-registry-ui
+    $ cd asset-registry-ui
+
+Нужно в package.json поправить name. Чтобы было "name": "asset_registry". Иначе не запустится.
+
+    $ npm install
+    $ npm start
+
+http://localhost:4200/
+
+<br/>
+
+## Fabric in Production
+
+Не до production пока
