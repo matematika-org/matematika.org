@@ -8,9 +8,13 @@ permalink: /books/blockchain/hyperledger/en/fabric/
 
 # Hyperleger Fabric (Blockchain)
 
+<!--
+
 <br/>
 
 ### [Packt] Hyperledger Cookbook [ENG, 2019]
+
+-->
 
 <br/>
 
