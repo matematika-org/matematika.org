@@ -54,9 +54,11 @@ permalink: /books/blockchain/hyperledger/en/fabric/blockchain-for-business-with-
 
 Инсталляция подходящей версии node.js для проектов из книги.
 
-    $ nvm install v8.17.0
-    $ nvm use v8.17.0
-    $ nvm alias default v8.17.0
+    $ {
+      nvm install v8.17.0
+      nvm use v8.17.0
+      nvm alias default v8.17.0
+    }
 
 <br/>
 
@@ -81,8 +83,7 @@ permalink: /books/blockchain/hyperledger/en/fabric/blockchain-for-business-with-
         docker system prune -a
     }
 
-    $ cd ~/projects/dev/
-    $ mkdir -p hyperledger
+    $ mkdir -p ~/projects/dev/hyperledger
 
     $ cd ~/projects/dev/hyperledger/
     $ curl -sSL https://raw.githubusercontent.com/hyperledger/fabric/master/scripts/bootstrap.sh | bash -s 1.4.8
