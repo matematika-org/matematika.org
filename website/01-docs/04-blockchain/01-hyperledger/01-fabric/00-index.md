@@ -376,15 +376,26 @@ Version: 1.0, Sequence: 1, Endorsement Plugin: escc, Validation Plugin: vscc, Ap
 
 <br/>
 
-Для TypeScript и JavaScript у меня на этом шаге ошибка
+**Для TypeScript и JavaScript**
+
+Когда ошибка:
 
 ```
 Error: endorsement failure during invoke. response: status:500 message:"error in simulation: transaction returned with failure: Error: You've asked to invoke a function that does not exist: initLedger"
 ```
 
+    // Нужно вызывать функцию следующим образом! Я на этой @#$%^& часа 3-4 потерял!
+    -c '{"function":"InitLedger","Args":[]}'
+
 <br/>
 
     $ peer chaincode query -C mychannel -n basic -c '{"Args":["getAllAssets"]}' | python -m json.tool
+
+<br/>
+
+**Для TypeScript и JavaScript**
+
+    $ peer chaincode query -C mychannel -n basic -c '{"Args":["GetAllAssets"]}' | python -m json.tool
 
 ```
 [
@@ -586,18 +597,27 @@ Package ID: basic_2.0:58b24c58b05c1be32b529d4d64e9ec569bc4d7c7e7acb6810aeef3b3f1
         --tlsRootCertFiles ${PWD}/organizations/peerOrganizations/org2.example.com/peers/peer0.org2.example.com/tls/ca.crt \
         -c '{"function":"createAsset","Args":["asset8","blue","16","Kelley","750"]}'
 
-```
-Error: endorsement failure during invoke. response: status:500 message:"error in simulation: transaction returned with failure: Error: You've asked to invoke a function that does not exist: createAsset"
-```
+<br/>
+
+**Для TypeScript и JavaScript**
+
+    -c '{"function":"CreateAsset","Args":["asset8","blue","16","Kelley","750"]}'
+
+<br/>
 
     $ peer chaincode query \
         -C mychannel \
         -n basic \
         -c '{"Args":["getAllAssets"]}'
 
-```
-Error: endorsement failure during invoke. response: status:500 message:"error in simulation: transaction returned with failure: Error: You've asked to invoke a function that does not exist: createAsset"
-```
+<br/>
+
+**Для TypeScript и JavaScript**
+
+    $ peer chaincode query \
+        -C mychannel \
+        -n basic \
+        -c '{"Args":["GetAllAssets"]}'
 
 <br/>
 
