@@ -13,3 +13,7 @@ permalink: /blockchain/hyperledger/fabric/official-docs/tutorials/
 <br/>
 
 ### [7.2 Writing Your First Application](/blockchain/hyperledger/fabric/official-docs/tutorials/writing-your-first-application/)
+
+<br/>
+
+### [7.3 Commercial paper tutorial](/blockchain/hyperledger/fabric/official-docs/tutorials/сommercial-paper-tutorial/)
