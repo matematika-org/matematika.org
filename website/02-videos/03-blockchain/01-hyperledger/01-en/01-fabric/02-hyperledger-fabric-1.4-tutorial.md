@@ -149,12 +149,35 @@ http://127.0.0.1:8080
 
 <br/>
 
-### 04 - Hyperledger 1.4 Vue.js web-app walkthrough #1 User Authentication
+### 04-05 - Hyperledger 1.4 Vue.js web-app walkthrough
 
 https://www.youtube.com/watch?v=8uJSHW3Rpzs&list=PLVztKpIRxvQU-deHiJYmSLK83fEGQt96k&index=4
 
 https://github.com/IBM/evote
 
-Все видео рассказывает про работу кода.
+Все видео рассказывает про работу кода. Никакой практики.
 
 Возможно, нужно заменить IP подключения.
+
+<br/>
+
+### 06 - Hyperledger Fabric 1.4 Tutorial - How to listen to events
+
+https://www.youtube.com/watch?v=KLWLCjKf5Xw&list=PLVztKpIRxvQU-deHiJYmSLK83fEGQt96k&index=6
+
+https://github.com/IBM/auction-events
+
+https://hyperledger.github.io/fabric-sdk-node/release-1.4/tutorial-listening-to-events.html
+
+<br/>
+
+    $ cd ~/projects/dev/hyperledger/
+    $ git clone https://github.com/IBM/auction-events
+    $ cd auction-events/application/
+    $ npm install
+    $ node contractEvents.js
+
+Ошибки. Пишет, что файла mychannel_auction_profile.json нет. Сейчас разбираться не хочется.
+
+    $ node blockEvents.js
+    $ node transactionEvents.js

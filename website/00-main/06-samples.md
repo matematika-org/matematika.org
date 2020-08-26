@@ -8,7 +8,7 @@ permalink: /samples/
 
 # Примеры приложений
 
-### Приложение для выявления рака на ранней стадии по картинкам от IBM
+### [DeepLearning] Приложение для выявления рака на ранней стадии по картинкам от IBM
 
 **Приложение:**  
 https://github.com/IBM/MAX-Breast-Cancer-Mitosis-Detector.git
@@ -17,3 +17,15 @@ https://github.com/IBM/MAX-Breast-Cancer-Mitosis-Detector.git
 https://www.katacoda.com/javajon/courses/kubernetes-pipelines/registries
 
 **Можно попробовать развернуть локально. Например, в minikube**
+
+<br/>
+
+### [BlockChain/Hyperledger] Голосовалка от IBM на Vue.js
+
+https://github.com/IBM/evote
+
+https://www.youtube.com/watch?v=8uJSHW3Rpzs&list=PLVztKpIRxvQU-deHiJYmSLK83fEGQt96k&index=4
+
+<br/>
+
+https://github.com/IBM/auction-events
