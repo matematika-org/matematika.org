@@ -17,3 +17,11 @@ permalink: /blockchain/hyperledger/fabric/official-docs/tutorials/
 <br/>
 
 ### [7.3 Commercial paper tutorial](/blockchain/hyperledger/fabric/official-docs/tutorials/сommercial-paper-tutorial/)
+
+<br/>
+
+### [7.4 Using Private Data in Fabric](/blockchain/hyperledger/fabric/official-docs/tutorials/using-private-data-in-fabric/)
+
+<br/>
+
+### [7.5 Secured asset transfer in Fabric](/blockchain/hyperledger/fabric/official-docs/tutorials/secured-asset-transfer-in-fabric/)

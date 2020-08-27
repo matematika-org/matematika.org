@@ -40,18 +40,18 @@ permalink: /blockchain/hyperledger/fabric/official-docs/tutorials/writing-your-f
 - Приложение на javascript (asset-transfer-basic/application-javascript)
 - Smart Contract на javascript, java, go, typescript (chaincode-\*)
 
+```
+$ cd fabric-samples/test-network/
 
-    $ cd fabric-samples/test-network/
+// This command will deploy the Fabric test network with two peers, an ordering service, and three certificate authorities (Orderer, Org1, Org2). Instead of using the cryptogen tool, we bring up the test network using Certificate Authorities,
+hence the -ca flag. Additionally, the org admin user registration is bootstrapped when the Certificate Authority is started. In a later step, we will show how the sample application completes the admin enrollment.
 
-    // This command will deploy the Fabric test network with two peers, an ordering service, and three certificate authorities (Orderer, Org1, Org2). Instead of using the cryptogen tool, we bring up the test network using Certificate Authorities,
-    hence the -ca flag. Additionally, the org admin user registration is bootstrapped when the Certificate Authority is started. In a later step, we will show how the sample application completes the admin enrollment.
+// Еще и не с первого раза запускается
+$ ./network.sh down && ./network.sh up createChannel -c mychannel -ca
 
-    // Еще и не с первого раза запускается
-    $ ./network.sh down && ./network.sh up createChannel -c mychannel -ca
-
-
-    // This script uses the chaincode lifecycle to package, install, query installed chaincode, approve chaincode for both Org1 and Org2, and finally commit the chaincode.
-    $ ./network.sh deployCC -ccn basic -ccl javascript
+// This script uses the chaincode lifecycle to package, install, query installed chaincode, approve chaincode for both Org1 and Org2, and finally commit the chaincode.
+$ ./network.sh deployCC -ccn basic -ccl javascript
+```
 
 В общем мы завершили работу над backend.
 

@@ -1,16 +1,18 @@
 ---
 layout: page
-title: R
+title: Видеоуроки по языку программирования R
+description: Видеоуроки по языку программирования R
+keywords: Язык программирования R
 permalink: /videos/lang/r/
 ---
 
-# R
+# Видеоуроки по языку программирования R
 
 <br/>
 
-### R Notes for Professionals
+### [YouTube] R Programming Crash Course
 
-https://goalkicker.com/RBook/
+https://www.youtube.com/watch?v=ZYdXI1GteDE
 
 <br/>
 
