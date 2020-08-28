@@ -25,3 +25,11 @@ permalink: /blockchain/hyperledger/fabric/official-docs/tutorials/
 <br/>
 
 ### [7.5 Secured asset transfer in Fabric](/blockchain/hyperledger/fabric/official-docs/tutorials/secured-asset-transfer-in-fabric/)
+
+<br/>
+
+### [7.6 Using CouchDB](/blockchain/hyperledger/fabric/official-docs/tutorials/using-couchdb/)
+
+<br/>
+
+### [7.7 Creating a channel](/blockchain/hyperledger/fabric/official-docs/tutorials/creating-a-channel/)

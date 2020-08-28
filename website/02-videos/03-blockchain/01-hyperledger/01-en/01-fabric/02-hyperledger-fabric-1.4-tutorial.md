@@ -12,6 +12,35 @@ https://www.youtube.com/watch?v=2moCQeHCx-g&list=PLVztKpIRxvQU-deHiJYmSLK83fEGQt
 
 <br/>
 
+    // Нужна версия node 8 или 10. С 12 некоторые пакеты не компилятся.
+
+    -- installation
+
+    $ LATEST_VERSION=$(curl --silent "https://api.github.com/repos/nvm-sh/nvm/releases/latest" | grep '"tag_name"' | sed -E 's/.*"([^"]+)".*/\1/')
+
+    $ curl -o- https://raw.githubusercontent.com/creationix/nvm/${LATEST_VERSION}/install.sh | bash
+
+<br/>
+
+    $ export NVM_DIR="$HOME/.nvm"
+    [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+    [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+    // варианты ноды
+    $ nvm ls-remote
+
+
+    $ {
+      nvm install v10.22.0
+      nvm use v10.22.0
+      nvm alias default v10.22.0
+    }
+
+    $ node --version
+    v10.22.0
+
+<br/>
+
 ### 01 - Hyperledger Fabric 1.4 Tutorial - FabCar Sample Application
 
 https://www.youtube.com/watch?v=2moCQeHCx-g&list=PLVztKpIRxvQU-deHiJYmSLK83fEGQt96k&index=1
@@ -19,11 +48,6 @@ https://www.youtube.com/watch?v=2moCQeHCx-g&list=PLVztKpIRxvQU-deHiJYmSLK83fEGQt
 <br/>
 
 https://hyperledger-fabric.readthedocs.io/en/release-1.4/write_first_app.html
-
-<br/>
-
-    $ node --version
-    v12.18.3
 
 <br/>
 
@@ -62,39 +86,12 @@ https://github.com/horeaporutiu/commercialPaperLoopback
 
 <br/>
 
-    // Нужна версия node 8 или 10. С 12 пакеты не компилятся.
-
-    -- installation
-
-    $ LATEST_VERSION=$(curl --silent "https://api.github.com/repos/nvm-sh/nvm/releases/latest" | grep '"tag_name"' | sed -E 's/.*"([^"]+)".*/\1/')
-
-    $ curl -o- https://raw.githubusercontent.com/creationix/nvm/${LATEST_VERSION}/install.sh | bash
-
-<br/>
-
-    $ export NVM_DIR="$HOME/.nvm"
-    [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-    [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-
-    // варианты ноды
-    $ nvm ls-remote
-
-
-    $ {
-      nvm install v10.22.0
-      nvm use v10.22.0
-      nvm alias default v10.22.0
-    }
-
-    $ node --version
-    v10.22.0
-
-
     $ cd ~/projects/dev/hyperledger/
     $ git clone https://github.com/horeaporutiu/commercialPaperLoopback
     $ cd commercialPaperLoopback/
 
-    //
+<br/>
+
     $ npm install
     $ npm rebuild
     $ npm start
@@ -133,7 +130,7 @@ https://www.youtube.com/watch?v=mG2TCIPlvk0&list=PLVztKpIRxvQU-deHiJYmSLK83fEGQt
 
 https://github.com/IBM/blockchainbean2
 
-Сначала демонстрация, потом показывает как работать. Используется расширение VS Code для Blockchain. Если нет желания в них регистрировать, то и пошагово делать, не имеет смысла. Запись запутанная и непонятная.
+Сначала демонстрация, потом показывает как работать. Используется расширение VS Code для Blockchain. Если нет желания добавлять расширения, то и пошагово делать, не имеет смысла. Запись запутанная и непонятная.
 
 <br/>
 
@@ -181,3 +178,44 @@ https://hyperledger.github.io/fabric-sdk-node/release-1.4/tutorial-listening-to-
 
     $ node blockEvents.js
     $ node transactionEvents.js
+
+<br/>
+
+### [Интересное видео!] 7-8 - Hyperledger Fabric 1.4 Tutorial - Five-node Raft Ordering Service Demo
+
+https://www.youtube.com/watch?v=Lo9UB_idBto&list=PLVztKpIRxvQU-deHiJYmSLK83fEGQt96k&index=7
+
+https://github.com/IBM/raft-fabric-sample
+
+<br/>
+
+    $ cd /home/marley/projects/dev/hyperledger
+    $ git clone https://github.com/IBM/raft-fabric-sample
+    $ cd raft-fabric-sample
+    $ cd first-network/
+
+    // генерим ключи
+    $ ./byfn.sh generate -o etcdraft
+
+<br/>
+
+Мдя, ему python2 нужен. У меня толко 3.
+
+    // создаем сеть
+    $ ./byfn.sh up -o etcdraft -l node
+
+<br/>
+
+    $ cd web-app/client/
+    $ npm install
+    $ npm start
+
+    $ cd web-app/server/
+    $ npm install
+    $ node enrollAdmin.js
+    $ ./updateKeystore.sh
+    $ npm start
+
+<br/>
+
+localhost:4200

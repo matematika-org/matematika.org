@@ -22,6 +22,14 @@ https://www.katacoda.com/javajon/courses/kubernetes-pipelines/registries
 
 ### [BlockChain/Hyperledger] Голосовалка от IBM на Vue.js
 
+<br/>
+
+https://github.com/IBM/raft-fabric-sample
+
+https://www.youtube.com/watch?v=Lo9UB_idBto&list=PLVztKpIRxvQU-deHiJYmSLK83fEGQt96k&index=7
+
+<br/>
+
 https://github.com/IBM/evote
 
 https://www.youtube.com/watch?v=8uJSHW3Rpzs&list=PLVztKpIRxvQU-deHiJYmSLK83fEGQt96k&index=4
