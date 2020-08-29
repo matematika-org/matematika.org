@@ -33,3 +33,7 @@ permalink: /blockchain/hyperledger/fabric/official-docs/tutorials/
 <br/>
 
 ### [7.7 Creating a channel](/blockchain/hyperledger/fabric/official-docs/tutorials/creating-a-channel/)
+
+<br/>
+
+### [7.8 Adding an Org to a Channel](/blockchain/hyperledger/fabric/official-docs/tutorials/adding-an-org-to-a-channel/)

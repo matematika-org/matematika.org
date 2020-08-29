@@ -219,3 +219,156 @@ https://github.com/IBM/raft-fabric-sample
 <br/>
 
 localhost:4200
+
+<br/>
+
+### [Интересное видео!] 9-10 - Hypeprledger Fabric 1.4 Tutorial - Smart Contract Access Control Demo
+
+https://www.youtube.com/watch?v=EjJS_bRgoS8&list=PLVztKpIRxvQU-deHiJYmSLK83fEGQt96k&index=9
+
+https://github.com/IBM/fabric-contract-attribute-based-access-control
+
+<br/>
+
+    $ git clone https://github.com/IBM/fabric-contract-attribute-based-access-control.git
+
+    $ cd fabric-contract-attribute-based-access-control/
+
+    $ code .
+
+<br/>
+
+Farbic Environment --> 1 Org Local Fabric runtime --> click
+
+View -> Open Command Pallette -> Import Package -> gensupplychainnet@0.0.1.cds
+
+- install -> gensupplychainnet@0.0.1.cds
+
+- instantiate -> gensupplychainnet@0.0.1.cds
+
+<br/>
+
+FABRIC GATEWAYS -> 1 Org Local Fabric - Org1 gateway -> admin.
+
+После коннета -> Три точки -> Export Connection Profile
+
+Сохранить fabric-contract-attribute-based-access-control/gateway/local/
+
+<br/>
+
+FABRIC WALLETS -> 1 Org Local Fabric -> Org1 -> Правой кнопкой мыши -> Export and save в каталог fabric-contract-attribute-based-access-control/gateway/local
+
+<br/>
+
+    $ cd fabric-contract-attribute-based-access-control/gateway/local/
+
+    $ mv 1OrgLocalFabricOrg1Connection.json fabric_connection.json
+    $ mv Org1 gen_local_wallet
+
+<br/>
+
+    $ cd ../../application/server/
+    $ npm install
+    $ node server.js
+
+<br/>
+
+    $ cd ../client/
+    $ npm install
+    $ npm run start
+
+localhost:4200
+
+<br/>
+
+admin/adminpw
+
+<br/>
+
+Добавляем пользователей:
+
+```
+id: GHFarm
+password: GHFarm
+role: producer
+
+id: Walmart
+password: Walmart
+role: retailer
+
+id: UPS
+password: UPS
+role: shipper
+
+id: ACustomer
+password: ACustomer
+role: customer
+
+id: FDA
+password: FDA
+role: regulator
+```
+
+<br/>
+
+Logout -> Enrol для каждого созданного.
+
+<br/>
+
+Log in as "Walmart"
+
+Place Order
+
+```
+Product ID: corn
+Price:        10
+Quantity:     10
+Producer ID:  GHFarm
+
+
+Product ID: avocado
+Price:      5
+Quantity:   15
+Producer ID:  GHFarm
+
+```
+
+<br/>
+
+Log out and in as "GHFarm"
+
+```
+corn order ->  Accept Order -> Assign Shipper -> UPS
+```
+
+<br/>
+
+Log out and in as "UPS"
+
+```
+corn order -> Create Shipment -> Transport Shipment
+```
+
+<br/>
+
+Log out and in as "Walmart" again
+
+```
+corn order -> Receive Shipment
+```
+
+<br/>
+
+Log out and in as "FDA"
+
+```
+list of all orders
+```
+
+Посмотреть и куда-нибудь записать id заказа.
+
+<br/>
+
+Log out and in as "ACustomer"
+
+В поиске вставить order-afb4

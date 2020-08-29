@@ -8,6 +8,8 @@ permalink: /videos/ds/dl/pytorch/en/
 
 # Видеокурсы по PyTorch на английском языке
 
+<br/>
+
 ### [Phil Tabor] Modern Reinforcement Learning: Actor-Critic Methods [ENG, 8/2020]
 
 <br/>
