@@ -10,20 +10,12 @@ permalink: /videos/blockchain/hyperledger/en/fabric/
 
 <br/>
 
-### [YouTube, Horea Porutiu] Hyperledger Fabric 1.4 Tutorial [ENG, 2019]
-
-https://www.youtube.com/watch?v=2moCQeHCx-g&list=PLVztKpIRxvQU-deHiJYmSLK83fEGQt96k
-
-<a href="/videos/blockchain/hyperledger/en/fabric/hyperledger-fabric-1.4-tutorial/">здесь</a>
+### [[YouTube, Horea Porutiu] Обзорная презентация от сотрудника IBM [ENG, 2019]](https://www.youtube.com/watch?v=7pcTE5M0fAs)
 
 <br/>
 
-**Посмотреть:**  
-Deploy a blockchain web-app with Hyperledger Fabric 1.4 - Concepts & Code  
-https://www.youtube.com/watch?v=7pcTE5M0fAs
+### [[YouTube, Horea Porutiu] Hyperledger Fabric 1.4 Tutorial [ENG, 2019]](/videos/blockchain/hyperledger/en/fabric/hyperledger-fabric-1.4-tutorial/)
 
 <br/>
 
-### [Rajeev Sakhuja] Mastering Hyperledger Chaincode Development using GoLang [ENG, 2019, Latest updates 16/06/2020]
-
-<a href="/videos/blockchain/hyperledger/en/fabric/mastering-hperledger-chaincode-development-using-golang/">здесь</a>
+### [[Rajeev Sakhuja] Mastering Hyperledger Chaincode Development using GoLang [ENG, 2019, Latest updates 16/06/2020]](/videos/blockchain/hyperledger/en/fabric/mastering-hperledger-chaincode-development-using-golang/)

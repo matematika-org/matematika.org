@@ -12,6 +12,10 @@ https://www.youtube.com/watch?v=2moCQeHCx-g&list=PLVztKpIRxvQU-deHiJYmSLK83fEGQt
 
 <br/>
 
+**Сначала какие-то неинтересные проекты. Последние 2 норм.**
+
+<br/>
+
     // Нужна версия node 8 или 10. С 12 некоторые пакеты не компилятся.
 
     -- installation
@@ -150,11 +154,98 @@ http://127.0.0.1:8080
 
 https://www.youtube.com/watch?v=8uJSHW3Rpzs&list=PLVztKpIRxvQU-deHiJYmSLK83fEGQt96k&index=4
 
+<br/>
+
+**Более подробно:**  
+https://www.youtube.com/watch?v=7pcTE5M0fAs
+
+<br/>
+
+**Исходники проекта:**  
 https://github.com/IBM/evote
+
+<br/>
 
 Все видео рассказывает про работу кода. Никакой практики.
 
-Возможно, нужно заменить IP подключения.
+<br/>
+
+**Пытаемся поднять локально.**
+
+<br/>
+
+    $ cd ~/projects/dev/hyperledger/
+    $ git clone https://github.com/IBM/evote
+    $ cd contract/
+    $ npm install
+    $ code .
+
+<br/>
+
+Стартуем NetWork
+
+- install
+- instantiate
+
+<br/>
+
+    $ cd web-app/server/
+    $ npm install
+
+<br/>
+
+FABRIC GATEWAYS -> 1 Org Local Fabric - Org1 gateway -> admin.
+
+После коннета -> Три точки -> Export Connection Profile
+
+Сохранить в файл ibpConnection.json в корне server
+
+<br/>
+
+FABRIC WALLETS -> 1 Org Local Fabric -> Org1 -> Правой кнопкой мыши -> Export and save в каталог wallet
+
+<br/>
+
+    $ vi config.json
+
+Предположу, что конфиг должен выглядеть следующим образом:
+
+```
+{
+  "connection_file": "ibpConnection.json",
+  "appAdmin": "app-admin",
+  "appAdminSecret": "app-adminpw",
+  "orgMSPID": "Org1MSP",
+  "caName": "http://localhost:17055",
+  "userName": "user1",
+  "gatewayDiscovery": { "enabled": true, "asLocalhost": true }
+}
+```
+
+    $ node enrollAdmin.js
+
+У меня ошибка.
+
+```
+Failed to enroll admin user ' + app-admin + : Error: Enrollment failed with errors [[{"code":20,"message":"Authentication failure"}]]
+```
+
+<br/>
+
+Хз, что делать. Жду посказок от разобравшихся.
+
+    $ npm start
+
+<br/>
+
+    $ cd web-app/client/
+    $ npm install
+    $ npm run build
+    $ npm run serve
+
+<br/>
+
+http://localhost:8080/
 
 <br/>
 
@@ -199,7 +290,7 @@ https://github.com/IBM/raft-fabric-sample
 
 <br/>
 
-Мдя, ему python2 нужен. У меня толко 3.
+Мдя, ему python2 нужен. У меня только 3.
 
     // создаем сеть
     $ ./byfn.sh up -o etcdraft -l node
@@ -230,6 +321,8 @@ https://github.com/IBM/fabric-contract-attribute-based-access-control
 
 <br/>
 
+    $ cd ~/projects/dev/hyperledger/
+
     $ git clone https://github.com/IBM/fabric-contract-attribute-based-access-control.git
 
     $ cd fabric-contract-attribute-based-access-control/
@@ -252,7 +345,7 @@ FABRIC GATEWAYS -> 1 Org Local Fabric - Org1 gateway -> admin.
 
 После коннета -> Три точки -> Export Connection Profile
 
-Сохранить fabric-contract-attribute-based-access-control/gateway/local/
+Сохранить в fabric-contract-attribute-based-access-control/gateway/local/
 
 <br/>
 
