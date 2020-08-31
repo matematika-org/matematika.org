@@ -80,11 +80,26 @@ Note that we are using the -ccep flag to deploy the smart contract with an endor
     $ export ASSET_PROPERTIES=$(echo -n "{\"object_type\":\"asset_properties\",\"asset_id\":\"asset1\",\"color\":\"blue\",\"size\":35,\"salt\":\"a94a8fe5ccb19ba61c4c0873d391e987982fbbd3\"}" | base64 | tr -d \\n)
 
     // create a asset that belongs to Org1
-    $ peer chaincode invoke -o localhost:7050 --ordererTLSHostnameOverride orderer.example.com --tls --cafile ${PWD}/organizations/ordererOrganizations/example.com/orderers/orderer.example.com/msp/tlscacerts/tlsca.example.com-cert.pem -C mychannel -n secured -c '{"function":"CreateAsset","Args":["asset1", "A new asset for Org1MSP"]}' --transient "{\"asset_properties\":\"$ASSET_PROPERTIES\"}"
+    $ peer chaincode invoke \
+        -o localhost:7050 \
+        --ordererTLSHostnameOverride orderer.example.com \
+        --tls \
+        --cafile ${PWD}/organizations/ordererOrganizations/example.com/orderers/orderer.example.com/msp/tlscacerts/tlsca.example.com-cert.pem \
+        -C mychannel \
+        -n secured \
+        -c '{"function":"CreateAsset","Args":["asset1", "A new asset for Org1MSP"]}' \
+        --transient "{\"asset_properties\":\"$ASSET_PROPERTIES\"}"
 
 
-    $ peer chaincode query -o localhost:7050 --ordererTLSHostnameOverride orderer.example.com --tls --cafile ${PWD}/organizations/ordererOrganizations/example.com/orderers/orderer.example.com/msp/tlscacerts/tlsca.example.com-cert.pem -C mychannel -n secured -c '{"function":"GetAssetPrivateProperties","Args":["asset1"]}' \
-    | python -m json.tool
+    $ peer chaincode query \
+        -o localhost:7050 \
+        --ordererTLSHostnameOverride orderer.example.com \
+        --tls \
+        --cafile ${PWD}/organizations/ordererOrganizations/example.com/orderers/orderer.example.com/msp/tlscacerts/tlsca.example.com-cert.pem \
+        -C mychannel \
+        -n secured \
+        -c '{"function":"GetAssetPrivateProperties","Args":["asset1"]}' \
+        | python -m json.tool
 
 ```
 {

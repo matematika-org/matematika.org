@@ -8,17 +8,47 @@ permalink: /blockchain/hyperledger/fabric/official-docs/tutorials/deploying-a-sm
 
 # 7.1 Hyperleger Fabric - Deploying a smart contract to a channel
 
-Делаю:
-
-26.08.2020
+**Делаю:**  
+31.08.2020
 
 <br/>
 
+### Все удаляю
+
     $ cd ~/projects/dev/hyperledger/
+    $ sudo rm -rf *
+
+<br/>
+
+    $ {
+        docker stop $(docker ps -aq)
+        docker rm $(docker ps -aq)
+        docker system prune -a
+    }
+
+<br/>
+
+    $ curl -sSL https://raw.githubusercontent.com/hyperledger/fabric/master/scripts/bootstrap.sh | bash -s
+
+<br/>
+
     $ cd fabric-samples/test-network/
 
     // Чего-то как-то не каждый раз срабатывает. Приходится по несколько раз делать down/up
     $ ./network.sh down && ./network.sh up createChannel
+
+<br/>
+
+```
+$ docker ps
+CONTAINER ID        IMAGE                               COMMAND             CREATED             STATUS              PORTS                              NAMES
+b30252361fcc        hyperledger/fabric-orderer:latest   "orderer"           31 seconds ago      Up 29 seconds       0.0.0.0:7050->7050/tcp             orderer.example.com
+b6c92736704e        hyperledger/fabric-peer:latest      "peer node start"   31 seconds ago      Up 29 seconds       7051/tcp, 0.0.0.0:9051->9051/tcp   peer0.org2.example.com
+0c1b84ff5e47        hyperledger/fabric-peer:latest      "peer node start"   31 seconds ago      Up 30 seconds       0.0.0.0:7051->7051/tcp             peer0.org1.example.com
+
+```
+
+<br/>
 
 We can now use the Peer CLI to deploy the asset-transfer (basic) chaincode to the channel using the following steps:
 
@@ -52,13 +82,17 @@ If the command is successful, the go packages will be installed inside a vendor 
     $ export FABRIC_CFG_PATH=$PWD/../config/
 
     $ peer version
-    $ peer lifecycle chaincode package basic.tar.gz --path ../asset-transfer-basic/chaincode-go/ --lang golang --label basic_1.0
+
+    $ peer lifecycle chaincode package basic.tar.gz \
+        --path ../asset-transfer-basic/chaincode-go/ \
+        --lang golang \
+        --label basic_1.0
 
 Создался basic.tar.gz в текущем каталоге.
 
 <br/>
 
-**JavaScript** (Не работает. На шаге invoke не находит вызываемые методы)
+**JavaScript**
 
     $ cd ~/projects/dev/hyperledger/
     $ cd fabric-samples/asset-transfer-basic/chaincode-javascript
@@ -82,7 +116,7 @@ If the command is successful, the go packages will be installed inside a vendor 
 
 <br/>
 
-**Typescript** (Не работает. На шаге invoke не находит вызываемые методы)
+**Typescript**
 
     $ cd ~/projects/dev/hyperledger/
     $ cd fabric-samples/asset-transfer-basic/chaincode-typescript
@@ -91,9 +125,14 @@ If the command is successful, the go packages will be installed inside a vendor 
     // В интрукции этого пункта нет
     $ npm run build
 
-    $ cd ../../test-network
-    $ export PATH=${PWD}/../bin:$PATH
-    $ export FABRIC_CFG_PATH=$PWD/../config/
+    $ cd /home/marley/projects/dev/hyperledger/fabric-samples/test-network/
+
+    $ {
+        export PATH=${PWD}/../bin:$PATH
+        export FABRIC_CFG_PATH=$PWD/../config/
+    }
+
+<br/>
 
     $ peer lifecycle chaincode \
         package basic.tar.gz \
@@ -117,6 +156,8 @@ If the command is successful, the go packages will be installed inside a vendor 
         export CORE_PEER_ADDRESS=localhost:7051
     }
 
+<br/>
+
     $ peer lifecycle chaincode install basic.tar.gz
 
 <br/>
@@ -130,6 +171,8 @@ If the command is successful, the go packages will be installed inside a vendor 
         export CORE_PEER_MSPCONFIGPATH=${PWD}/organizations/peerOrganizations/org2.example.com/users/Admin@org2.example.com/msp
         export CORE_PEER_ADDRESS=localhost:9051
     }
+
+<br/>
 
     $ peer lifecycle chaincode install basic.tar.gz
 
@@ -219,6 +262,8 @@ You need to approve a chaincode definition with an identity that has an admin ro
         --tlsRootCertFiles ${PWD}/organizations/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/ca.crt \
         --peerAddresses localhost:9051 \
         --tlsRootCertFiles ${PWD}/organizations/peerOrganizations/org2.example.com/peers/peer0.org2.example.com/tls/ca.crt
+
+<br/>
 
 You can use the peer lifecycle chaincode querycommitted command to confirm that the chaincode definition has been
 committed to the channel.
@@ -326,19 +371,14 @@ Error: endorsement failure during invoke. response: status:500 message:"error in
 Должны быть контейнеры с chaincode.
 
 ```
-
+$ docker ps
 CONTAINER ID        IMAGE                                                                                                                                                                    COMMAND                  CREATED             STATUS              PORTS                              NAMES
-2cc81ec25fcd        dev-peer0.org2.example.com-basic_1.0-4ec191e793b27e953ff2ede5a8bcc63152cecb1e4c3f301a26e22692c61967ad-6c0d5b0755cb92ed5555bd2e8a8765a6f425d1ed5ed9a90e625e01939e2113be   "chaincode -peer.add…"   7 minutes ago       Up 7 minutes                                           dev-peer0.org2.example.com-basic_1.0-4ec191e793b27e953ff2ede5a8bcc63152cecb1e4c3f301a26e22692c61967ad
-129722afcd77        dev-peer0.org1.example.com-basic_1.0-4ec191e793b27e953ff2ede5a8bcc63152cecb1e4c3f301a26e22692c61967ad-42f57faac8360472e47cbbbf3940e81bba83439702d085878d148089a1b213ca   "chaincode -peer.add…"   7 minutes ago       Up 7 minutes                                           dev-peer0.org1.example.com-basic_1.0-4ec191e793b27e953ff2ede5a8bcc63152cecb1e4c3f301a26e22692c61967ad
-b24934d27e3d        hyperledger/fabric-peer:latest                                                                                                                                           "peer node start"        12 minutes ago      Up 12 minutes       0.0.0.0:7051->7051/tcp             peer0.org1.example.com
-8def04870f4b        hyperledger/fabric-peer:latest                                                                                                                                           "peer node start"        12 minutes ago      Up 12 minutes       7051/tcp, 0.0.0.0:9051->9051/tcp   peer0.org2.example.com
-0393127662b9        hyperledger/fabric-orderer:latest                                                                                                                                        "orderer"                12 minutes ago      Up 12 minutes       0.0.0.0:7050->7050/tcp             orderer.example.com
-```
+3570e77abece        dev-peer0.org1.example.com-basic_1.0-ba2cf24a6d127ece5cf5b287c5dc19e39649c695539e455c10f760ac9e9b90a8-da0dc2176d3e64b66e2110369ab6a453d2d86e8fe828bffa81ef9a36fe7e5c24   "docker-entrypoint.s…"   2 minutes ago       Up 2 minutes                                           dev-peer0.org1.example.com-basic_1.0-ba2cf24a6d127ece5cf5b287c5dc19e39649c695539e455c10f760ac9e9b90a8
+fe56e624c0f5        dev-peer0.org2.example.com-basic_1.0-ba2cf24a6d127ece5cf5b287c5dc19e39649c695539e455c10f760ac9e9b90a8-ff8b4282f1e26ed874801675b2dddb3b40efefc8ef61b74fe58fc113631378b1   "docker-entrypoint.s…"   2 minutes ago       Up 2 minutes                                           dev-peer0.org2.example.com-basic_1.0-ba2cf24a6d127ece5cf5b287c5dc19e39649c695539e455c10f760ac9e9b90a8
+b30252361fcc        hyperledger/fabric-orderer:latest                                                                                                                                        "orderer"                9 minutes ago       Up 9 minutes        0.0.0.0:7050->7050/tcp             orderer.example.com
+b6c92736704e        hyperledger/fabric-peer:latest                                                                                                                                           "peer node start"        9 minutes ago       Up 9 minutes        7051/tcp, 0.0.0.0:9051->9051/tcp   peer0.org2.example.com
+0c1b84ff5e47        hyperledger/fabric-peer:latest                                                                                                                                           "peer node start"        9 minutes ago       Up 9 minutes        0.0.0.0:7051->7051/tcp             peer0.org1.example.com
 
-Для TypeScript и JavaScript у меня на этом шаге ошибка
-
-```
-Error: endorsement failure during query. response: status:500 message:"error in simulation: transaction returned with failure: Error: You've asked to invoke a function that does not exist: getAllAssets"
 ```
 
 <br/>

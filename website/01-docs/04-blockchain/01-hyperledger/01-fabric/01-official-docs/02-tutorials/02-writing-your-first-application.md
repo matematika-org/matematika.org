@@ -40,11 +40,13 @@ permalink: /blockchain/hyperledger/fabric/official-docs/tutorials/writing-your-f
 - Приложение на javascript (asset-transfer-basic/application-javascript)
 - Smart Contract на javascript, java, go, typescript (chaincode-\*)
 
+<br/>
+
 ```
+
 $ cd fabric-samples/test-network/
 
-// This command will deploy the Fabric test network with two peers, an ordering service, and three certificate authorities (Orderer, Org1, Org2). Instead of using the cryptogen tool, we bring up the test network using Certificate Authorities,
-hence the -ca flag. Additionally, the org admin user registration is bootstrapped when the Certificate Authority is started. In a later step, we will show how the sample application completes the admin enrollment.
+// This command will deploy the Fabric test network with two peers, an ordering service, and three certificate authorities (Orderer, Org1, Org2). Instead of using the cryptogen tool, we bring up the test network using Certificate Authorities, hence the -ca flag. Additionally, the org admin user registration is bootstrapped when the Certificate Authority is started. In a later step, we will show how the sample application completes the admin enrollment.
 
 // Еще и не с первого раза запускается
 $ ./network.sh down && ./network.sh up createChannel -c mychannel -ca
