@@ -24,6 +24,10 @@ https://hyperledger.github.io/fabric-chaincode-node/
 
 <br/>
 
+https://hyperledger-fabric-ca.readthedocs.io/en/release-1.4/users-guide.html
+
+<br/>
+
 **Основная документация:**
 
 ### [CHAPTER 5: Getting Started](/blockchain/hyperledger/fabric/official-docs/getting-started/)

@@ -42,6 +42,7 @@ permalink: /books/blockchain/hyperledger/en/fabric/blockchain-for-business-with-
     $ mkdir asset-registery
     $ cd asset-registery
 
+
     $ git clone https://github.com/SateDev/hyperledger_chaincode_asset_registry .
 
     // Ошибка дальше, если не выполнить. (На моем ПК)
@@ -59,22 +60,26 @@ permalink: /books/blockchain/hyperledger/en/fabric/blockchain-for-business-with-
 
 <br/>
 
+<!--
     $ chmod 777 ./startup.sh
+-->
+
+    $ chmod +x ./startup.sh
     $ ./startup.sh typescript
 
 <br/>
 
-Хм. Ошибка которая дальше не позволит выполнить все, что происходит в книге именно здесь.
+Хм. Дальше ошибка которая не позволит выполнить все, что происходит в книге.
 
 <br/>
 
 ```
-$ docker ps -a
-CONTAINER ID        IMAGE                        COMMAND                  CREATED             STATUS                     PORTS                                        NAMES
-f5ceffcc62dd        hyperledger/fabric-peer      "peer node start"        18 seconds ago      Exited (2) 5 seconds ago                                                peer0.org1.example.com
-1ee3c124fae2        hyperledger/fabric-orderer   "orderer"                21 seconds ago      Up 19 seconds              0.0.0.0:7050->7050/tcp                       orderer.example.com
-c28e2b4b5ff3        hyperledger/fabric-ca        "sh -c 'fabric-ca-se…"   21 seconds ago      Up 18 seconds              0.0.0.0:7054->7054/tcp                       ca.example.com
-57addf35f182        hyperledger/fabric-couchdb   "tini -- /docker-ent…"   21 seconds ago      Up 17 seconds              4369/tcp, 9100/tcp, 0.0.0.0:5984->5984/tcp   couchdb
+$ docker ps
+CONTAINER ID        IMAGE                        COMMAND                  CREATED             STATUS              PORTS                                        NAMES
+ef7af113107b        hyperledger/fabric-ca        "sh -c 'fabric-ca-se…"   2 minutes ago       Up 2 minutes        0.0.0.0:7054->7054/tcp                       ca.example.com
+e17c2bd7afc4        hyperledger/fabric-couchdb   "tini -- /docker-ent…"   2 minutes ago       Up 2 minutes        4369/tcp, 9100/tcp, 0.0.0.0:5984->5984/tcp   couchdb
+6e100f7ac277        hyperledger/fabric-orderer   "orderer"                2 minutes ago       Up 2 minutes        0.0.0.0:7050->7050/tcp                       orderer.example.com
+
 ```
 
 Фабрика запустилась.
@@ -88,13 +93,9 @@ using CA server
 
     $ cd ~/projects/dev/hyperledger/
 
-    $ git clone https://github.com/SateDev/asset-registry-api
+    $ git clone https://github.com/webmakaka/Blockchain-for-Business-with-Hyperledger-Fabric
 
-    $ cd asset-registry-api
-
-    $ code .
-
-Заменить во всем проекте 137.117.81.211 и 52.187.123.234 на localhost
+    $ cd Blockchain-for-Business-with-Hyperledger-Fabric/app/api/
 
     $ npm install
     $ node enrollAdmin.js
@@ -405,7 +406,7 @@ OK
 
 <br/>
 
-Всеравно ошибка.
+Все равно ошибка.
 
 ```
 Start invoke processing

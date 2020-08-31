@@ -37,7 +37,7 @@ permalink: /blockchain/hyperledger/
 Org1, Org2, Org3, Org4: Organizations
 C1, C2: Channels
 Pr1, Pr2, Pr3: Peers
-O: Orderer
+O4: Orderer
 L1, L2: Ledgers
 NC4: Network configuration
 CC1: Channel configuration

@@ -34,15 +34,29 @@ permalink: /books/blockchain/hyperledger/en/fabric/blockchain-for-business-with-
 <br/>
 
     $ cd /home/marley/projects/dev/hyperledger/fabric-samples/test-network/
+
+<!--
+    $ export FABRIC_CA_SERVER_CA_NAME=ca1.example.com
+
+
+    ca1.example.com
+    ca2.example.com
+
+    ca.org1.example.com
+-->
+
     $ ./network.sh down && ./network.sh up createChannel -c mychannel -ca
 
 <br/>
 
     $ docker ps
-    CONTAINER ID        IMAGE                               COMMAND             CREATED              STATUS              PORTS                              NAMES
-    a5f40dd145b3        hyperledger/fabric-peer:latest      "peer node start"   About a minute ago   Up About a minute   0.0.0.0:7051->7051/tcp             peer0.org1.example.com
-    ed0386bf2432        hyperledger/fabric-peer:latest      "peer node start"   About a minute ago   Up About a minute   7051/tcp, 0.0.0.0:9051->9051/tcp   peer0.org2.example.com
-    aded9b9ab1d3        hyperledger/fabric-orderer:latest   "orderer"           About a minute ago   Up About a minute   0.0.0.0:7050->7050/tcp             orderer.example.com
+    CONTAINER ID        IMAGE                               COMMAND                  CREATED             STATUS              PORTS                              NAMES
+    b68320e99da8        hyperledger/fabric-peer:latest      "peer node start"        33 seconds ago      Up 30 seconds       7051/tcp, 0.0.0.0:9051->9051/tcp   peer0.org2.example.com
+    d856a59deaaa        hyperledger/fabric-orderer:latest   "orderer"                33 seconds ago      Up 31 seconds       0.0.0.0:7050->7050/tcp             orderer.example.com
+    c7228c77e6c0        hyperledger/fabric-peer:latest      "peer node start"        33 seconds ago      Up 31 seconds       0.0.0.0:7051->7051/tcp             peer0.org1.example.com
+    1c9f53523d6d        hyperledger/fabric-ca:latest        "sh -c 'fabric-ca-se…"   52 seconds ago      Up 50 seconds       0.0.0.0:7054->7054/tcp             ca_org1
+    938938a0088d        hyperledger/fabric-ca:latest        "sh -c 'fabric-ca-se…"   52 seconds ago      Up 50 seconds       7054/tcp, 0.0.0.0:9054->9054/tcp   ca_orderer
+    473359ec9851        hyperledger/fabric-ca:latest        "sh -c 'fabric-ca-se…"   52 seconds ago      Up 49 seconds       7054/tcp, 0.0.0.0:8054->8054/tcp   ca_org2
 
 <br/>
 
@@ -57,6 +71,17 @@ permalink: /books/blockchain/hyperledger/en/fabric/blockchain-for-business-with-
 ### Chaincode
 
     $ cd /home/marley/projects/dev/hyperledger/Blockchain-for-Business-with-Hyperledger-Fabric/app/chaincode
+
+<!--
+
+
+    $ npm install -g npm-check-updates
+    $ ncu -u
+    $ npm install
+
+
+-->
+
     $ npm install
     $ npm run build
 
@@ -91,7 +116,17 @@ permalink: /books/blockchain/hyperledger/en/fabric/blockchain-for-business-with-
         export CORE_PEER_ADDRESS=localhost:7051
     }
 
+<br/>
+
     $ peer lifecycle chaincode install basic.tar.gz
+
+<br/>
+
+В общем ошибка на этом шаге. Думаю, что из-за версии node где-то внутри созданного окружения.
+
+Пишет версия:
+
+node -v v12.16.1
 
 <br/>
 
