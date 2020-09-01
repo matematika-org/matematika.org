@@ -95,6 +95,8 @@ using CA server
 
     $ git clone https://github.com/webmakaka/Blockchain-for-Business-with-Hyperledger-Fabric
 
+Нужно переключиться на branch origin (git checkout origin)
+
     $ cd Blockchain-for-Business-with-Hyperledger-Fabric/app/api/
 
     $ npm install

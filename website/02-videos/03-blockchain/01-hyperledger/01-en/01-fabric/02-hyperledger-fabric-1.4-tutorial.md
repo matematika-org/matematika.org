@@ -58,7 +58,12 @@ https://hyperledger-fabric.readthedocs.io/en/release-1.4/write_first_app.html
     $ mkdir -p ~/projects/dev/hyperledger
     $ cd ~/projects/dev/hyperledger
 
+    $ curl -sSL https://raw.githubusercontent.com/hyperledger/fabric/master/scripts/bootstrap.sh | bash -s
+
+Или с указанием версии. Оба варианта работают.
+
     $ curl -sSL https://raw.githubusercontent.com/hyperledger/fabric/master/scripts/bootstrap.sh | bash -s 1.4.8
+
 
     $ cd fabric-samples/fabcar
     $ ./startFabric.sh  javascript
@@ -68,6 +73,8 @@ https://hyperledger-fabric.readthedocs.io/en/release-1.4/write_first_app.html
     $ node enrollAdmin.js
     $ node registerUser.js
     $ node query.js
+
+<br/>
 
 ```
 Wallet path: /home/marley/projects/dev/hyperledger/fabric-samples/fabcar/javascript/wallet
@@ -196,7 +203,7 @@ https://github.com/IBM/evote
 
 FABRIC GATEWAYS -> 1 Org Local Fabric - Org1 gateway -> admin.
 
-После коннета -> Три точки -> Export Connection Profile
+После коннекта -> Три точки -> Export Connection Profile
 
 Сохранить в файл ibpConnection.json в корне server
 

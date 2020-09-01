@@ -14,6 +14,20 @@ permalink: /books/blockchain/hyperledger/en/fabric/blockchain-for-business-with-
 
 <br/>
 
+# НЕ РАБОТАЕТ!!!
+
+<br/>
+
+### Переключился на node v12
+
+    $ {
+      nvm install v12.18.3
+      nvm use v12.18.3
+      nvm alias default v12.18.3
+    }
+
+<br/>
+
 ### Все удаляю
 
     $ cd ~/projects/dev/hyperledger/
@@ -37,7 +51,6 @@ permalink: /books/blockchain/hyperledger/en/fabric/blockchain-for-business-with-
 
 <!--
     $ export FABRIC_CA_SERVER_CA_NAME=ca1.example.com
-
 
     ca1.example.com
     ca2.example.com
@@ -122,14 +135,6 @@ permalink: /books/blockchain/hyperledger/en/fabric/blockchain-for-business-with-
 
 <br/>
 
-В общем ошибка на этом шаге. Думаю, что из-за версии node где-то внутри созданного окружения.
-
-Пишет версия:
-
-node -v v12.16.1
-
-<br/>
-
 **Org2**
 
     $ {
@@ -139,6 +144,8 @@ node -v v12.16.1
         export CORE_PEER_MSPCONFIGPATH=${PWD}/organizations/peerOrganizations/org2.example.com/users/Admin@org2.example.com/msp
         export CORE_PEER_ADDRESS=localhost:9051
     }
+
+<br/>
 
     $ peer lifecycle chaincode install basic.tar.gz
 
@@ -248,6 +255,33 @@ Version: 1.0, Sequence: 1, Endorsement Plugin: escc, Validation Plugin: vscc, Ap
 ### API
 
     $ cd /home/marley/projects/dev/hyperledger/Blockchain-for-Business-with-Hyperledger-Fabric/app/api
+
+<!--
+
+    $ mv enrollAdmin.js enrollAdmin.js.orig
+    $ mv registerUser.js registerUser.js.orig
+
+    $ cd /home/marley/projects/dev/hyperledger/fabric-samples
+
+
+    $ sudo cp -r test-network/ /home/marley/projects/dev/hyperledger/Blockchain-for-Business-with-Hyperledger-Fabric
+
+
+    $ cd /home/marley/projects/dev/hyperledger/fabric-samples/fabcar/javascript
+
+    $ cp enrollAdmin.js /home/marley/projects/dev/hyperledger/Blockchain-for-Business-with-Hyperledger-Fabric/app/api
+
+    $ cp registerUser.js /home/marley/projects/dev/hyperledger/Blockchain-for-Business-with-Hyperledger-Fabric/app/api
+
+
+    $ cd /home/marley/projects/dev/hyperledger/Blockchain-for-Business-with-Hyperledger-Fabric/app/api
+
+    $ npm install fabric-network
+
+      enrollmentID: 'user1',
+      enrollmentSecret: secret,
+
+-->
 
     $ npm install
     $ node enrollAdmin.js
