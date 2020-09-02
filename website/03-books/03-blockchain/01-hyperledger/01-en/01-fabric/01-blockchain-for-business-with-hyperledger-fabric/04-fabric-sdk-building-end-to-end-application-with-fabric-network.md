@@ -43,21 +43,11 @@ permalink: /books/blockchain/hyperledger/en/fabric/blockchain-for-business-with-
 
 <br/>
 
-    $ curl -sSL https://raw.githubusercontent.com/hyperledger/fabric/master/scripts/bootstrap.sh | bash -s
+    $ curl -sSL https://raw.githubusercontent.com/hyperledger/fabric/master/scripts/bootstrap.sh | bash -s 2.2.0
 
 <br/>
 
-    $ cd /home/marley/projects/dev/hyperledger/fabric-samples/test-network/
-
-<!--
-    $ export FABRIC_CA_SERVER_CA_NAME=ca1.example.com
-
-    ca1.example.com
-    ca2.example.com
-
-    ca.org1.example.com
--->
-
+    $ cd ~/projects/dev/hyperledger/fabric-samples/test-network/
     $ ./network.sh down && ./network.sh up createChannel -c mychannel -ca
 
 <br/>
@@ -83,33 +73,27 @@ permalink: /books/blockchain/hyperledger/en/fabric/blockchain-for-business-with-
 
 ### Chaincode
 
-    $ cd /home/marley/projects/dev/hyperledger/Blockchain-for-Business-with-Hyperledger-Fabric/app/chaincode
-
-<!--
-
-
-    $ npm install -g npm-check-updates
-    $ ncu -u
-    $ npm install
-
-
--->
+    $ cd ~/projects/dev/hyperledger/Blockchain-for-Business-with-Hyperledger-Fabric/app/chaincode
 
     $ npm install
     $ npm run build
 
 <br/>
 
-    $ cd /home/marley/projects/dev/hyperledger/fabric-samples/test-network/
+    $ cd ~/projects/dev/hyperledger/fabric-samples/test-network/
+
+<br/>
 
     $ {
         export PATH=${PWD}/../bin:$PATH
         export FABRIC_CFG_PATH=$PWD/../config/
     }
 
+<br/>
+
     $ peer lifecycle chaincode \
         package basic.tar.gz \
-        --path /home/marley/projects/dev/hyperledger/Blockchain-for-Business-with-Hyperledger-Fabric/app/chaincode/ \
+        --path ~/projects/dev/hyperledger/Blockchain-for-Business-with-Hyperledger-Fabric/app/chaincode/ \
         --lang node \
         --label basic_1.0
 
@@ -252,36 +236,68 @@ Version: 1.0, Sequence: 1, Endorsement Plugin: escc, Validation Plugin: vscc, Ap
 
 <br/>
 
+### 7.1.7 Invoking the chaincode
+
+    $ peer chaincode invoke \
+        -o localhost:7050 \
+        --ordererTLSHostnameOverride orderer.example.com \
+        --tls \
+        --cafile ${PWD}/organizations/ordererOrganizations/example.com/orderers/orderer.example.com/msp/tlscacerts/tlsca.example.com-cert.pem \
+        -C mychannel \
+        -n basic \
+        --peerAddresses localhost:7051 --tlsRootCertFiles ${PWD}/organizations/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/ca.crt \
+        --peerAddresses localhost:9051 \
+        --tlsRootCertFiles ${PWD}/organizations/peerOrganizations/org2.example.com/peers/peer0.org2.example.com/tls/ca.crt \
+        -c '{"function":"initLedger","Args":[]}'
+
+<br/>
+
+    $ peer chaincode query -C mychannel -n basic -c '{"Args":["queryAllAssets", "P100001", "P100005"]}' | python -m json.tool
+
+```
+[
+    {
+        "Key": "P100001",
+        "Record": {
+            "propertyArea": "1400 sqft.",
+            "ownerName": "sam dave",
+            "value": 12332,
+            "location": "12 avenue,richar street , california",
+            "type": "single",
+            "propertyNumber": "P100001"
+        }
+    },
+    {
+        "Key": "P100002",
+        "Record": {
+            "propertyArea": "12400 sqft.",
+            "ownerName": "john dave",
+            "value": 22330,
+            "location": "13 avenue,richar street , california",
+            "type": "multiplex",
+            "propertyNumber": "P100002"
+        }
+    }
+]
+```
+
+<br/>
+
 ### API
 
-    $ cd /home/marley/projects/dev/hyperledger/Blockchain-for-Business-with-Hyperledger-Fabric/app/api
+./organizations/peerOrganizations/org1.example.com/connection-org1.yaml
+
+    $ cd ~/projects/dev/hyperledger/fabric-samples/test-network/organizations/peerOrganizations/org1.example.com/
+
+    $ cp connection-org1.yaml ~/projects/dev/hyperledger/Blockchain-for-Business-with-Hyperledger-Fabric/app/api/
 
 <!--
 
-    $ mv enrollAdmin.js enrollAdmin.js.orig
-    $ mv registerUser.js registerUser.js.orig
-
-    $ cd /home/marley/projects/dev/hyperledger/fabric-samples
-
-
-    $ sudo cp -r test-network/ /home/marley/projects/dev/hyperledger/Blockchain-for-Business-with-Hyperledger-Fabric
-
-
-    $ cd /home/marley/projects/dev/hyperledger/fabric-samples/fabcar/javascript
-
-    $ cp enrollAdmin.js /home/marley/projects/dev/hyperledger/Blockchain-for-Business-with-Hyperledger-Fabric/app/api
-
-    $ cp registerUser.js /home/marley/projects/dev/hyperledger/Blockchain-for-Business-with-Hyperledger-Fabric/app/api
-
-
-    $ cd /home/marley/projects/dev/hyperledger/Blockchain-for-Business-with-Hyperledger-Fabric/app/api
-
-    $ npm install fabric-network
-
-      enrollmentID: 'user1',
-      enrollmentSecret: secret,
-
+$ cd ~/projects/dev/hyperledger/fabric-samples
+    $ sudo cp -r test-network/ ~/projects/dev/hyperledger/Blockchain-for-Business-with-Hyperledger-Fabric
 -->
+
+    $ cd ~/projects/dev/hyperledger/Blockchain-for-Business-with-Hyperledger-Fabric/app/api
 
     $ npm install
     $ node enrollAdmin.js
@@ -291,11 +307,36 @@ Version: 1.0, Sequence: 1, Endorsement Plugin: escc, Validation Plugin: vscc, Ap
 
 <br/>
 
+    $ curl \
+        --request GET http://localhost:8000/healthcheck
+
+<br/>
+
+<!--
+
+    const startIndex = 'P100001';
+    const endIndex = 'P100005';
+
+
+    $ curl \
+        --data '{"startIndex":"P100001", "endIndex": "P100005"}' \
+        --request GET http://localhost:8000/property \
+         --header "Content-Type: application/json" \
+        | python -m json.tool
+
+-->
+
+<!--
+
+somelogo.svg:1
+dark-material-bg.jpg:1
+-->
+
 <br/>
 
 ### Client (angular)
 
-    $ cd /home/marley/projects/dev/hyperledger/Blockchain-for-Business-with-Hyperledger-Fabric/app/client
+    $ cd ~/projects/dev/hyperledger/Blockchain-for-Business-with-Hyperledger-Fabric/app/client
 
     $ npm install
     $ npm start

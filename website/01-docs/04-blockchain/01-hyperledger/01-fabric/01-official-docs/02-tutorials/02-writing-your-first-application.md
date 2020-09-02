@@ -29,7 +29,7 @@ permalink: /blockchain/hyperledger/fabric/official-docs/tutorials/writing-your-f
 
 <br/>
 
-    $ curl -sSL https://raw.githubusercontent.com/hyperledger/fabric/master/scripts/bootstrap.sh | bash -s
+    $ curl -sSL https://raw.githubusercontent.com/hyperledger/fabric/master/scripts/bootstrap.sh | bash -s 2.2.0
 
 <br/>
 
@@ -55,7 +55,7 @@ $ ./network.sh down && ./network.sh up createChannel -c mychannel -ca
 $ ./network.sh deployCC -ccn basic -ccl javascript
 ```
 
-В общем мы завершили работу над backend.
+В общем мы завершили работу над созданием окружения и задеплоили туда chaincode.
 
 <br/>
 

@@ -265,8 +265,7 @@ You need to approve a chaincode definition with an identity that has an admin ro
 
 <br/>
 
-You can use the peer lifecycle chaincode querycommitted command to confirm that the chaincode definition has been
-committed to the channel.
+You can use the peer lifecycle chaincode querycommitted command to confirm that the chaincode definition has been committed to the channel.
 
     $ peer lifecycle chaincode querycommitted \
         --channelID mychannel \

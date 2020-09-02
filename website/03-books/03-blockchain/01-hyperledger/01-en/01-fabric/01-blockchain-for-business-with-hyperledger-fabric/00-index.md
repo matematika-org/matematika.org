@@ -70,7 +70,13 @@ permalink: /books/blockchain/hyperledger/en/fabric/blockchain-for-business-with-
 
 <br/>
 
-### [Fabric SDK: Interaction with Fabric Network](/books/blockchain/hyperledger/en/fabric/blockchain-for-business-with-hyperledger-fabric/fabric-sdk-interaction-with-fabric-network/)
+### Fabric SDK: Interaction with Fabric Network
+
+Все, что делается в данной главе, позднее повторяется в следующей. Особого смысла разбирать примеры, которые мало чем отличаются от того, что будет использоваться в уже готовом приложении, я не вижу.
+
+Нужно отметить, что у меня при запуске были ошибки и все падало. Для версии 2.2 обновился sdk и примеры из книги не стали работать для этой версии.
+
+Если всеже интересно, то вот здесь остались <a href="/books/blockchain/hyperledger/en/fabric/blockchain-for-business-with-hyperledger-fabric/fabric-sdk-interaction-with-fabric-network/">наработки и ошибки</a>.
 
 <br/>
 

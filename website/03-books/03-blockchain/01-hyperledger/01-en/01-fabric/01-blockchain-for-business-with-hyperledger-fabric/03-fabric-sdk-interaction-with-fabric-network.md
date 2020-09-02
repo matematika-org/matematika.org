@@ -129,7 +129,9 @@ This will fetch the certificates from the CA server and put them in the path
 
 Если не хочется разбираться, можно отправиться к следующей главе книги.
 
-    $ cp invoke.js invoke1.js
+    $ cp invoke.js invoke.js.orig
+
+<br/>
 
     $ vi invoke1.js
 

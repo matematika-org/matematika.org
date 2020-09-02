@@ -14,7 +14,7 @@ In this tutorial two organizations, MagnetoCorp and DigiBank, trade commercial p
 
 Делаю:
 
-26.08.2020
+01.09.2020
 
 <br/>
 
@@ -33,7 +33,7 @@ In this tutorial two organizations, MagnetoCorp and DigiBank, trade commercial p
 
 <br/>
 
-    $ curl -sSL https://raw.githubusercontent.com/hyperledger/fabric/master/scripts/bootstrap.sh | bash -s
+    $ curl -sSL https://raw.githubusercontent.com/hyperledger/fabric/master/scripts/bootstrap.sh | bash -s 2.2.0
 
 <br/>
 
@@ -58,13 +58,19 @@ for each organization.
      --lang node \
      --path ./contract \
      --label cp_0
+
+<br/>
+
     $ peer lifecycle chaincode install cp.tar.gz
 
 <br/>
 
     $ peer lifecycle chaincode queryinstalled
-    Installed chaincodes on peer:
-    Package ID: cp_0:7c36d35cceb8179e20a228b1e66b94254f419741c7bfd3d6d92639006991e576, Label: cp_0
+
+```
+Installed chaincodes on peer:
+Package ID: cp_0:7c36d35cceb8179e20a228b1e66b94254f419741c7bfd3d6d92639006991e576, Label: cp_0
+```
 
 <br/>
 
@@ -87,27 +93,38 @@ for each organization.
 
 <br/>
 
-**Install and approve the smart contract as DigiBank**
+### Install and approve the smart contract as DigiBank
 
     $ cd ~/projects/dev/hyperledger/
     $ cd fabric-samples/commercial-paper/organization/digibank/
     $ source digibank.sh
+
+<br/>
 
     $ peer lifecycle chaincode package cp.tar.gz \
         --lang node \
         --path ./contract \
         --label cp_0
 
+<br/>
+
     $ peer lifecycle chaincode install cp.tar.gz
 
+<br/>
+
     $ peer lifecycle chaincode queryinstalled
-    Installed chaincodes on peer:
-    Package ID: cp_0:61b9d0e7ee57237ed0dfa8e4f6a7bd574d21aa75feb435e152c7ae1122072c7c, Label: cp_0
+
+```
+Installed chaincodes on peer:
+Package ID: cp_0:61b9d0e7ee57237ed0dfa8e4f6a7bd574d21aa75feb435e152c7ae1122072c7c, Label: cp_0
+```
 
 <br/>
 
     // Установить свой индивидуальнй PACKAGE_ID
     $ export PACKAGE_ID=cp_0:61b9d0e7ee57237ed0dfa8e4f6a7bd574d21aa75feb435e152c7ae1122072c7c
+
+<br/>
 
     $ peer lifecycle chaincode approveformyorg \
         --orderer localhost:7050 \
@@ -122,7 +139,7 @@ for each organization.
 
 <br/>
 
-**Commit the chaincode definition to the channel**
+### Commit the chaincode definition to the channel
 
     $ peer lifecycle chaincode commit \
         -o localhost:7050 \
