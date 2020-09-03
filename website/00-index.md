@@ -16,7 +16,7 @@ permalink: /
 
 ### [YouTube] Математика на QWERTY
 
-Все экзамены прошли и теперь можно со спокойной душой узнать, зачем же были нужны эти <a href="https://www.youtube.com/watch?v=ZZMCDNAmcs4">производные</a>, <a href="https://www.youtube.com/watch?v=JzT0-0bBY9M">интегралы</a>,<a href="https://www.youtube.com/watch?v=telTRUTzHd4">логарифмы</a> <a href="https://www.youtube.com/watch?v=2QQrAbHreLY">тригонометрия</a>.
+Все экзамены прошли и теперь можно со спокойной душой узнать, зачем же были нужны эти <a href="https://www.youtube.com/watch?v=ZZMCDNAmcs4">производные</a>, <a href="https://www.youtube.com/watch?v=JzT0-0bBY9M">интегралы</a>,<a href="https://www.youtube.com/watch?v=telTRUTzHd4">логарифмы</a>, <a href="https://www.youtube.com/watch?v=xsLbbP-6_r8">пределы</a>, <a href="https://www.youtube.com/watch?v=2QQrAbHreLY">тригонометрия</a>.
 
 <br/>
 

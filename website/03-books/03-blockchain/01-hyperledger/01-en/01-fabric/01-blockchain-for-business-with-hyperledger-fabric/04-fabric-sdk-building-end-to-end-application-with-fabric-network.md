@@ -14,7 +14,7 @@ permalink: /books/blockchain/hyperledger/en/fabric/blockchain-for-business-with-
 
 <br/>
 
-# НЕ РАБОТАЕТ!!!
+# Начинает работать !!! Нужны исправления !!!
 
 <br/>
 
@@ -285,11 +285,13 @@ Version: 1.0, Sequence: 1, Endorsement Plugin: escc, Validation Plugin: vscc, Ap
 
 ### API
 
-./organizations/peerOrganizations/org1.example.com/connection-org1.yaml
+    $ npm install -g nodemon
 
     $ cd ~/projects/dev/hyperledger/fabric-samples/test-network/organizations/peerOrganizations/org1.example.com/
 
     $ cp connection-org1.yaml ~/projects/dev/hyperledger/Blockchain-for-Business-with-Hyperledger-Fabric/app/api/
+
+    $ cp connection-org1.json ~/projects/dev/hyperledger/Blockchain-for-Business-with-Hyperledger-Fabric/app/api/
 
 <!--
 
@@ -312,25 +314,39 @@ $ cd ~/projects/dev/hyperledger/fabric-samples
 
 <br/>
 
-<!--
-
-    const startIndex = 'P100001';
-    const endIndex = 'P100005';
-
+**Проверка возвращаемых параметров:**
 
     $ curl \
-        --data '{"startIndex":"P100001", "endIndex": "P100005"}' \
-        --request GET http://localhost:8000/property \
+        --request GET 'http://localhost:8000/property?startIndex=P100001&endIndex=P100005' \
          --header "Content-Type: application/json" \
         | python -m json.tool
 
--->
-
-<!--
-
-somelogo.svg:1
-dark-material-bg.jpg:1
--->
+```
+[
+    {
+        "Key": "P100001",
+        "Record": {
+            "propertyArea": "1400 sqft.",
+            "ownerName": "sam dave",
+            "value": 12332,
+            "location": "12 avenue,richar street , california",
+            "type": "single",
+            "propertyNumber": "P100001"
+        }
+    },
+    {
+        "Key": "P100002",
+        "Record": {
+            "propertyArea": "12400 sqft.",
+            "ownerName": "john dave",
+            "value": 22330,
+            "location": "13 avenue,richar street , california",
+            "type": "multiplex",
+            "propertyNumber": "P100002"
+        }
+    }
+]
+```
 
 <br/>
 
