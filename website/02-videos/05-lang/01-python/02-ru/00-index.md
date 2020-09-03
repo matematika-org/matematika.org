@@ -10,6 +10,18 @@ permalink: /videos/lang/python/ru/
 
 <br/>
 
+### Программирование на Python [RUS,2020]
+
+https://stepik.org/course/67/promo
+
+<br/>
+
+### Python: основы и применение [RUS,2020]
+
+https://stepik.org/course/512/promo
+
+<br/>
+
 ### [Marilru] Полный список вопросов с собеседований по Python для дата-сайентистов и инженеров
 
 https://habr.com/ru/company/mailru/blog/506824/

@@ -14,6 +14,23 @@ permalink: /
 
 <br/>
 
+### [Stepic] Нейронные сети и компьютерное зрение [RUS, 2020]
+
+https://stepik.org/course/50352/promo
+
+```
+37 lessons
+7 hours of video
+155 quizzes
+23 interactive challenges
+```
+
+https://github.com/RomanovMikeV/deep-learning-lectures/
+
+https://github.com/SlinkoIgor/Neural_Networks_and_CV
+
+<br/>
+
 ### [YouTube] Математика на QWERTY
 
 Все экзамены прошли и теперь можно со спокойной душой узнать, зачем же были нужны эти <a href="https://www.youtube.com/watch?v=ZZMCDNAmcs4">производные</a>, <a href="https://www.youtube.com/watch?v=JzT0-0bBY9M">интегралы</a>,<a href="https://www.youtube.com/watch?v=telTRUTzHd4">логарифмы</a>, <a href="https://www.youtube.com/watch?v=xsLbbP-6_r8">пределы</a>, <a href="https://www.youtube.com/watch?v=2QQrAbHreLY">тригонометрия</a>.

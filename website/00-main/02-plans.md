@@ -8,11 +8,31 @@ permalink: /plans/
 
 # Планы по изучению материалов
 
+### Python for Computer Vision with OpenCV and Deep Learning
+
+https://www.udemy.com/course/python-for-computer-vision-with-opencv-and-deep-learning/
+
+https://drive.google.com/drive/folders/1aCE-1dmPy-KUGQ9C99kx35U8tkpAnrCp
+
+<br/>
+
+### Modern Reinforcement Learning: Actor-Critic Methods
+
+https://www.udemy.com/course/actor-critic-methods-from-paper-to-code-with-pytorch/
+
+<br/>
+
+### [Книга] Практическая статистика для специалистов Data Science | Брюс Эндрю, Брюс Питер
+
+<!--
+
 <br/>
 
 - Spark and Python for Big Data with PySpark
 - Scala and Spark for Big Data and Machine Learning
 - Build streaming applications using Apache Kafka and Scala (Индус с акцентом)
+
+-->
 
 <!--
 
