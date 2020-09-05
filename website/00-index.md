@@ -18,13 +18,6 @@ permalink: /
 
 https://stepik.org/course/50352/promo
 
-```
-37 lessons
-7 hours of video
-155 quizzes
-23 interactive challenges
-```
-
 https://github.com/RomanovMikeV/deep-learning-lectures/
 
 https://github.com/SlinkoIgor/Neural_Networks_and_CV

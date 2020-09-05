@@ -482,6 +482,8 @@ Package ID: basic_2.0:58b24c58b05c1be32b529d4d64e9ec569bc4d7c7e7acb6810aeef3b3f1
 
 ```
 
+<br/>
+
     $ peer lifecycle chaincode commit \
         -o localhost:7050 \
         --ordererTLSHostnameOverride orderer.example.com \
@@ -496,9 +498,11 @@ Package ID: basic_2.0:58b24c58b05c1be32b529d4d64e9ec569bc4d7c7e7acb6810aeef3b3f1
         --peerAddresses localhost:9051 \
         --tlsRootCertFiles ${PWD}/organizations/peerOrganizations/org2.example.com/peers/peer0.org2.example.com/tls/ca.crt
 
+<br/>
 
     $ docker ps
 
+<br/>
 
     $ peer chaincode invoke \
         -o localhost:7050 \

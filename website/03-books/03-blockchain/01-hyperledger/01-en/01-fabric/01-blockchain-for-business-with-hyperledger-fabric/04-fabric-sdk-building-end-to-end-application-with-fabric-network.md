@@ -14,10 +14,6 @@ permalink: /books/blockchain/hyperledger/en/fabric/blockchain-for-business-with-
 
 <br/>
 
-# Начинает работать !!! Нужны исправления !!!
-
-<br/>
-
 ### Переключился на node v12
 
     $ {
@@ -30,6 +26,7 @@ permalink: /books/blockchain/hyperledger/en/fabric/blockchain-for-business-with-
 
 ### Все удаляю
 
+    $ cd midir -p ~/projects/dev/hyperledger/
     $ cd ~/projects/dev/hyperledger/
     $ sudo rm -rf *
 
@@ -101,7 +98,7 @@ permalink: /books/blockchain/hyperledger/en/fabric/blockchain-for-business-with-
 
 <br/>
 
-### 7.1.4 Install the chaincode package
+### Install the chaincode package
 
 **Org1**
 
@@ -135,7 +132,7 @@ permalink: /books/blockchain/hyperledger/en/fabric/blockchain-for-business-with-
 
 <br/>
 
-### 7.1.5 Approve a chaincode definition
+### Approve a chaincode definition
 
     $ peer lifecycle chaincode queryinstalled
 
@@ -181,7 +178,7 @@ You need to approve a chaincode definition with an identity that has an admin ro
 
 <br/>
 
-### 7.1.6 Committing the chaincode definition to the channel
+### Committing the chaincode definition to the channel
 
     $ peer lifecycle chaincode checkcommitreadiness \
         --channelID mychannel \
@@ -236,7 +233,7 @@ Version: 1.0, Sequence: 1, Endorsement Plugin: escc, Validation Plugin: vscc, Ap
 
 <br/>
 
-### 7.1.7 Invoking the chaincode
+### Invoking the chaincode
 
     $ peer chaincode invoke \
         -o localhost:7050 \
@@ -293,12 +290,6 @@ Version: 1.0, Sequence: 1, Endorsement Plugin: escc, Validation Plugin: vscc, Ap
 
     $ cp connection-org1.json ~/projects/dev/hyperledger/Blockchain-for-Business-with-Hyperledger-Fabric/app/api/
 
-<!--
-
-$ cd ~/projects/dev/hyperledger/fabric-samples
-    $ sudo cp -r test-network/ ~/projects/dev/hyperledger/Blockchain-for-Business-with-Hyperledger-Fabric
--->
-
     $ cd ~/projects/dev/hyperledger/Blockchain-for-Business-with-Hyperledger-Fabric/app/api
 
     $ npm install
@@ -309,12 +300,14 @@ $ cd ~/projects/dev/hyperledger/fabric-samples
 
 <br/>
 
+### Проверки
+
     $ curl \
         --request GET http://localhost:8000/healthcheck
 
 <br/>
 
-**Проверка возвращаемых параметров:**
+**Проверка возвращаемых данных из ledger:**
 
     $ curl \
         --request GET 'http://localhost:8000/property?startIndex=P100001&endIndex=P100005' \
@@ -358,3 +351,38 @@ $ cd ~/projects/dev/hyperledger/fabric-samples
     $ npm start
 
 http://localhost:4200/
+
+<br/>
+
+Можно добавить на странице, например:
+
+```
+'P100003',
+'marley',
+'2838',
+'marley2',
+'marley3',
+'2323',
+'marley4'
+```
+
+<br/>
+
+```
+'P100004',
+'nosorog',
+'2838',
+'nosorog',
+'nosorog',
+'2323',
+'nosorog'
+```
+
+<br/>
+
+А потом обновить:
+
+```
+'P100003'
+'nosorog'
+```
