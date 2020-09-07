@@ -12,6 +12,18 @@ permalink: /ds/dl/
 
 <br/>
 
+### Лучшее из коротких объяснение как работают нейронные сети
+
+<div align="center">
+
+    <iframe width="853" height="480" src="https://www.youtube.com/embed/8IrD9jfuVQM?start=163" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</div>
+
+<br/>
+
+**Классификация нейронных сетей:**
+
 - Dense Networks
 - Convolutional Networks (ConvNets) - (MNIST - распознавание цифр)
 - Recurrent Neural Networks (RNNs) - (распознавание речи)

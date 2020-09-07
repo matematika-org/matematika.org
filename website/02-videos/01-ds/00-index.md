@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Видеокурсы по Data Science
+description: Видеокурсы по Data Science
+keywords: Видеокурсы, Data Science
 permalink: /videos/ds/
 ---
 

@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Видеокурсы по TensorFlow
+description: Видеокурсы по TensorFlow
+keywords: Видеокурсы, TensorFlow
 permalink: /videos/ds/dl/tensorflow/en/
 ---
 
