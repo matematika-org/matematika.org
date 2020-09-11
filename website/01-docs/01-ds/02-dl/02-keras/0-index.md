@@ -144,3 +144,19 @@ predictions = model.predict(X)
 - model.evaluate() - вычислияет потерю.
 - model.predict_classes() - вычислияет категориальные выходы.
 - model.predict_proba() - вычисляет вероятность классов.
+
+<br/>
+
+### Примеры
+
+**Convolutional Neural Networks for Image Classification**ы
+https://github.com/matematika-org/Python-for-Computer-Vision-with-OpenCV-and-Deep-Learning/blob/master/06-Deep-Learning-Computer-Vision/01-Keras-CNN-MNIST.ipynb
+
+**CIFAR-10 Multiple Classes**
+https://github.com/matematika-org/Python-for-Computer-Vision-with-OpenCV-and-Deep-Learning/blob/master/06-Deep-Learning-Computer-Vision/02-Keras-CNN-CIFAR-10.ipynb
+
+**Классификация кошек и собак:**
+https://github.com/matematika-org/Python-for-Computer-Vision-with-OpenCV-and-Deep-Learning/blob/master/06-Deep-Learning-Computer-Vision/03-Deep-Learning-Custom-Images.ipynb
+
+**YOLO v3 Object Detection**
+https://github.com/matematika-org/Python-for-Computer-Vision-with-OpenCV-and-Deep-Learning/blob/master/06-Deep-Learning-Computer-Vision/06-YOLOv3/06-YOLO-Object-Detection.ipynb

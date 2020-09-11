@@ -22,6 +22,10 @@ https://github.com/matematika-org/Python-for-Computer-Vision-with-OpenCV-and-Dee
 
 <br/>
 
+https://github.com/matematika-org/CATS_DOGS
+
+<br/>
+
 **Презентации:**:
 
 https://drive.google.com/drive/folders/1aCE-1dmPy-KUGQ9C99kx35U8tkpAnrCp
