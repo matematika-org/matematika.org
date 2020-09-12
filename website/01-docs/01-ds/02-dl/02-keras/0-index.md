@@ -158,5 +158,8 @@ https://github.com/matematika-org/Python-for-Computer-Vision-with-OpenCV-and-Dee
 **Классификация кошек и собак:**
 https://github.com/matematika-org/Python-for-Computer-Vision-with-OpenCV-and-Deep-Learning/blob/master/06-Deep-Learning-Computer-Vision/03-Deep-Learning-Custom-Images.ipynb
 
-**YOLO v3 Object Detection**
+**YOLO v3 Object Detection (На картинке находит объекты, обводит их в квадрат и присваивает метки)**
 https://github.com/matematika-org/Python-for-Computer-Vision-with-OpenCV-and-Deep-Learning/blob/master/06-Deep-Learning-Computer-Vision/06-YOLOv3/06-YOLO-Object-Detection.ipynb
+
+**Считает количество пальцев, которые показывает человек на камеру**
+https://github.com/matematika-org/Python-for-Computer-Vision-with-OpenCV-and-Deep-Learning/tree/master/07-Capstone-Project

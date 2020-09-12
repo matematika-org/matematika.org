@@ -16,6 +16,10 @@ https://www.udemy.com/course/python-for-computer-vision-with-opencv-and-deep-lea
 
 <br/>
 
+**Курс показался скучноватым и неинтересным**
+
+<br/>
+
 **Исходники:**
 
 https://github.com/matematika-org/Python-for-Computer-Vision-with-OpenCV-and-Deep-Learning
@@ -198,3 +202,25 @@ $ {
     pip install --upgrade tbb
 }
 ```
+
+<br/>
+
+### Примеры
+
+**Convolutional Neural Networks for Image Classification**ы
+https://github.com/matematika-org/Python-for-Computer-Vision-with-OpenCV-and-Deep-Learning/blob/master/06-Deep-Learning-Computer-Vision/01-Keras-CNN-MNIST.ipynb
+
+**CIFAR-10 Multiple Classes**
+https://github.com/matematika-org/Python-for-Computer-Vision-with-OpenCV-and-Deep-Learning/blob/master/06-Deep-Learning-Computer-Vision/02-Keras-CNN-CIFAR-10.ipynb
+
+**Классификация кошек и собак:**
+https://github.com/matematika-org/Python-for-Computer-Vision-with-OpenCV-and-Deep-Learning/blob/master/06-Deep-Learning-Computer-Vision/03-Deep-Learning-Custom-Images.ipynb
+
+**DataSet c котиками и собаками**
+https://github.com/matematika-org/CATS_DOGS
+
+**YOLO v3 Object Detection (На картинке находит объекты, обводит их в квадрат и присваивает метки)**
+https://github.com/matematika-org/Python-for-Computer-Vision-with-OpenCV-and-Deep-Learning/blob/master/06-Deep-Learning-Computer-Vision/06-YOLOv3/06-YOLO-Object-Detection.ipynb
+
+**Считает количество пальцев, которые показывает человек на камеру**
+https://github.com/matematika-org/Python-for-Computer-Vision-with-OpenCV-and-Deep-Learning/tree/master/07-Capstone-Project

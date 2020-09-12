@@ -8,12 +8,10 @@ permalink: /samples/deeplearning/
 
 # Примеры DeepLearning приложений
 
-### [DeepLearning] Приложение для выявления рака на ранней стадии по картинкам от IBM
+### [DeepLearning] Приложение от IBM для выявления рака на ранней стадии по картинкам
 
 **Приложение:**  
 https://github.com/IBM/MAX-Breast-Cancer-Mitosis-Detector.git
 
-**Попробовать в облаках:**
+**Попробовать в облаках:**  
 https://www.katacoda.com/javajon/courses/kubernetes-pipelines/registries
-
-**Можно попробовать развернуть локально. Например, в minikube**

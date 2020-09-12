@@ -14,6 +14,10 @@ permalink: /
 
 <br/>
 
+![Simple linear regression model](/img/simple-linear-regression-model.png 'Simple linear regression model'){: .center-image }
+
+<br/>
+
 ### [Stepic] Нейронные сети и компьютерное зрение [RUS, 2020]
 
 https://stepik.org/course/50352/promo
@@ -285,11 +289,7 @@ https://docs.google.com/document/d/1TfB48iJcCAPaQYiOgB70_QgBXyGaU33nYyUZ6lgtLl8/
 - John T., Misra P. - Data Lake for Enterprises [2017, ENG]
 - Practical Data Science: A Guide to Building the Technology Stack for Turning Data Lakes into Business Assets
 
-<br/>
-
-### Мотивация
-
-![Simple linear regression model](/img/simple-linear-regression-model.png 'Simple linear regression model'){: .center-image }
+<!--
 
 <br/>
 
@@ -322,6 +322,8 @@ https://docs.google.com/document/d/1TfB48iJcCAPaQYiOgB70_QgBXyGaU33nYyUZ6lgtLl8/
 Остальное менее интересно.
 
 Если есть знания и программы, делитесь если не жалко времени.
+
+-->
 
 <br/>
 
