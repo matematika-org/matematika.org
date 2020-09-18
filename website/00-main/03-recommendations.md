@@ -40,3 +40,37 @@ https://t.me/matematika_org/1213
 Поготовили список <a href="//matematika.org/files/made/2020_MADE_Syllabus.pdf">материалов</a> для изучения, который может быть поелезен в том числе и посетителям данного сайта.
 
 Мое уважение всем тем, кто может решить <a href="//matematika.org/files/made/2020_MADE_demo_Math.pdf">вариант</a> вступительного экзамена.
+
+<br/>
+
+## Рекомендации по изучению MachineLearning
+
+(От людей которые работают по теме ML/DL. (Не от админа сайта))
+
+<br/>
+
+### [Ng, Andrew] Классический курс по MachineLearning [ENG]
+
+Stanford Engineering Everywhere
+
+https://see.stanford.edu/Course/CS229
+
+<br/>
+
+### Франсуа Шолле: Глубокое обучение на Python [RUS]
+
+(Наверное по библиотеке keras)
+
+<br/>
+
+### [Бесплатно] Deep Learning with PyTorch [ENG]
+
+Бесплатная книга от facebook. Можно рассматривать как официальное руковосдство.
+
+https://pytorch.org/deep-learning-with-pytorch
+
+<br/>
+
+## Рекомендации по изучению HyperLedger Fabric (BlockChain)
+
+Официальная документация очень хорошая. С примерами программ. (Впрочем я нашел ошибки с выполнением кода на js и typescript).

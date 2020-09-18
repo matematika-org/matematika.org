@@ -18,7 +18,31 @@ permalink: /
 
 <br/>
 
-### [НЕЗАВИСИМЫЙ МОСКОВСКИЙ УНИВЕРСИТЕТ] Дистанционно, Бесплатно. Линал, Матан [RUS, 2020]
+### [Challenge по Pytorch]
+
+Нам, человек который уже работает по направлению DS посоветовал "классный" учебник по pytorh. То, что он калссный сказал он.
+
+Скачать его можно бесплатно с официального сайта:
+
+https://pytorch.org/deep-learning-with-pytorch
+
+Challenge заключается в изучении 10-15 страниц книги каждый день с 21 сентября 2020 года.
+
+Кому интересно, псисоединяйтесь!
+
+<br/>
+
+### [Data Fest 2020] Ничего не знаю про мероприятие. Но запишусь, если бесплатно
+
+<div align="center">
+    <iframe width="853" height="480" src="https://www.youtube.com/embed/jInbqo-hNa8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<br/>
+
+### [НЕЗАВИСИМЫЙ МОСКОВСКИЙ УНИВЕРСИТЕТ] Дистанционно, Бесплатно. Линал, Матан. [RUS, 2020]
+
+Еженедельные вечерние лекции, записи лекций
 
 **Информация**  
 https://ium.mccme.ru/index.php

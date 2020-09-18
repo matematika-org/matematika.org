@@ -36,7 +36,7 @@ permalink: /sitemap/
 
 ### [Видеокурсы по языкам программирования](/videos/lang/)
 
-### [Видеокурсы по робототехнике](/videos/robotics/)
+### [Видеокурсы по робототехнике (Переехало)](https://robotech.info/videos/)
 
 <br/>
 
