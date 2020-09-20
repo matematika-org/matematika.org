@@ -3,7 +3,7 @@ layout: page
 title: Nakul Shah - Blockchain for Business with Hyperledger Fabric - Fabric SDK Building End-to-End Application with Fabric Network
 description: Nakul Shah - Blockchain for Business with Hyperledger Fabric - Fabric SDK Building End-to-End Application with Fabric Network
 keywords: Blockchain, Hyperleger, Fabric, Nakul Shah, Blockchain for Business with Hyperledger Fabric, Fabric SDK
-permalink: /books/blockchain/hyperledger/en/fabric/blockchain-for-business-with-hyperledger-fabric/fabric-sdk-building-end-to-end-application-with-fabric-network/
+permalink: /books/blockchain/hyperledger/fabric/blockchain-for-business-with-hyperledger-fabric/fabric-sdk-building-end-to-end-application-with-fabric-network/en/
 ---
 
 # [Nakul Shah] Blockchain for Business with Hyperledger Fabric: A complete guide to enterprise Blockchain implementation using Hyperledger Fabric [ENG, 2019]

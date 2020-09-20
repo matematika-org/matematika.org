@@ -3,7 +3,7 @@ layout: page
 title: Nakul Shah - Blockchain for Business with Hyperledger Fabric
 description: Nakul Shah - Blockchain for Business with Hyperledger Fabric
 keywords: Blockchain, Hyperleger, Fabric, Nakul Shah, Blockchain for Business with Hyperledger Fabric
-permalink: /books/blockchain/hyperledger/en/fabric/blockchain-for-business-with-hyperledger-fabric/
+permalink: /books/blockchain/hyperledger/fabric/blockchain-for-business-with-hyperledger-fabric/en/
 ---
 
 # [Nakul Shah] Blockchain for Business with Hyperledger Fabric: A complete guide to enterprise Blockchain implementation using Hyperledger Fabric [ENG, 2019]
@@ -13,7 +13,7 @@ permalink: /books/blockchain/hyperledger/en/fabric/blockchain-for-business-with-
 За индусом нужен глаз да глаз. То там где-то напутает, то сям.
 А вообще этот мудазвон заставил меня копипастить код из pdf. И только в следующей главе, он дал ссылку на репо, где хранится код.
 
-К сожалению исходных кодов к книге нет. Да еще и при копи пасте команды в консоли не выполняются и необходимо предварительно их в текстовом редакторе подправлять.
+К сожалению, исходных кодов к книге нет. Да еще и при копи пасте команды в консоли не выполняются и необходимо предварительно их в текстовом редакторе подправлять.
 
 Также мной были замечены ошибки в приведенных исходниках, как впрочем и в командах приведенных в книге.
 
@@ -62,11 +62,11 @@ permalink: /books/blockchain/hyperledger/en/fabric/blockchain-for-business-with-
 
 <br/>
 
-### [Frameworks, Network Topologies, and Modeling](/books/blockchain/hyperledger/en/fabric/blockchain-for-business-with-hyperledger-fabric/frameworks-network-topologies-and-modeling/)
+### [Frameworks, Network Topologies, and Modeling](/books/blockchain/hyperledger/fabric/blockchain-for-business-with-hyperledger-fabric/frameworks-network-topologies-and-modeling/en/)
 
 <br/>
 
-### [Chaincode in Hyperledger Fabric](/books/blockchain/hyperledger/en/fabric/blockchain-for-business-with-hyperledger-fabric/chaincode-in-hyperledger-fabric/)
+### [Chaincode in Hyperledger Fabric](/books/blockchain/hyperledger/fabric/blockchain-for-business-with-hyperledger-fabric/chaincode-in-hyperledger-fabric/en/)
 
 <br/>
 
@@ -76,11 +76,11 @@ permalink: /books/blockchain/hyperledger/en/fabric/blockchain-for-business-with-
 
 Нужно отметить, что у меня при запуске были ошибки и все падало. Для версии 2.2 обновился sdk и примеры из книги не стали работать для этой версии.
 
-Если всеже интересно, то вот здесь остались <a href="/books/blockchain/hyperledger/en/fabric/blockchain-for-business-with-hyperledger-fabric/fabric-sdk-interaction-with-fabric-network/">наработки и ошибки</a>.
+Если всеже интересно, то вот здесь остались <a href="/books/blockchain/hyperledger/fabric/blockchain-for-business-with-hyperledger-fabric/fabric-sdk-interaction-with-fabric-network/en/">наработки и ошибки</a>.
 
 <br/>
 
-### [Fabric SDK: Building End-to-End Application with Fabric Network](/books/blockchain/hyperledger/en/fabric/blockchain-for-business-with-hyperledger-fabric/fabric-sdk-building-end-to-end-application-with-fabric-network/)
+### [Fabric SDK: Building End-to-End Application with Fabric Network](/books/blockchain/hyperledger/fabric/blockchain-for-business-with-hyperledger-fabric/fabric-sdk-building-end-to-end-application-with-fabric-network/en/)
 
 <br/>
 

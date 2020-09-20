@@ -3,7 +3,7 @@ layout: page
 title: Nakul Shah - Blockchain for Business with Hyperledger Fabric - Chaincode in Hyperledger Fabric
 description: Nakul Shah - Blockchain for Business with Hyperledger Fabric - Chaincode in Hyperledger Fabric
 keywords: Blockchain, Hyperleger, Fabric, Nakul Shah, Blockchain for Business with Hyperledger Fabric, Chaincode in Hyperledger Fabric
-permalink: /books/blockchain/hyperledger/en/fabric/blockchain-for-business-with-hyperledger-fabric/chaincode-in-hyperledger-fabric/
+permalink: /books/blockchain/hyperledger/fabric/blockchain-for-business-with-hyperledger-fabric/chaincode-in-hyperledger-fabric/en/
 ---
 
 # [Nakul Shah] Blockchain for Business with Hyperledger Fabric: A complete guide to enterprise Blockchain implementation using Hyperledger Fabric [ENG, 2019]

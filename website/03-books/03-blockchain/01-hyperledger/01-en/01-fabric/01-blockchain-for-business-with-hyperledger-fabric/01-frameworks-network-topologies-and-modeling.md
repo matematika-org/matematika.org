@@ -3,7 +3,7 @@ layout: page
 title: Nakul Shah - Blockchain for Business with Hyperledger Fabric - Frameworks, Network Topologies, and Modeling
 description: Nakul Shah - Blockchain for Business with Hyperledger Fabric - Frameworks, Network Topologies, and Modeling
 keywords: Blockchain, Hyperleger, Fabric, Nakul Shah, Blockchain for Business with Hyperledger Fabric, Frameworks, Network Topologies, and Modeling
-permalink: /books/blockchain/hyperledger/en/fabric/blockchain-for-business-with-hyperledger-fabric/frameworks-network-topologies-and-modeling/
+permalink: /books/blockchain/hyperledger/fabric/blockchain-for-business-with-hyperledger-fabric/frameworks-network-topologies-and-modeling/en/
 ---
 
 # [Nakul Shah] Blockchain for Business with Hyperledger Fabric: A complete guide to enterprise Blockchain implementation using Hyperledger Fabric [ENG, 2019]

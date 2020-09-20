@@ -32,13 +32,23 @@ Challenge заключается в изучении 10-15 страниц кни
 
 <br/>
 
-### [Data Fest 2020] Ничего не знаю про мероприятие. Но запишусь, если бесплатно
+### [Data Fest 2020] Бесплатное для зрителей мероприятие
+
+Ждем записи конференций. Возможно будет представлено что-то интересное.
+
+<br/>
 
 <div align="center">
     <iframe width="853" height="480" src="https://www.youtube.com/embed/jInbqo-hNa8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-Думаю выложат записи. Возможно будет представлено что-то интересное.
+<br/>
+
+**Аналогичное мероприятие от иностранцев:**
+
+ODSC East 2019 (Open Data Science Conference)
+
+https://www.oreilly.com/library/view/odsc-east-2019/9780136746874/
 
 <br/>
 
@@ -48,8 +58,6 @@ Challenge заключается в изучении 10-15 страниц кни
 
 **Информация**  
 https://ium.mccme.ru/index.php
-
-<br/>
 
 **Расписание занятий на осенний семестр 2020/2021 года**  
 https://ium.mccme.ru/f20/raspis.html
@@ -90,7 +98,7 @@ https://openedu.ru/course/msu/CALC1/
 
 <br/>
 
-### Возможно поду собеседоваться на позицию аналитика Data Science
+### Возможно пойду собеседоваться на позицию аналитика Data Science
 
 Что посоветуете почитать / посмотреть по следующему?
 
@@ -104,41 +112,11 @@ https://openedu.ru/course/msu/CALC1/
 
 <br/>
 
-### [Derek Banas] Learn Algebra
-
-https://www.youtube.com/watch?v=B_WCI_A944E
-
-<br/>
-
-### Hyperledger - корпоративная платформа на BlockChain
-
-Возникли сложности и с изучением и с запуском примеров. Читаю книгу [Nakul Shah] Blockchain for Business with Hyperledger Fabric: A complete guide to enterprise Blockchain implementation using Hyperledger Fabric [ENG, 2019]
-
-Если кому интересно и тоже хочет поразбираться или подсказать что не так, какие-то наработки <a href="/books/blockchain/hyperledger/en/fabric/blockchain-for-business-with-hyperledger-fabric/">здесь</a>
-
-<br/>
-
-### [Derek Banas] Statistics Tutorial
-
-<div align="center">
-    <iframe width="853" height="480" src="https://www.youtube.com/embed/videoseries?list=PLGLfVvz_LVvQjNJr85J4U_lxDg8vgqvcO" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-
-<br/>
-
 ### [foo52ru] Расскажет про свои познания в копании нейронных сетей
 
 <div align="center">
     <iframe width="853" height="480" src="https://www.youtube.com/embed/videoseries?list=PLnmlxA5EUR3E15AtCyigwbsurUFHG6MNN" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
-
-<br/>
-
-### [Орельен Жерон] Прикладное машинное обучение с помощью Scikit-Learn и TensorFlow [RUS, 2018]
-
-Приглашаю к коллективному чтению и при необходимости, к обсуждению.
-
-<a href="/books/ds/ml/ru/hands-on-machine-learning-with-scikit-learn-and-tensorflow/">Наработки</a>
 
 <br/>
 
@@ -248,22 +226,6 @@ print(gym.__version__)
 
 ```
 -->
-
-<br/>
-
-### Mathematics for Machine Learning
-
-"We wrote a book on Mathematics for Machine Learning that motivates people to learn mathematical concepts. The book is not intended to cover advanced machine learning techniques because there are already plenty of books doing this. Instead, we aim to provide the necessary mathematical skills to read those other books."
-
-https://mml-book.com/
-
-https://www.coursera.org/specializations/mathematics-machine-learning
-
-<br/>
-
-### ODSC East 2019 (Open Data Science Conference)
-
-https://www.oreilly.com/library/view/odsc-east-2019/9780136746874/
 
 <br/>
 

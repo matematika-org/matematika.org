@@ -8,14 +8,8 @@ permalink: /books/blockchain/hyperledger/en/fabric/
 
 # Hyperleger Fabric (Blockchain)
 
-<!--
+Просто отличная документация на официальном сайте. С примерами кода и исходниками проектов на github.
 
 <br/>
 
-### [Packt] Hyperledger Cookbook [ENG, 2019]
-
--->
-
-<br/>
-
-### [[Nakul Shah] Blockchain for Business with Hyperledger Fabric: A complete guide to enterprise Blockchain implementation using Hyperledger Fabric [ENG, 2019]](/books/blockchain/hyperledger/en/fabric/blockchain-for-business-with-hyperledger-fabric/)
+### [[Nakul Shah] Blockchain for Business with Hyperledger Fabric: A complete guide to enterprise Blockchain implementation using Hyperledger Fabric [ENG, 2019]](/books/blockchain/hyperledger/fabric/blockchain-for-business-with-hyperledger-fabric/en/)

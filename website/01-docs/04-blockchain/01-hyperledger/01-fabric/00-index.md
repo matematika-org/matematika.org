@@ -12,7 +12,7 @@ permalink: /blockchain/hyperledger/fabric/
 
 **Предлагаю изучать:**
 
-### [Hyperleger Fabric - Разбираемся с примерами из официальной документации](/books/blockchain/hyperledger/en/fabric/blockchain-for-business-with-hyperledger-fabric/)
+### [Hyperleger Fabric - Разбираемся с примерами из официальной документации](/books/blockchain/hyperledger/fabric/blockchain-for-business-with-hyperledger-fabric/en/)
 
 <br/>
 
