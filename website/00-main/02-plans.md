@@ -10,6 +10,10 @@ permalink: /plans/
 
 <br/>
 
+### [[Бесплатная книга] Deep Learning with PyTorch [ENG]](/books/ds/dl/pytorch/deep-learning-with-pytorch/en/)
+
+<br/>
+
 ### Modern Reinforcement Learning: Actor-Critic Methods
 
 https://www.udemy.com/course/actor-critic-methods-from-paper-to-code-with-pytorch/

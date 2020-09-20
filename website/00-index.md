@@ -22,13 +22,13 @@ permalink: /
 
 Нам, человек который уже работает по направлению DS посоветовал "классный" учебник по pytorh. То, что он калссный сказал он.
 
-Скачать его можно бесплатно с официального сайта:
-
-https://pytorch.org/deep-learning-with-pytorch
+Скачать его можно бесплатно с официального сайта.
 
 Challenge заключается в изучении 10-15 страниц книги каждый день с 21 сентября 2020 года.
 
 Кому интересно, псисоединяйтесь!
+
+Ссылка на книгу и возможно, какие-то записи по ней. [[Бесплатная книга] Deep Learning with PyTorch [ENG]](/books/ds/dl/pytorch/deep-learning-with-pytorch/en/)
 
 <br/>
 
@@ -37,6 +37,8 @@ Challenge заключается в изучении 10-15 страниц кни
 <div align="center">
     <iframe width="853" height="480" src="https://www.youtube.com/embed/jInbqo-hNa8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
+
+Думаю выложат записи. Возможно будет представлено что-то интересное.
 
 <br/>
 

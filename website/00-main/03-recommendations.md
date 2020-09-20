@@ -63,11 +63,7 @@ https://see.stanford.edu/Course/CS229
 
 <br/>
 
-### [Бесплатно] Deep Learning with PyTorch [ENG]
-
-Бесплатная книга от facebook. Можно рассматривать как официальное руковосдство.
-
-https://pytorch.org/deep-learning-with-pytorch
+### [[Бесплатная книга] Deep Learning with PyTorch [ENG]](/books/ds/dl/pytorch/deep-learning-with-pytorch/en/)
 
 <br/>
 
