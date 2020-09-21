@@ -14,13 +14,19 @@ permalink: /plans/
 
 <br/>
 
-### Modern Reinforcement Learning: Actor-Critic Methods
+### Deploy Machine Learning Models with Django
 
-https://www.udemy.com/course/actor-critic-methods-from-paper-to-code-with-pytorch/
+https://www.deploymachinelearning.com/
 
 <br/>
 
 ### [Книга] Практическая статистика для специалистов Data Science | Брюс Эндрю, Брюс Питер
+
+<br/>
+
+### Modern Reinforcement Learning: Actor-Critic Methods
+
+https://www.udemy.com/course/actor-critic-methods-from-paper-to-code-with-pytorch/
 
 <!--
 
