@@ -80,6 +80,8 @@ permalink: /ds/ml/
   правительства США, и в ней содержится много интересных и представляю­
   щих практическую ценность наборов данных: https://catalog.data.gov
 - http://archive.ics.uci.edu/ml/datasets/
+- https://github.com/awesomedata/awesome-public-datasets
+- 25000 картинок с отсортированными кошками и собаками https://github.com/matematika-org/CATS_DOGS
 
 <br/>
 
