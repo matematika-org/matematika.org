@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Книги по Deep Learning
+description: Книги по Learning
+keywords: Книги, DeepLearning
 permalink: /books/ds/dl/
 ---
 

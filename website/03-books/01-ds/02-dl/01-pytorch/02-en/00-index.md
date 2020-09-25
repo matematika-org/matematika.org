@@ -3,7 +3,7 @@ layout: page
 title: Книги по Deep Learning с использованием библиотеки PyTorch на английском языке
 description: Книги по Deep Learning с использованием библиотеки PyTorch на английском языке
 keywords: Книги, DeepLearning, PyTorch, английский язык
-permalink: /books/ds/dl/pytorch/
+permalink: /books/ds/dl/pytorch/en/
 ---
 
 # Книги по Deep Learning с использованием библиотеки PyTorch на английском языке

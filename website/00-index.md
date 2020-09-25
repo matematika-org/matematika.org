@@ -134,99 +134,6 @@ https://www.udemy.com/course/build-face-recognition-app-using-machine-learning-i
 
 Там индусятина какая-то, но зато какой-никакой а проект
 
-<!--
-
-<br/>
-
-pip install -r requirements.txt
-
-```
-numpy
-scipy
-matplotlib
-pandas
-jupyter
-sklearn
-```
-
-    $ pip install opencv-python
-
--->
-
-<br/>
-
-### [Dr. Jon Krohn] Deep Learning with TensorFlow: Applications of Deep Neural Networks to Machine Learning Tasks [ENG, 2017]
-
-<div align="center">
-    <iframe width="853" height="480" src="https://www.youtube.com/embed/wBgW3ZtlPT8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-
-<br/>
-
-https://www.oreilly.com/library/view/deep-learning-with/9780134770826/
-
-https://github.com/the-deep-learners/TensorFlow-LiveLessons
-
-<!--
-
-В ubuntu:
-
-```
-$ mkdir -p ~/projects/dev/dl
-$ cd ~/projects/dev/dl
-$ git clone https://github.com/matematika-org/TensorFlow-LiveLessons
-$ cd TensorFlow-LiveLessons/
-
-$ sudo apt-get update && sudo apt-get upgrade
-$ sudo apt-get install -y python3.6
-$ sudo apt-get install -y python3-pip
-
-$ python3 --version
-Python 3.6.9
-
-$ sudo apt-get install -y virtualenv
-$ virtualenv --system-site-packages -p python3 tf_1
-$ source tf_1/bin/activate
-
-$ pip install --upgrade pip
-
-$ {
-    pip install --upgrade tensorflow==1.0
-    pip install --upgrade tflearn==0.3.2
-    pip install --upgrade keras==2.0.8
-    pip install --upgrade nltk==3.2.4
-    pip install --upgrade gensim==2.3.0
-    pip install --upgrade gym==0.9.4
-    pip install --upgrade jupyterlab
-}
-
-<br/>
-
-    $ jupyter notebook --ip 0.0.0.0 --port 8888
-
-```
-<br/>
-
-```
-import tensorflow
-import tflearn
-import keras
-import nltk
-import gensim
-import gym
-
-print(tensorflow.__version__)
-print(tflearn.__version__)
-print(keras.__version__)
-print(nltk.__version__)
-print(gensim.__version__)
-print(gym.__version__)
-
-Пока не все работает.
-
-```
--->
-
 <br/>
 
 ### [QwikLabs] Лабораторки по ML/DL, BigData, DataScience в облаках Google и Amazon
@@ -280,23 +187,6 @@ https://www.qwiklabs.com/quests/23
     <iframe width="853" height="480" src="https://www.youtube.com/embed/3VRddnuTR9M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-<br/>
-
-### Приглашаю присоединиться к изучению следующих курсов
-
-- Spark and Python for Big Data with PySpark
-- Scala and Spark for Big Data and Machine Learning
-
-Другие материалы автора:  
-https://docs.google.com/document/d/1TfB48iJcCAPaQYiOgB70_QgBXyGaU33nYyUZ6lgtLl8/edit
-
-- Build streaming applications using Apache Kafka and Scala (Индус с акцентом)
-
-* Качнул книги:
-
-- John T., Misra P. - Data Lake for Enterprises [2017, ENG]
-- Practical Data Science: A Guide to Building the Technology Stack for Turning Data Lakes into Business Assets
-
 <!--
 
 <br/>
@@ -347,23 +237,6 @@ https://docs.google.com/document/d/1TfB48iJcCAPaQYiOgB70_QgBXyGaU33nYyUZ6lgtLl8/
 - Дифуры
 
 https://cloud.mail.ru/public/499B/4XtQvr5tF
-
-<!--
-
-<br/>
-
-### Приглашаю коллективно почитать и разобрать примеры из книги Том Уайт› Hadoop: Подробное руководство [RUS, 2013]
-
-По 50 страничек в будний день.
-
-
-![Hadoop Подробное руководство](/img/books/bigdata/ru/Hadoop-The-Definitive-Guide-rus.jpg "Hadoop Подробное руководство"){: .center-image }
-
-Книгу найдете сами.
-
-<a href="/ds/bigdata/hadoop/">Отправная точка</a>
-
--->
 
 <br/>
 
