@@ -14,4 +14,6 @@ permalink: /videos/ds/dl/
 
 # Отдельно выделим ComputerVision и Бибилиотеку OpenCV
 
+### [Видеокурсы по ComputerVision и Бибилиотеке OpenCV на русском языке](/videos/ds/dl/cv/ru/)
+
 ### [Видеокурсы по ComputerVision и Бибилиотеке OpenCV на английском языке](/videos/ds/dl/cv/en/)
