@@ -16,8 +16,4 @@ permalink: /videos/ds/dl/pytorch/en/
 
 ### Deploying PyTorch Models in Production: PyTorch Playbook
 
-<br/>
 
-### Computer Vision
-
-- Hands-on Computer Vision with PyTorch 1.x: Implement state-of-the art CV models in modern Pytorch

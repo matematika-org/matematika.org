@@ -224,3 +224,7 @@ https://github.com/matematika-org/Python-for-Computer-Vision-with-OpenCV-and-Dee
 
 **Считает количество пальцев, которые показывает человек на камеру**
 https://github.com/matematika-org/Python-for-Computer-Vision-with-OpenCV-and-Deep-Learning/tree/master/07-Capstone-Project
+
+<br/>
+
+### Hands-on Computer Vision with PyTorch 1.x: Implement state-of-the art CV models in modern Pytorch

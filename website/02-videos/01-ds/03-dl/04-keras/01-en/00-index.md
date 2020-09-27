@@ -18,7 +18,7 @@ https://github.com/PacktPublishing/-Practical-Deep-Learning-with-Keras-and-Pytho
 
 <br/>
 
-### [[Abhilash Nelson] Deep Learning and Neural Networks using Python – Keras: The Complete Beginners Guide [ENG (Араб), May 2019]](https://bitbucket.org/matematika/deep-learning-and-neural-networks-using-python-keras-the/src/master/)
+### [[Abhilash Nelson] Deep Learning and Neural Networks using Python – Keras: The Complete Beginners Guide [ENG (Араб), May 2019]](https://github.com/matematika-org/deep-learning-and-neural-networks-using-python-keras)
 
 Мне материал понравился. Возможно потому, что это первый видеокурс по keras который я посмотрел.
 
@@ -31,7 +31,7 @@ https://github.com/PacktPublishing/-Practical-Deep-Learning-with-Keras-and-Pytho
 Плохое произношение на английском, лучше чем индусы или арабы, но все равно чувствуется, что что-то не то.
 
 Коды я не смог скачать с сайта packtput.
-Мои коды <a href="https://bitbucket.org/matematika/practical-projects-with-keras-2.x/src/master/" rel="nofollow">здесь</a>
+Мои коды <a href="https://github.com/matematika-org/practical-projects-with-keras-2.x" rel="nofollow">здесь</a>
 
 Если совсем с 0, лучше что-то другое посмотреть.
 

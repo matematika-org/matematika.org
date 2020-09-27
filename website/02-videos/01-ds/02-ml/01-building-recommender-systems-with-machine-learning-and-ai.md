@@ -3,7 +3,7 @@ layout: page
 title: Building Recommender Systems with Machine Learning and AI
 description: Building Recommender Systems with Machine Learning and AI
 keywords: Video Courses, Data Science
-permalink: /videos/ds/ml/en/building-recommender-systems-with-machine-learning-and-ai/
+permalink: /videos/ds/ml/building-recommender-systems-with-machine-learning-and-ai/en/
 ---
 
 # Building Recommender Systems with Machine Learning and AI
