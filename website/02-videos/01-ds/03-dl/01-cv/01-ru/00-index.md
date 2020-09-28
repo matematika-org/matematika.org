@@ -3,7 +3,7 @@ layout: page
 title: Видеокурсы по Computer Vision и Бибилиотеке OpenCV на русском языке
 description: Видеокурсы по ComputerVision и Бибилиотеке OpenCV на русском языке
 keywords: Видеокурсы, Computer Vision, OpenCV, русский язык
-permalink: /videos/ds/dl/cv/en/
+permalink: /videos/ds/dl/cv/ru/
 ---
 
 # Видеокурсы по Computer Vision и Бибилиотеке OpenCV на русском языке
@@ -21,3 +21,7 @@ https://youtu.be/NhZYZ06L44Y
 ### [Бесплатно!] [Stepic] Нейронные сети и компьютерное зрение [RUS, 2020]
 
 https://stepik.org/course/50352/promo
+
+<br/>
+
+### [Otus] Компьютерное зрение (Часть 1-4) [RUS]
