@@ -147,6 +147,18 @@ predictions = model.predict(X)
 
 <br/>
 
+### Базовые шаги при создании модели нейронной сети
+
+<br/>
+
+![Deep Learning](/img/docs/ds/dl/dl-02.png 'Deep Learning'){: .center-image }
+
+<br/>
+
+![Deep Learning](/img/docs/ds/dl/dl-03.png 'Deep Learning'){: .center-image }
+
+<br/>
+
 ### Примеры
 
 **Convolutional Neural Networks for Image Classification**ы

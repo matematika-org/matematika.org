@@ -10,7 +10,7 @@ permalink: /videos/ds/
 
 <br/>
 
-### [Видеокурсы по библиотекам анализа данных (Pandas, Seaborn) на английском языке](/videos/ds/libs/en/)
+### [Видеокурсы по библиотекам анализа данных (NumPy, Pandas, Seaborn) на английском языке](/videos/ds/libs/en/)
 
 <br/>
 

@@ -10,9 +10,9 @@ permalink: /ds/ml/supervised-learning/
 
 Ниже перечислены некоторые из самых важных алгоритмов обучения с учителем:
 
-- k ближайших соседей (k-nearest neighbors)
 - линейная регрессия (linear regression)
 - логистическая регрессия (logistic regression)
+- k ближайших соседей (k-nearest neighbors)
 - метод опорных векторов (Support Vector Machine - SVM)
 - деревья принятия решений (decision tree) и случайные леса (random forest)
 - нейронные сети (neural network)

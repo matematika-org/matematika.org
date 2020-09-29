@@ -22,37 +22,16 @@ permalink: /ds/dl/
 
 <br/>
 
+![Deep Learning](/img/docs/ds/dl/dl-01.png 'Deep Learning'){: .center-image }
+
+<br/>
+
 **Классификация нейронных сетей:**
 
 - Dense Networks
 - Convolutional Networks (ConvNets) - (MNIST - распознавание цифр)
 - Recurrent Neural Networks (RNNs) - (распознавание речи)
-- Reinforecement Learning
 - Generative Adversarial Networks (GANs)
-
-<br/>
-
-![Deep Learning](/img/docs/ds/dl/dl-01.png 'Deep Learning'){: .center-image }
-
-<br/>
-
-![Deep Learning](/img/docs/ds/dl/dl-02.png 'Deep Learning'){: .center-image }
-
-<br/>
-
-![Deep Learning](/img/docs/ds/dl/dl-03.png 'Deep Learning'){: .center-image }
-
-<br/>
-
-![Deep Learning](/img/docs/ds/dl/dl-04.png 'Deep Learning'){: .center-image }
-
-<br/>
-
-![Deep Learning](/img/docs/ds/dl/dl-05.png 'Deep Learning'){: .center-image }
-
-<br/>
-
-![Deep Learning](/img/docs/ds/dl/dl-06.png 'Deep Learning'){: .center-image }
 
 <br/>
 
@@ -64,11 +43,7 @@ permalink: /ds/dl/
 
 <br/>
 
-### [TensorFlow](/ds/dl/tf/)
-
-TensorFlow - библиотека от Google для ML/DL. Можно запускать обычным способом, в docker контейнерах, в том числе в kubernetes кластерах (инструмент для запуска кучи контейнеров на куче серверов). Есть специальный проект kubeflow, для работы tensorflow в kubernetes. Скрипты для развертывания локального kubernetes кластера в linux у меня есть. Спросить в чате, если нужно.
-
-TensorFlow, вроде как, был сложен для программистов и была написана библиотека упрощающая работу с ним - keras. Библиотека набрала популярность и в Google решили добавить наработки из этой библиотеки во вторую версию TensorFlow, которая пока beta. В общем, если выбирать библиотеку для изучения DL, наверное лучше сразу начинать копаться со второй версии TensorFlow.
+### [TensorFlow (Google)](/ds/dl/tf/)
 
 <br/>
 
@@ -78,7 +53,7 @@ TensorFlow, вроде как, был сложен для программист
 
 <br/>
 
-### PyTorch
+### PyTorch (Facebook)
 
 Вроде как, "более гибкая" библиотека, чем keras. Так сказал автор курса от Отус по ML.
 
@@ -98,6 +73,22 @@ TensorFlow, вроде как, был сложен для программист
 - Гиперболический тангенс
 - Линейная функция
 - Логистическая фукнкция
+
+<br/>
+
+**Некоторые представлены на картинке:**
+
+<br/>
+
+![Deep Learning](/img/docs/ds/dl/dl-04.png 'Deep Learning'){: .center-image }
+
+<br/>
+
+![Deep Learning](/img/docs/ds/dl/dl-05.png 'Deep Learning'){: .center-image }
+
+<br/>
+
+![Deep Learning](/img/docs/ds/dl/dl-06.png 'Deep Learning'){: .center-image }
 
 <br/><br/>
 

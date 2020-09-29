@@ -128,7 +128,3 @@ https://github.com/matematika-org/spark-and-python-for-big-data-with-pyspark/tre
 Maximum likelihood estimation (MLE)
 
 https://github.com/matematika-org/Machine-Learning-101-with-Scikit-learn-and-StatsModels/tree/master/6%20-%20Logistic%20Regression
-
-<br/>
-
-### Decision Trees and Random Forests
