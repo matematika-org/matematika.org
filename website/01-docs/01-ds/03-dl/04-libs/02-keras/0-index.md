@@ -83,9 +83,10 @@ keras: keras.io/metrics/
 
 **Методы оптимизации**
 
-- SGD () - Stochastic Gradient Descent (Стохастический градиентный спуск)
-- RMSprop()
-- Adam()
+- Stochastic Gradient Descent (Стохастический градиентный спуск) (SGD)
+- Adaptive moment estimation (Adam) - это стохастический метод градиентного спуска, основанный на адаптивной оценке моментов первого и второго порядка.
+- RMSprop - этот метод пытается решить сильно уменьшающиеся темпы обучения с использованием скользящего среднего квадратичного градиента.
+- Nadam – метод, комбинирующий Adam с импульсом Нестерова.
 
 keras: keras.io/optimizers/
 
@@ -161,7 +162,7 @@ predictions = model.predict(X)
 
 ### Примеры
 
-**Convolutional Neural Networks for Image Classification**ы
+**Convolutional Neural Networks for Image Classification**
 https://github.com/matematika-org/Python-for-Computer-Vision-with-OpenCV-and-Deep-Learning/blob/master/06-Deep-Learning-Computer-Vision/01-Keras-CNN-MNIST.ipynb
 
 **CIFAR-10 Multiple Classes**
