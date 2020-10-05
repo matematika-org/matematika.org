@@ -8,7 +8,7 @@ permalink: /books/ds/dl/pytorch/deep-learning-with-pytorch/en/
 
 # [Бесплатная книга] Deep Learning with PyTorch [ENG]
 
-Бесплатная книга от facebook. Можно рассматривать как официальное руковосдство.
+Можно рассматривать как официальное руководство.
 
 https://pytorch.org/deep-learning-with-pytorch
 
@@ -55,12 +55,10 @@ https://colab.research.google.com/notebooks/intro.ipynb
 
     $ sudo apt-get install libboost-all-dev
 
-
 <br/>
 
     $ python3 --version
     Python 3.8.2
-
 
 <br/>
 
@@ -75,7 +73,6 @@ https://colab.research.google.com/notebooks/intro.ipynb
     $ git clone https://github.com/deep-learning-with-pytorch/dlwpt-code
 
     $ pip install --upgrade pip
-
 
 ```
 $ {

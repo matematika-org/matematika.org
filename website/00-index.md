@@ -32,6 +32,16 @@ Challenge заключается в изучении 10-15 страниц кни
 
 <br/>
 
+### [Tech With Tim] Neural Networks & TensorfFlow Crash Course [ENG, 2020]
+
+<br/>
+
+<div align="center">
+    <iframe width="853" height="480" src="https://www.youtube.com/embed/tZt6gRlRcgk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<br/>
+
 ### [Data Fest 2020] Бесплатное для зрителей мероприятие
 
 Ждем записи конференций. Возможно будет представлено что-то интересное.
