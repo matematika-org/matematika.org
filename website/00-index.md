@@ -63,13 +63,19 @@ Challenge заключается в изучении 10-15 страниц кни
 
 ### [YouTube, Лекторий ФПМИ] Материалы по MachineLearning | DeepLearning и д.р. [RUS, 2020]
 
+https://www.youtube.com/watch?v=rGijKWbVtso
+
 Нужно скоординироваться и скачать все полезное, пока материалы не пропали.
 
 <br/>
 
 ### [YouTube, Tech With Tim] Python Machine Learning Tutorials [ENG, 2019-2020]
 
-https://www.youtube.com/playlist?list=PLzMcBGfZo4-mP7qA9cagf68V06sko5otr
+<div align="center">
+    <iframe width="853" height="480" src="https://www.youtube.com/embed/videoseries?list=PLzMcBGfZo4-mP7qA9cagf68V06sko5otr" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<!--
 
 <br/>
 
@@ -78,6 +84,8 @@ https://www.youtube.com/playlist?list=PLzMcBGfZo4-mP7qA9cagf68V06sko5otr
 Student Performance Data Set
 
 https://archive.ics.uci.edu/ml/datasets/Student+Performance
+
+-->
 
 <!--
 
