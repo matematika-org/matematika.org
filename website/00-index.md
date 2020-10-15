@@ -16,6 +16,17 @@ permalink: /
 
 ![Simple linear regression model](/img/simple-linear-regression-model.png 'Simple linear regression model'){: .center-image }
 
+<!--
+
+### Нужно посмотреть
+
+https://www.youtube.com/watch?v=zjkx4Banyos
+
+https://www.youtube.com/watch?v=g-kMyED62c0
+
+
+-->
+
 <br/>
 
 ### [Challenge по Pytorch]
@@ -32,7 +43,82 @@ Challenge заключается в изучении 10-15 страниц кни
 
 <br/>
 
-### [Tech With Tim] Neural Networks & TensorfFlow Crash Course [ENG, 2020]
+### [YouTube, Лекторий ФПМИ] Какая математика нужна в анализе данных? Для обучения нейронной сети? [RUS, 2020]
+
+<br/>
+
+<div align="center">
+    <iframe width="853" height="480" src="https://www.youtube.com/embed/g-kMyED62c0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<br/>
+
+### [YouTube, Лекторий ФПМИ] Прикладное машинное обучение [RUS, 2020]
+
+<div align="center">
+    <iframe  width="853" height="480" src="https://www.youtube.com/embed/videoseries?list=PL4_hYwCyhAvY7k32D65q3xJVo8X8dc3Ye" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<br/>
+
+### [YouTube, Лекторий ФПМИ] Материалы по MachineLearning | DeepLearning и д.р. [RUS, 2020]
+
+Нужно скоординироваться и скачать все полезное, пока материалы не пропали.
+
+<br/>
+
+### [YouTube, Tech With Tim] Python Machine Learning Tutorials [ENG, 2019-2020]
+
+https://www.youtube.com/playlist?list=PLzMcBGfZo4-mP7qA9cagf68V06sko5otr
+
+<br/>
+
+**Linear Regression**
+
+Student Performance Data Set
+
+https://archive.ics.uci.edu/ml/datasets/Student+Performance
+
+<!--
+
+<br/>
+
+    $ pip install tensorflow
+    keras
+
+    pip install sklearn
+    pandas
+    numpy
+
+
+<br/>
+
+    import pandas as pd
+    import numpy as np
+    import sklearn
+    from sklearn import linear model
+    from sklearn.utils import shuffle
+
+    data = pd.read_csv("student-mat.csv", sep=';')
+
+    pint(data.head())
+
+    data = data[["G1", "G2", "G3", "studytime", "failures", "absences"]]
+
+    pint(data.head())
+
+    predict = "G3"
+
+    X = np.array(data.drop([predict], 1))
+    y = np.array(data[predict])
+
+    x_train, y_train, x_text, y_test = sklearn.model_selection.train_test_split(X, y, test_size = 0.1)
+
+-->
+
+<br/>
+
+### [YouTube, Tech With Tim] Neural Networks & TensorfFlow Crash Course [ENG, 2020]
 
 <br/>
 
