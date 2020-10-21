@@ -1,12 +1,12 @@
 ---
 layout: page
 title: Skillbox, Профессия‌ ‌Data‌ ‌Scientist‌, отзывы
-description: Skillbox, Профессия‌ ‌Data‌ ‌Scientist‌‌ - курс ценой 150,390 руб., отзывы
-keywords: Skillbox, Профессия‌ ‌Data‌ ‌Scientist‌ - курс ценой 150,390 руб.‌, отзывы
-permalink: /scools/skillbox/
+description: Skillbox, Профессия‌ ‌Data‌ ‌Scientist‌‌ - курс ценой 150 390 руб., отзывы
+keywords: Skillbox, Профессия‌ ‌Data‌ ‌Scientist‌, курс ценой 150 390 руб.‌, отзывы, не советую
+permalink: /schools/skillbox/
 ---
 
-# [Skillbox] Профессия‌ ‌Data‌ ‌Scientist‌ - курс ценой 150,390 руб.
+# [Skillbox] Профессия‌ ‌Data‌ ‌Scientist‌ - курс ценой 150 390 руб.
 
 Смотрел ролики про компы на youtube. Рекламировали онлайн школу Skillbox и их учебную программу по направлению "Профессия‌ ‌Data‌ ‌Scientist".
 
@@ -14,7 +14,7 @@ permalink: /scools/skillbox/
 
 <br/>
 
-![Skillbox - Профессия‌ ‌Data‌ ‌Scientist‌](/img/scools/skillbox/pic01.jpg 'Skillbox - Профессия‌ ‌Data‌ ‌Scientist‌'){: .center-image }
+![Skillbox - Профессия‌ ‌Data‌ ‌Scientist‌](/img/schools/skillbox/pic01.jpg 'Skillbox - Профессия‌ ‌Data‌ ‌Scientist‌'){: .center-image }
 
 <br/>
 
@@ -22,15 +22,15 @@ permalink: /scools/skillbox/
 
 <br/>
 
-![Skillbox - Профессия‌ ‌Data‌ ‌Scientist‌](/img/scools/skillbox/pic02.jpg 'Skillbox - Профессия‌ ‌Data‌ ‌Scientist‌'){: .center-image }
+![Skillbox - Профессия‌ ‌Data‌ ‌Scientist‌](/img/schools/skillbox/pic02.jpg 'Skillbox - Профессия‌ ‌Data‌ ‌Scientist‌'){: .center-image }
 
 <br/>
 
-![Skillbox - Профессия‌ ‌Data‌ ‌Scientist‌](/img/scools/skillbox/pic03.jpg 'Skillbox - Профессия‌ ‌Data‌ ‌Scientist‌'){: .center-image }
+![Skillbox - Профессия‌ ‌Data‌ ‌Scientist‌](/img/schools/skillbox/pic03.jpg 'Skillbox - Профессия‌ ‌Data‌ ‌Scientist‌'){: .center-image }
 
 <br/>
 
-![Skillbox - Профессия‌ ‌Data‌ ‌Scientist‌](/img/scools/skillbox/pic04.jpg 'Skillbox - Профессия‌ ‌Data‌ ‌Scientist‌'){: .center-image }
+![Skillbox - Профессия‌ ‌Data‌ ‌Scientist‌](/img/schools/skillbox/pic04.jpg 'Skillbox - Профессия‌ ‌Data‌ ‌Scientist‌'){: .center-image }
 
 <br/>
 
@@ -44,7 +44,7 @@ permalink: /scools/skillbox/
 
 <br/>
 
-<a href="/img/scools/skillbox/pic-00-all.png">Скриншот страницы</a>
+<a href="/img/schools/skillbox/pic-00-all.png">Скриншот страницы</a>
 
 <br/>
 
@@ -53,6 +53,14 @@ permalink: /scools/skillbox/
 <br/>
 
 Везде обман. Не советую. По содержанию пока не знаю. Были в нашем чате не самые лучшие отзывы от тех, кто учился.
+
+Вот, что мне ответили:
+
+<br/>
+
+```
+Всё верно. Это отсрочка платежа по кредитному договору. Стоимость курса, который Вы рассматриваете составляет 151890 рублей. Оплатить можно в рассрочку на 36 месяцев с первым платежом через полгода - далее 31 платеж по 4900. Чтобы это всё оформить нужно заполнить анкету в банк, получить решение, подписать договор.
+```
 
 <br/>
 
