@@ -35,3 +35,7 @@ permalink: /schools/otus/
 **Взято:**
 
 https://t.me/buryippua/1242
+
+**Как продолжение, но не относится к Otus**
+
+https://t.me/buryippua/1244
