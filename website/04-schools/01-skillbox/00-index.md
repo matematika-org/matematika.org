@@ -83,3 +83,27 @@ https://t.me/jsdev_ru/2881
 <br/>
 
 https://t.me/jsdev_ru/2884
+
+https://t.me/buryippua/1248
+
+<br/>
+
+В мае 2020 года журнал Forbes опубликовал новый рейтинг 30 самых перспективных россиян в возрасте до 30 лет, Игорь Коропов стал победителем в категории «Предприниматели» за проект Skillbox.
+
+Оборот проекта за 2018 год составил 340 миллионов рублей, в феврале 2019 года совладельцем Skillbox стала Mail.ru Group, которая впоследствии нарастила долю в проекте до 60,33%.
+
+https://novayagazeta.ru/news/2020/11/03/165404-v-sochi-propal-direktor-onlayn-universiteta-skillbox-igor-koropov
+
+<br/>
+
+### Из телеграм чата студентов DevOps (Забавная правда)
+
+https://t.me/otus_devops/30942
+
+<br/>
+
+![Skillbox - Ищет Data Engineer‌](/img/schools/skillbox/tg-01.png 'Skillbox - Ищет Data Engineer'){: .center-image }
+
+<br/>
+
+![Skillbox - Ищет Data Engineer](/img/schools/skillbox/tg-02.png 'Skillbox - Ищет Data Engineer'){: .center-image }
