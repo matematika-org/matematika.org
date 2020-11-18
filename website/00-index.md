@@ -8,7 +8,45 @@ permalink: /
 
 <br/>
 
+### [Бесплатно] [Онлайн] [RS School] Introduction to Machine Learning [RUS, 18 января 2021]
+
+Rs school 18 января стартует курс по ml. Срок обучения 3 месяца.
+
+**Нужно зарегаться до 18 января 2021**
+
+Для регистрации, верояно, нужен будет гитхаб. (Кто не знает что это такое, разберитесь заранее).
+
+Сотрудники EPAM предоставят возможность набраться у них знаний на халяву. Лучшим еще и работу предложат.
+
+https://rs.school/machine-learning/
+
+<br/>
+
+**В курсе будут освещены следующие темы:**
+
+- Data manipulations, pandas. EDA, seaborn
+- Supervised / unsupervised learning (overview). Regression problem. Linear models
+- Overfitting and regularization
+- Feature engineering and selection
+- Classification problem. Linear models. kNN
+- Trees and ensembles
+- Clustering and dimensionality reduction
+- Model evaluation and selection
+- Capstone project
+
+<br/>
+
+Увидимся на занятиях, проверках домашних заданий и в чатах школы для обсуждения.
+
+Думаю, не лишним будет до начала пересмотреть: https://www.youtube.com/watch?v=5Yl6_2d0CN0
+
+Если кто будет набирать playbook расшарьте.
+
+<br/>
+
 ### [Математика] Открытая инициатива (Предлагаю идею)!
+
+(Подредактирую написанное позже, в связи с открытием бесплатного курса от EPAM по ML)
 
 Я занимался изучением программирования (расширял кругозор / повышал квалификацию) в онлайн школе RS SCHOOL **бесплатно**. Тематику можно было бы обобщить, как <a href="//jsdev.ru/schools/rs-school/">современный JavaScript</a>.
 
