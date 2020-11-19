@@ -36,7 +36,7 @@ https://habr.com/ru/company/mailru/blog/506824/
 
 <br/>
 
-### [Mail.ru] ВВЕДЕНИЕ В АНАЛИЗ ДАННЫХ [2019, RUS]
+### [Mail.ru] Введение в анализ данных [2019, RUS]
 
 В общем в mail.ru решили прочитать курс по основам python, а самым интересным не делиться. Так, что если есть желание изучить основы python, может быть этот материал и подойдет.
 
@@ -45,6 +45,11 @@ https://habr.com/ru/company/mailru/blog/506824/
 UPD. Спустя пол года, решили выложить материалы из второй части курса. Не все и все еще без notebook'ов.
 
 По вот этой ссылке можно посмотреть записи, которые "скрыты". https://www.youtube.com/playlist?list=PLrCZzMib1e9p6lpNv-yt6uvHGyBxQncEh
+
+<br/>
+
+**Playbooks: **
+https://github.com/Bronnikoff/ML
 
 <br/>
 

@@ -42,9 +42,9 @@ https://rs.school/machine-learning/
 
 <br/>
 
-Думаю, не лишним будет до начала пересмотреть: https://www.youtube.com/watch?v=5Yl6_2d0CN0
+Думаю, не лишним будет до начала пересмотреть
 
-Если кто будет набирать playbook расшарьте.
+<a href="/videos/lang/python/ru/">[Mail.ru] Введение в анализ данных [2019, RUS]</a>
 
 <br/>
 
