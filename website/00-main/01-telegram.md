@@ -6,7 +6,19 @@ keywords: telegram, группа для общения, DataScience, MachineLear
 permalink: /chat/
 ---
 
-# Telegram группа (чат)
+<br/>
+
+# Чаты
+
+<br/>
+
+### Discord (групповой чат с возможностью общаться голосом)
+
+https://discord.gg/Dc7pFGAA
+
+<br/>
+
+### Telegram группа (групповой чат)
 
 **Группа в телеграм:**  
 matematika_org
