@@ -90,6 +90,12 @@ https://rs.school/machine-learning/
 
 <br/>
 
+### [YouTube, Deep Learning School] Deep Learning [RUS, 2020]
+
+https://www.youtube.com/c/DeepLearningSchool/playlists
+
+<br/>
+
 ### [YouTube, Андрей Малахов] Julia in DS [RUS, 2020]
 
 https://www.youtube.com/watch?v=Okh_yKmBCIc&list=PLTlO6nV_TaGDX81p4b1dbqtJWHR1iZqof
