@@ -10,6 +10,12 @@ permalink: /schools/
 
 <br/>
 
+### [Stepic] (/schools/stepic/)
+
+### [Specialist] (/schools/specialist/)
+
 ### [Skillbox](/schools/skillbox/)
 
 ### [Otus](/schools/otus/)
+
+### [Нетология](/schools/netology/)

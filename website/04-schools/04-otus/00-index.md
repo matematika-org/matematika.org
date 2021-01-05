@@ -11,3 +11,5 @@ permalink: /schools/otus/
 ### [Промышленный Machine Learning на больших данных](/schools/otus/production-ml-on-bigdata/)
 
 ### [Data Engineer](/schools/otus/data-engineer/)
+
+### [Otus] Компьютерное зрение (Часть 1-4) [RUS]

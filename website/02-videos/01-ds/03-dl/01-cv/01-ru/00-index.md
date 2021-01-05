@@ -21,7 +21,3 @@ https://youtu.be/NhZYZ06L44Y
 ### [Бесплатно!] [Stepic] Нейронные сети и компьютерное зрение [RUS, 2020]
 
 https://stepik.org/course/50352/promo
-
-<br/>
-
-### [Otus] Компьютерное зрение (Часть 1-4) [RUS]
