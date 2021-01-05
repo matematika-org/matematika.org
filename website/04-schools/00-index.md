@@ -1,14 +1,16 @@
 ---
 layout: page
-title: Оргазинации обучающие по направлениям
-description: Оргазинации обучающие по направлениям
-keywords: Оргазинации обучающие по направлениям
+title: Оргазинации обучающие по направлениям DS, Machine Learning, Deep Learning
+description: Оргазинации обучающие по направлениям DS, Machine Learning, Deep Learning
+keywords: Оргазинации обучающие по направлениям DS, Machine Learning, Deep Learning
 permalink: /schools/
 ---
 
-# Оргазинации обучающие по направлениям
+# Оргазинации обучающие по направлениям DS, Machine Learning, Deep Learning
 
 <br/>
+
+### [RS School (Epam)] (/schools/rs-school/)
 
 ### [Stepic] (/schools/stepic/)
 
