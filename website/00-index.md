@@ -64,9 +64,15 @@ Rs school 18 января стартует курс по ml. Срок обуче
 
 <br/>
 
+### Deep learning на пальцах
+
+https://www.youtube.com/watch?v=_q46x0tq2FQ&list=PL5FkQ0AF9O_o2Eb5Qn8pwCDg7TniyV1Wb&ab_channel=sim0nsays
+
 ### [YouTube, Deep Learning School] Deep Learning [RUS, 2020]
 
 https://www.youtube.com/c/DeepLearningSchool/playlists
+
+https://dlcourse.ai/
 
 <br/>
 
@@ -192,25 +198,6 @@ https://archive.ics.uci.edu/ml/datasets/Student+Performance
     <iframe width="853" height="480" src="https://www.youtube.com/embed/tZt6gRlRcgk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-<br/>
-
-### [Data Fest 2020] Бесплатное для зрителей мероприятие
-
-Ждем записи конференций. Возможно будет представлено что-то интересное.
-
-<br/>
-
-<div align="center">
-    <iframe width="853" height="480" src="https://www.youtube.com/embed/jInbqo-hNa8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-
-<br/>
-
-**Аналогичное мероприятие от иностранцев:**
-
-ODSC East 2019 (Open Data Science Conference)
-
-https://www.oreilly.com/library/view/odsc-east-2019/9780136746874/
 
 <br/>
 

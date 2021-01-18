@@ -10,9 +10,11 @@ permalink: /schools/
 
 <br/>
 
-### [RS School (Epam)] (/schools/rs-school/)
+### [RS School (Epam) (Бесплатно)] (/schools/rs-school/)
 
-### [Stepic] (/schools/stepic/)
+### [Stepic (Бесплатно)] (/schools/stepic/)
+
+### [Mail.ru (Бесплатно)](/schools/mail/)
 
 ### [Specialist] (/schools/specialist/)
 
@@ -21,3 +23,19 @@ permalink: /schools/
 ### [Otus](/schools/otus/)
 
 ### [Нетология](/schools/netology/)
+
+### [SkillFactory](/schools/skillfactory/)
+
+### [AI University](/schools/ai-university/)
+
+### [GeekBrains](/schools/geekbrains/)
+
+### [МИЭТ](/schools/miet/)
+
+### [МФТИ](/schools/mfti/)
+
+<br/>
+
+GeekBransk, SkillBox, OTUS - может быть еще какие-то компании имеют отношение к Mail.ru Group.
+
+В поиске замечены сайты, которые пытаются сравнивать эти школы и мотивируют вас выбрать одну из них.

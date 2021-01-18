@@ -41,3 +41,13 @@ https://rs.school/machine-learning/
 Все, я зарегался!
 
 Увидимся на занятиях, проверках домашних заданий и в чатах школы для обсуждения.
+
+<br/>
+
+**Github:**  
+https://github.com/rolling-scopes-school/ml-intro
+
+<br/>
+
+**Вводная Лекция 0**  
+https://www.youtube.com/watch?v=wzixHzLkERQ
