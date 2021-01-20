@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Книги по машинному обучению
+description: Книги по машинному обучению
+keywords: Книги по машинному обучению
 permalink: /books/ds/ml/
 ---
 

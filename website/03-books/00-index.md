@@ -8,7 +8,7 @@ permalink: /books/
 
 # Книги
 
-### [Книги по DataScience (MachineLearning, DeepLearning)](/books/bigdata/)
+### [Книги по DataScience (MachineLearning, DeepLearning)](/books/ds/)
 
 ### [Книги по BigData](/books/bigdata/)
 
