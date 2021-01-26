@@ -1,22 +1,68 @@
 ---
 layout: page
-title: Орельен Жерон - Прикладное машинное обучение с помощью Scikit-Learn и TensorFlow [RUS, 2018]
-description: Орельен Жерон - Прикладное машинное обучение с помощью Scikit-Learn и TensorFlow [RUS, 2018]
-keywords: Орельен Жерон, Прикладное машинное обучение с помощью Scikit-Learn и TensorFlow
+title: [Орельен Жерон] Прикладное машинное обучение с помощью Scikit-Learn, Keras и TensorFlow  2-e издание [RUS, 2020]
+description: [Орельен Жерон] Прикладное машинное обучение с помощью Scikit-Learn, Keras и TensorFlow 2-e издание [RUS, 2020]
+keywords: Орельен Жерон, Прикладное машинное обучение с помощью Scikit-Learn, Keras и TensorFlow
 permalink: /books/ds/ml/ru/hands-on-machine-learning-with-scikit-learn-and-tensorflow/
 ---
 
-# [Орельен Жерон] Прикладное машинное обучение с помощью Scikit-Learn и TensorFlow
+# [Орельен Жерон] Прикладное машинное обучение с помощью Scikit-Learn, Keras и TensorFlow 2-e издание [RUS, 2020]
 
 <br/>
 
-**UPD [Орельен Жерон] Прикладное машинное обучение с помощью Scikit-Learn, Keras и TensorFlow 2, 2-е издание [RUS, 2020]**
+**Коды**  
+https://githuЬ.com/ageron/handson-ml2
 
-2-е издание пираты продают за 184р. + комиссия.
+<br/>
 
-Если кто будет изучать и захочет разобрать примеры, сделать конспект.
+**Все иллюстрации к книге в цветном варианте:**  
+http://go.dialektika.com/mlearning
 
-Велком в telegram.
+<br/>
+
+<br/>
+
+**Наиболее важные алгоритмы обучения с учителем:**
+
+• k ближайших соседей (k-Nearest Neighbors)
+• линейная регрессия (Linear Regression)
+• логистическая регрессия (Logistic Regression)
+• метод опорных векторов (Support Vector Machine - SVM)
+• деревья принятия решений (Decision Tree) и случайные леса (Random Forest)
+• нейронные сети (neural network)
+
+<br/>
+
+**Наиболее важные алгоритмы обучения без учите­ля:**
+
+• Кластеризация:
+
+- K-Means (К-средние)
+- DBSCAN
+- иерархический кластерный анализ (Hierarchical Cluster Analysis - HCA)
+
+• Обнаружение аномалий и обнаружение новизны:
+
+- одноклассовый SVM
+- изолирующий лес
+
+• Визуализация и понижение размерности:
+
+- анализ главных компонентов (Principal Component Analysis - РСА)
+- ядерный анализ главных компонентов (Kernel РСА)
+- локальное линейное вложение (Locally-Linear Embedding - LLE)
+- стохастическое вложение соседей с t-распределением (t-distributed Stochastic Neighbor Embedding - t-SNE)
+
+• Обучение ассоциативным правилам (association rule learning):
+
+- Apriori
+- Eclat
+
+<br/>
+
+````
+
+
 
 <br/>
 
@@ -53,11 +99,15 @@ def fetch_housing_data(housing_url=HOUSING_URL, housing_path=HOUSING_PATH):
     housing_tgz = tarfile.open(tgz_path)
     housing_tgz.extractall(path=housing_path)
     housing_tgz.close()
-```
+````
+
+<br/>
 
 ```
 fetch_housing_data()
 ```
+
+<br/>
 
 ```python
 import pandas as pd

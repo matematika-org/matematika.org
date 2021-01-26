@@ -51,3 +51,20 @@ https://github.com/rolling-scopes-school/ml-intro
 
 **Вводная Лекция 0**  
 https://www.youtube.com/watch?v=wzixHzLkERQ
+
+<br/>
+
+**Лекция 1 - Pandas Data Manipulations**  
+https://www.youtube.com/watch?v=G6jOxUgQl00
+
+<br/>
+
+Ноутбук семинара:
+
+https://github.com/rolling-scopes-school/ml-intro/blob/2021/1_data_manipulations/Seminar_pandas.ipynb
+
+<br/>
+
+Табличка с данными:
+
+https://github.com/rolling-scopes-school/ml-intro/blob/2021/1_data_manipulations/googleplaystore.csv

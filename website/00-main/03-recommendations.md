@@ -55,6 +55,8 @@ Stanford Engineering Everywhere
 
 https://see.stanford.edu/Course/CS229
 
+https://www.coursera.org/learn/machine-learning
+
 <br/>
 
 ### Франсуа Шолле: Глубокое обучение на Python [RUS]

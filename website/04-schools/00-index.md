@@ -34,6 +34,8 @@ permalink: /schools/
 
 ### [МФТИ](/schools/mfti/)
 
+### [Deep Learning School](/schools/deep-learning-school/)
+
 <br/>
 
 GeekBransk, SkillBox, OTUS - может быть еще какие-то компании имеют отношение к Mail.ru Group.

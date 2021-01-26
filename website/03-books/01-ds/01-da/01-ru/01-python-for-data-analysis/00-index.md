@@ -11,5 +11,3 @@ permalink: /books/ds/da/ru/python-for-data-analysis/
 https://github.com/wesm/pydata-book
 
 <br/>
-
-
