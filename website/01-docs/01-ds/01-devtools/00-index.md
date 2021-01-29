@@ -12,4 +12,4 @@ permalink: /ds/devtools/
 
 ### [Anaconda](/ds/devtools/python/anaconda/)
 
-### [docker](/ds/devtools/python/docker/)
+### [Docker](/ds/devtools/python/docker/)
