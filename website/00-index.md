@@ -8,7 +8,7 @@ permalink: /
 
 <br/>
 
-### [Бесплатно] [Онлайн] [Deep Learning School ] Deep Learning [RUS, февраль 2021]
+### [Бесплатно] [Онлайн] [ФПМИ МФТИ] [Deep Learning School ] Deep Learning [RUS, февраль 2021]
 
 <br/>
 
@@ -18,11 +18,18 @@ permalink: /
 
 <br/>
 
+**Будет использоваться PyTorch**
+
+<br/>
+
 **Базовый**
 https://stepik.org/course/91156/
 
 **Продвинутый**
 https://stepik.org/course/91157/promo
+
+**Презентация**
+https://docs.google.com/presentation/d/1z_lO03WpvhJiIT8ARUIDog2YXqfxZdIWfM0ki2xAbIk/edit
 
 <br/>
 
