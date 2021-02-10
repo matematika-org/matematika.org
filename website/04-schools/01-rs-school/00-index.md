@@ -59,7 +59,7 @@ https://www.youtube.com/watch?v=G6jOxUgQl00
 
 <br/>
 
-Ноутбук семинара:
+**Ноутбук семинара:**
 
 https://github.com/rolling-scopes-school/ml-intro/blob/2021/1_data_manipulations/Seminar_pandas.ipynb
 
@@ -68,3 +68,20 @@ https://github.com/rolling-scopes-school/ml-intro/blob/2021/1_data_manipulations
 Табличка с данными:
 
 https://github.com/rolling-scopes-school/ml-intro/blob/2021/1_data_manipulations/googleplaystore.csv
+
+<br/>
+
+**Лекция 2 - Linear Regression and Visualization**  
+https://www.youtube.com/watch?v=Tue_K7cqvLU
+
+<br/>
+
+**Ноутбук семинара:**
+
+https://github.com/rolling-scopes-school/ml-intro/blob/2021/2_linear_regression/seminar_and_homework.ipynb
+
+<br/>
+
+Табличка с данными:
+
+https://github.com/rolling-scopes-school/ml-intro/blob/2021/2_linear_regression/data.csv

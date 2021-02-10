@@ -1,12 +1,14 @@
 ---
 layout: page
-title: Virtualenv
-description: Подготовка виртуального окружения для запуска python приложение в изолированной среде
+title: Подготовка виртуального окружения для запуска jupyter notebook приложений в изолированной среде
+description: Подготовка виртуального окружения для запуска jupyter notebook приложений в изолированной среде
 keywords: ds, devtools, python, virtualenv, ubuntu
 permalink: /ds/devtools/python/virtualenv/
 ---
 
-# Virtualenv
+# Подготовка виртуального окружения для запуска jupyter notebook приложений в изолированной среде
+
+<br/>
 
 Ubuntu 20.04 LTS
 
@@ -38,6 +40,7 @@ $ export PROJECT_NAME=<MY_NEW_PROJECT_NAME>
 $ mkdir ${PROJECT_NAME} && cd ${PROJECT_NAME}
 
 $ virtualenv --system-site-packages -p python ${PROJECT_NAME}-env
+
 $ source ${PROJECT_NAME}-env/bin/activate
 
 $ pip install --upgrade pip
@@ -49,9 +52,14 @@ $ {
     pip install --upgrade pandas
     pip install --upgrade scipy
     pip install --upgrade scikit-learn
+    pip install --upgrade seaborn
 }
 
+```
+
 <br/>
+
+```
 
     $ jupyter notebook --ip 0.0.0.0 --port 8888
 
@@ -89,13 +97,11 @@ sklearn 0.24.1
 
 ### Всевозможное примеры для запуска Tensorflow 2
 
-Скорее всего устарело.
+Могло несколько устареть.
 
 <!--
-
     $ pip install yolk3k
     $ yolk -V tensorflow
-
 -->
 
     $ pip install --upgrade tensorflow==2.0.0

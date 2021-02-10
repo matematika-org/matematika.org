@@ -69,6 +69,36 @@ https://www.coursera.org/learn/machine-learning
 
 <br/>
 
+## Рекомендации по изучению Статистики (Предварительно)
+
+<br/>
+
+Админ не шарит, записывает мнение других людей "на будущее".
+
+<br/>
+
+https://stepik.org/course/76/promo#toc
+
+<br/>
+
+**Конспекты от студента:**
+
+https://github.com/KlukvaMors/basic_stat
+
+<br/>
+
+**Математическая статистика**
+
+https://compscicenter.ru/courses/math-stat/2015-spring/classes/
+
+<br/>
+
+**Теория вероятностей и математическая статистика**
+
+http://bdemeshev.github.io/pr201/
+
+<br/>
+
 ## Рекомендации по изучению HyperLedger Fabric (BlockChain)
 
 Официальная документация очень хорошая. С примерами программ. (Впрочем я нашел ошибки с выполнением кода на js и typescript).

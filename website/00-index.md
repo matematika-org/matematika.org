@@ -8,6 +8,24 @@ permalink: /
 
 <br/>
 
+### [Бесплатно] [Онлайн] [Deep Learning School ] Deep Learning [RUS, февраль 2021]
+
+<br/>
+
+<div align="center">
+    <iframe width="853" height="480" src="https://www.youtube.com/embed/lREu-WNmG4Q" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<br/>
+
+**Базовый**
+https://stepik.org/course/91156/
+
+**Продвинутый**
+https://stepik.org/course/91157/promo
+
+<br/>
+
 ### [Бесплатно] [Онлайн] [RS School] Introduction to Machine Learning [RUS, 18 января 2021]
 
 Rs school 18 января стартует курс по ml. Срок обучения 1 месяц.

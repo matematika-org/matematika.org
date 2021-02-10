@@ -8,4 +8,6 @@ permalink: /schools/skillfactory/
 
 # [SkillFactory]
 
+<br/>
+
 ### Deep Learning и Нейронные сети [RUS, 2019]
