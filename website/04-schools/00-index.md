@@ -10,6 +10,8 @@ permalink: /schools/
 
 <br/>
 
+### [Deep Learning School (МФТИ) (Бесплатно)](/schools/deep-learning-school/)
+
 ### [RS School (Epam) (Бесплатно)] (/schools/rs-school/)
 
 ### [Stepic (Бесплатно)] (/schools/stepic/)
@@ -33,8 +35,6 @@ permalink: /schools/
 ### [МИЭТ](/schools/miet/)
 
 ### [МФТИ](/schools/mfti/)
-
-### [Deep Learning School](/schools/deep-learning-school/)
 
 <br/>
 

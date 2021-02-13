@@ -33,6 +33,22 @@ https://docs.google.com/presentation/d/1z_lO03WpvhJiIT8ARUIDog2YXqfxZdIWfM0ki2xA
 
 <br/>
 
+Если в курсе будут полезные знания, которые следует записать, дайте об этом знать.
+
+В первой лекции, рассказывается про OpenSource проект ipavlov.ai, который (наверное) можно позапускать. На ютубе проекта, также ведутся лекции и семинары.
+
+<br/>
+
+### [YouTube] [Лекторий ФПМИ] Инфраструктура больших данных [RUS, 2021]
+
+Инфраструктура больших данных 1. Введение
+https://www.youtube.com/watch?v=C5n80MSeFgI
+
+Инфраструктура больших данных 1. Знакомство с репозиторием
+https://www.youtube.com/watch?v=UoJ6qy1xwG4
+
+<br/>
+
 ### [Бесплатно] [Онлайн] [RS School] Introduction to Machine Learning [RUS, 18 января 2021]
 
 Rs school 18 января стартует курс по ml. Срок обучения 1 месяц.

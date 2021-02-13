@@ -1,12 +1,10 @@
 # Исходники сайта [matematika.org](https://matematika.org)
 
-
 <br/>
 
 ### Запустить matematika.org для разработки
 
     $ docker-compose up
-
 
 <br/>
 
@@ -22,6 +20,4 @@
     # systemctl start  matematika.org.service
     # systemctl status matematika.org.service
 
-
 http://localhost:4018
-

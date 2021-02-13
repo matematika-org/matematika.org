@@ -85,3 +85,14 @@ https://github.com/rolling-scopes-school/ml-intro/blob/2021/2_linear_regression/
 Табличка с данными:
 
 https://github.com/rolling-scopes-school/ml-intro/blob/2021/2_linear_regression/data.csv
+
+<br/>
+
+**Лекция 3 - Overfitting and Regularization**  
+https://www.youtube.com/watch?v=q6MftLfuH0c
+
+<br/>
+
+**Ноутбук семинара:**
+
+https://github.com/rolling-scopes-school/ml-intro/blob/2021/3_overfitting_regularization/overfitting_regularization.ipynb
