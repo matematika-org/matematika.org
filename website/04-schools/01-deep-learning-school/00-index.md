@@ -3,10 +3,12 @@ layout: page
 title: Deep Learning School
 description: Deep Learning School
 keywords: Deep Learning School
-permalink: /schools/deep-learning-school/)
+permalink: /schools/deep-learning-school/
 ---
 
 # [Deep Learning School]
+
+### [NLP] (/schools/deep-learning-school/nlp/)
 
 <br/>
 

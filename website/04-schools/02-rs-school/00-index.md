@@ -96,3 +96,14 @@ https://www.youtube.com/watch?v=q6MftLfuH0c
 **Ноутбук семинара:**
 
 https://github.com/rolling-scopes-school/ml-intro/blob/2021/3_overfitting_regularization/overfitting_regularization.ipynb
+
+<br/>
+
+**Лекция 4 - Feature Engineering and Selection**  
+https://www.youtube.com/watch?v=q6MftLfuH0c
+
+<br/>
+
+**Ноутбук семинара:**
+
+https://github.com/rolling-scopes-school/ml-intro/tree/2021/4_feature_engineering_selection
