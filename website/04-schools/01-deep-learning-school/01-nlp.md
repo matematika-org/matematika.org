@@ -2,7 +2,7 @@
 layout: page
 title: Deep Learning School
 description: Deep Learning School
-keywords: Deep Learning School
+keywords: Deep Learning School, nlp
 permalink: /schools/deep-learning-school/nlp/
 ---
 
