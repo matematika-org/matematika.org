@@ -42,6 +42,8 @@ https://docs.google.com/presentation/d/1z_lO03WpvhJiIT8ARUIDog2YXqfxZdIWfM0ki2xA
 
 <br/>
 
+### [Basic] (/schools/deep-learning-school/basic/)
+
 ### [Advanced] (/schools/deep-learning-school/advanced/)
 
 <br/>
