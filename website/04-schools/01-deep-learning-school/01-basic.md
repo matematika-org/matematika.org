@@ -12,6 +12,11 @@ permalink: /schools/deep-learning-school/basic/
 
 <br/>
 
+### Введение в искусственный интеллект
+
+**1. Введение в ИИ и нейронные сети: лекция**
+https://www.youtube.com/watch?v=RviskFqwF3M
+
 ### Язык Python
 
 **Семинар. Введение в язык Python. Часть 1**

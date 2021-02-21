@@ -12,6 +12,13 @@ permalink: /schools/deep-learning-school/advanced/
 
 <br/>
 
+### Введение в искусственный интеллект
+
+**1. Введение в ИИ и нейронные сети: лекция**
+https://www.youtube.com/watch?v=RviskFqwF3M
+
+<br/>
+
 ### Основы машинного обучения
 
 **Лекция 1. Введение в машинное обучение.**  
