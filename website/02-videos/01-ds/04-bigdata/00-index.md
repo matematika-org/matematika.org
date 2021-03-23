@@ -8,6 +8,8 @@ permalink: /videos/ds/bigdata/
 
 # Видеокурсы по BigData
 
+### [Видеокурсы по BigData на русском языке](/videos/ds/bigdata/ru/)
+
 ### [Hadoop](/videos/ds/bigdata/hadoop/)
 
 ### [Spark](/videos/ds/bigdata/spark/)

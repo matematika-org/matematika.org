@@ -22,7 +22,13 @@ permalink: /
 
 <br/>
 
-### [Подробнее] (/schools/deep-learning-school/)
+[**Подробнее**] (/schools/deep-learning-school/)
+
+<br/>
+
+### [YouTube] [teach-in] Лекции ученых МГУ [RUS, 2021]
+
+https://www.youtube.com/channel/UCimGOl6wSQWDbBFoVMQGzMg/playlists?view=50&sort=dd&shelf_id=3
 
 <br/>
 
