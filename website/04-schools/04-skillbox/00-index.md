@@ -8,13 +8,24 @@ permalink: /schools/skillbox/
 
 # Skillbox, Материалы по обучению по направлению Data‌ ‌Science
 
+<br/>
+
+Куча материалов на youtube. Нужно разбираться, что есть полезное из чего можно извлечь полезную информацию.
+
+<br/>
+
+**Интенсив от Skillbox: знакомимся с Data Science и разбираемся в основах моделей машинного обучения**
+https://www.youtube.com/watch?v=CiqG7RNflLM&list=PLmEQTfkM_pfkVyU8BGamAPSdYYYe1e6PZ&index=18
+
+<br/>
+
+### [[Skillbox] Профессия‌ ‌Data‌ ‌Scientist‌](/schools/skillbox/data-scientist/)
+
 ### Аналитик данных с нуля
 
 ### Аналитик данных на Python
 
 ### Основы математики для Data Science
-
-### [[Skillbox] Профессия‌ ‌Data‌ ‌Scientist‌ - курс ценой 150 390 руб.](/schools/skillbox/data-scientist/)
 
 <br/>
 

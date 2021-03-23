@@ -2,11 +2,17 @@
 layout: page
 title: Stepic
 description: Stepic
-keywords: Stepic
+keywords: schools, Stepic
 permalink: /schools/stepic/
 ---
 
 # [Stepic]
+
+Да, я знаю, что это всего навсего платформа а не школа.
+
+Пока нет времени разобраться как правильно классифицировать имеющиеся объемы данных.
+
+<br/>
 
 ### [Stepic] Практикум по математике и Python
 
