@@ -10,7 +10,7 @@ permalink: /books/ds/
 
 ### [Книги по анализу данных](/books/ds/da/)
 
-### [Книги по MachineLearning](/books/ds/ml/)
+### [Книги по Machine Learning](/books/ds/ml/)
 
 ### [Книги по Deep Learning](/books/ds/dl/)
 

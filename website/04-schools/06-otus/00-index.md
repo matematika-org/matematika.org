@@ -26,3 +26,11 @@ https://www.youtube.com/watch?v=tN59cnkwzNI
 ### [Data Engineer](/schools/otus/data-engineer/)
 
 ### [Otus] Компьютерное зрение (Часть 1-4) [RUS]
+
+<br/>
+
+### [Otus] Математика для Data Science. Базовый курс [RUS]
+
+<br/>
+
+### [Otus] Математика для Data Science. Продвинутый курс [RUS]

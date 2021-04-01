@@ -10,6 +10,10 @@ permalink: /videos/ds/bigdata/spark/en/
 
 <br/>
 
+### [Udemy, Daniel Ciocîrlan] Spark 3.0 & Big Data Essentials with Scala | Rock the JVM [ENG, 2021]
+
+<br/>
+
 ### [Layla AI] PySpark Essentials for Data Scientists (Big Data + Python) [ENG, 2020]
 
 16 часов

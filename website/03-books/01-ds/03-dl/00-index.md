@@ -11,3 +11,9 @@ permalink: /books/ds/dl/
 ### [Книги по Deep Learning на русском языке](/books/ds/dl/ru/)
 
 ### [Книги по Deep Learning на английском языке](/books/ds/dl/en/)
+
+### Computer Vision
+
+### NLP
+
+### [Reinforcement Learning на английском языке](/books/ds/dl/rl/)

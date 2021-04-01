@@ -25,7 +25,9 @@ https://www.youtube.com/watch?v=CiqG7RNflLM&list=PLmEQTfkM_pfkVyU8BGamAPSdYYYe1e
 
 ### Аналитик данных на Python
 
-### Основы математики для Data Science
+<br/>
+
+### [SkillBox] Основы математики для Data Science [RUS, 2020]
 
 <br/>
 
